@@ -1,0 +1,1001 @@
+type,priority,summary
+Improvement,Major,Add additional transition states
+Improvement,Major,Preserve cluster id  blueprint name  and blueprint revision in agent local disk
+Bug,Major,Agent should retry heartbeat message  if controller did not receive the heartbeat
+Improvement,Major,Remove agent entities beans from public schema xsd
+Bug,Major,Check for NN safemode during restarts
+Bug,Major,Dependency of templeton on hcat client
+Bug,Major,Remove import of mysql puppet module from manifest.
+Bug,Major,Add check to verify jdk path after install
+Bug,Minor,PHP Notice: Undefined variable: manifest in /usr/share/hmc/php/puppet/genmanifest/hostsConfig.php
+Bug,Major,Support filtering hosts based on discovery status
+Bug,Major,Alert table on the right needs to be tied visually/verbally to the context/content it is displaying
+Bug,Major,Remove the word alert from all the Nagios alerts descriptions.
+Bug,Minor,Make the daemon names and other field names consistent
+Bug,Major,Enable LZO should show checkbox instead of text
+Bug,Major,Increase puppet agent timeout.
+Bug,Major,Refactor puppet kick loop to easily change retries and timeouts.
+Bug,Major,Support data cleanup if installation fails.
+Bug,Major,Replace index.php with clusters.php
+Bug,Major,Uninstall support from UI
+Bug,Major,Remove 'Playground' files from HMC
+Bug,Major,Support uninstall state in mysql modules
+Bug,Minor,Rename/Relocate files as appropriate
+Bug,Major,Update hive config to enable authorization
+Bug,Major,Manage services section will have any empty section when no client only components installed
+Bug,Major,Init Wizard: Advanced Config validation errors can be bypassed
+Bug,Major,Nagios Admin Contact should be checked to ensure it is always an email address
+Bug,Major,Templeton data on hdfs needs to be readable by all users
+Bug,Major,Update HDFS parameter configuration description
+Bug,Major,Cleanup of utilities
+Bug,Major,Fixup review and deploy rendering
+Bug,Major,Add link to uninstall on index page
+Bug,Major,Comment in addNodesWizardInit.js.
+Bug,Major,HTML being spewed in the Review+Deploy page.
+Bug,Major,Change the status message (success/error) location so that it shows below the page summary box  rather than above  more better visibility
+Bug,Major,regionservers config in the hbase only has localhost in it
+Bug,Major,Upgrade to yui-3.5.1
+Bug,Major,Externalize message resources for the welcome page.  Update styles on various pages.
+Bug,Minor,Uninstall's wipe flag should be correctly passed to puppet
+Bug,Major,Grid mount points page doesn't let one pass with only a custom mount point
+Bug,Major,Scale puppet master to large number of nodes.
+Bug,Major,During any process in the cluster initialization wizard  if the user goes back to the '1 Create Cluster' tab  the user is stuck.
+Bug,Major,Dependencies should be added only during install phase
+Bug,Critical,Provide a way to resume if browser crashes/is closed during the deploy-in-progress
+Bug,Major,Redundant downloads even though the artifacts are already installed
+Bug,Major,Cluster status update needs to happen for all stages of installation wizard.
+Bug,Major,Making transitionToNextStage more robust
+Bug,Major,Logging in case of error during uninstall needs to be fixed.
+Bug,Major,Add flow control - force redirects to appropriate pages based on cluster configuration status for better usability
+Bug,Major,Redesign master service assignment page so that it takes up less vertical space
+Bug,Major,Create lock file as part of rpm install
+Bug,Major,Package up the fonts/ subdirectory in the HMC RPM
+Bug,Major,Improve Service Management page and general popup styling
+Bug,Major,Mysql packages not being sent during install and uninstall
+Bug,Major,Uninstall does not handle component dependencies.
+Bug,Major,On Single Node install when install all the components the recommended num for Map/Reduce Tasks is too high
+Bug,Major,ZooKeeper myid files not existent on ZK install.
+Bug,Major,Add nodes fails to find node in db
+Bug,Major,Cannot uninstall - the page hangs with the spinning icon
+Bug,Major,Manual config changes for nn get reset on stop/start from hmc
+Bug,Major,Completing successful add node takes one to initialize cluster page starting from scratch
+Bug,Major,Unify the top nav for both Monitoring and Cluster Management
+Bug,Major,Add rpm spec for hmc agent.
+Bug,Minor,Reset service back to original state after reconfiguration
+Bug,Major,Improve style on error log popups
+Bug,Major,Reinstall of cluster after failure to install results in failure
+Bug,Major,Fix bug with jmx parsing on HBase.
+Bug,Major,Using service stop instead of killall for uninstall
+Bug,Major,Uninstall needs to update status for failure.
+Bug,Major,Duplicate definition: Class[Hdp-hbase::Regionserver::Enable-ganglia]
+Bug,Major,Post cluster install/deploy the URL hmc/html/initializeCluster.php should be disabled
+Improvement,Major,Boldify/Redify restart HMC message when nagios/ganglia is on the hmc host
+Bug,Major,nagios shows service status critical if hbase is not installed
+Bug,Major,Add nodes page alerts removed in case of adding duplicate nodes
+Bug,Major,Fix hive stop to escape $.
+Bug,Major,Post-Install Add Nodes - update progress title and success/error messages to reflect what it's actually doing/has done
+Bug,Blocker,Add missing JS file for making post cluster install Add Nodes work
+Bug,Major,Show the same welcome page to the user if the user starts configuring a cluster but has not started deploy yet
+Bug,Major,Add Node installs MySQL Server for Hive
+Bug,Major,Manage service needs a way to recover from terminated browser sessions
+Bug,Major,Service Reconfiguration screens should respect the 'reconfigurable' attributes set in ConfigProperties table
+Bug,Minor,make support for os check a bit more robust
+Bug,Minor,Add rack_info as column in Hosts table
+Bug,Major,Fix node assignments not not allow slaves on master.
+Improvement,Major,Speed up page load/reload times
+Bug,Major,Support Resume For Add Nodes
+Bug,Major,Modify the router to force redirection to 'Add Nodes Progress' popup
+Bug,Major,Fix puppet manifests for tarball downloads via rpms.
+Bug,Major,update to fix the ganglia monitor_and_server anchor problem
+Bug,Major,Fix oozie smoke test failure
+Bug,Minor,Fix Advanced Config: HDFS reserved space is in bytes. Too many bytes to count.
+Bug,Major,Create a spec file with less dependencies for HMC
+Bug,Major,Rpm naming needs to be corrected.
+Bug,Major,Templeton configs for pig archive not correct in HMC
+Bug,Major,Puppet fails to install 32-bit JDK properly on RHEL6
+Bug,Major,Change os type check during node bootstrap to allow RHEL6 or CentOS6 nodes
+Bug,Major,Puppet agent install script should use correct epel repo
+Improvement,Major,Add support to jump to a specified state in the wizard for development purposes
+Bug,Major,Update README to point to trunk
+Bug,Major,Remove YUI source files from SVN
+Bug,Minor,Update documentation
+Bug,Major,Nagios install fails on RHEL6
+Bug,Minor,Consolidate head tags for organization and combine CSS files for faster load
+Bug,Minor,Puppet error: Cannot reassign variable zookeeper_hosts at modules/hdp/manifests/params.pp:47
+Bug,Major,In Custom config for Nagios: emails with multiple periods before the '@' fails validation
+Bug,Major,Custom Config page: don't allow form submission if there are client-side validation errors
+Bug,Major,special characters in hosts files created on some common windows editors causes issues
+Bug,Major,Rat compliance patch
+Bug,Major,Externalize the manager service name and point the Help link to a valid URL
+Bug,Major,License header for PHP files should use PHP comments  not HTML comments
+Bug,Blocker,Add a link to NOTICE file on every page
+Bug,Major,Remove /usr/bin/php dependency from the rpm's
+Bug,Blocker,Fix lzo installs to work correctly on RHEL6
+Bug,Major,Increase puppet timeouts to handle single-node installs timing out
+Bug,Major,The database set up script has a duplicate definition of AmbariConfig so install fails
+Bug,Major,Eliminate redundant and unused definition for the columns in the table ConfigProperties
+Bug,Major,hdp-nagios and hdp-monitoring has wrong configuration file location  also owner:group permissions are wrong.
+Bug,Minor,Fix invalid HTML markup on Monitoring Dashboard
+Improvement,Minor,Add Nodes Progress: for partial failure that lets the user continue  display an orange bar rather than a red bar in the progress popup
+Bug,Major,Support for Hadoop Security (front-end changes)
+Bug,Major,Weirdness with Custom Config page when the user goes back to previous stages
+Bug,Major,Ambari should install yum priorities on all nodes to ensure main repo is picked first
+Bug,Minor,Make puppet generate more logs on command failures
+Bug,Major,Fix ambari agent init.d scripts and the bootstrapping.
+Bug,Major,Ambari does not handle a pre-setup user-supplied Hive Metastore
+Improvement,Major,Change text on alerts 'about XX hours ago'
+Bug,Major,HDFS disk capacity on dashboard is seen as negative number
+Bug,Major,Remove files from ambari-web that were not meant to be checked in
+Bug,Major,dashboard > Summary > capacity pie chart keeps changing colors
+Improvement,Major,Create heatmap legend entries for missing data/invalid hosts
+Bug,Major,Switching services does not update various UI elements
+Bug,Major,Error handling when errors are encountered during preparation for deploy
+Bug,Major,Need to be able to reliably recover from the case when the browser is closed during deploy (Step 8 post submission  Step 9) of the wizard
+Bug,Major,User-specified custom configs (such as hdfs-site.xml overrides) should be persisted to maintain what the user specified
+Bug,Major,Install Wizard: Confirm host stuck at Preparing stage
+Bug,Major,Host component live status is broken
+Bug,Major,Ambari heatmaps and host information shows infinity for disk space used
+Bug,Major,Graphs 'degrade' over time
+Bug,Critical,On Notification Popup  clicking 'go to nagios UI' doesn't load nagios UI
+Bug,Major,tmpfs filesystem being added to the list in the dir used by Ambari
+Bug,Critical,Installer Wizard - Retry feature in Deploy step (Step 9) is broken
+Bug,Critical,Reconfigure fails silently; it's not firing any API calls due to a JS error
+Bug,Major,Host jams in status 'Preparing' if host name is wrong
+Improvement,Major,The check boxes to check/uncheck one of the members in a multi artifact graphs is not very readable. It should be more apparent on which one the user clicked on
+Improvement,Major,Check the log/run dir locations to make sure its an abs path
+Bug,Critical,Disk Info Metrics and memory usage sometimes do not show up for an hour or so.
+Improvement,Major,Clean up table header UI for sorting and filter clear 'x' for Hosts table
+Improvement,Major,Clean up table header UI for sorting and filter clear 'x' for Jobs table
+Bug,Major,After adding hosts  the host count shown in the Dashboard is incorrect
+Bug,Major,Detailed log view dialogs are not center-aligned
+Improvement,Major,Automatically update host-level popup info/logs
+Bug,Major,Remove /hdp as the httpd conf for any of the nagios urls - should replace it with ambarinagios or something else.
+Bug,Major,Allow capacity scheduler to be attached to host role configs for CS configurability in the API's.
+Improvement,Major,In any starts fails  'warn' the host and the overall install
+Improvement,Major,Add filters module
+Improvement,Major,Refactor Job Browser User filter
+Improvement,Major,Confirm Hosts page: It looks like hosts disappear if you are on 'Fail' filter and click on 'Retry Failed' button
+Improvement,Major,Drop the 'all' option from Hosts > Component Filter and Jobs > Users Filter
+Improvement,Major,Dashboard - make disk usage pie chart in HDFS summary easier to understand
+Bug,Major,Replace sudo with su in the ambari setup script since ambari server setup is already run as root.
+Bug,Major,Directory permissions on httpd /var/www/cgi-bin should not be touched by Ambari.
+Improvement,Major,Host health indicator should have a tooltip showing details
+Improvement,Minor,Install Options - line up the Target Hosts section with the rest of the page
+Improvement,Major,Use ember-precompiler-brunch npm plugin
+Bug,Major,Fix the host roles live status not go back to INSTALLED if it was in START_FAILED state.
+Improvement,Major,Remove hard coded JMX port mappings
+Bug,Critical,Service graphs refresh with spinners
+Improvement,Major,Job Browser - Filter by Input  output and duration
+Bug,Major,Agent checks packages as part of host check but doesn't tell which ones are needed or conflicting
+Bug,Major,Store example Hive Queries somewhere in Ambari that's easily accessible for demo/test purposes
+Improvement,Major,On Confirm Hosts page  add a link to show the Host Checks popup in the success message
+Bug,Major,Edit User: No error message is shown when the user does not enter the correct 'old password'
+Improvement,Major,Shrink top nav height
+Bug,Major,Incorrect displaying 'Background operations' window after changing state of component
+Bug,Major,Failing build due to url moved on Suse.
+Improvement,Major,Make sure that Ambari Web renders all elements correctly when the browser width is 1024px or narrower
+Bug,Major,Bootstrap can hang indefinitely
+Bug,Major,Service status / host component status can get stuck in the green blinking state if stop fails - no further operation can be performed
+Improvement,Major,Make sure that Ambari Web renders all elements correctly when the browser width is 1024px or narrower (refactor)
+Improvement,Major,Properly display Apps page aggregate summary and data table when there are no data to be shown
+Improvement,Major,Remove all text from Apps views  controllers  templates to messages.js
+Improvement,Major,Host health indicator should have a tooltip showing few details (refactoring)
+Bug,Major,Switching out of Jobs page does not launch popup anymore
+Bug,Blocker,Cluster missing hosts after successful install and restart.
+Improvement,Minor,Add username validation for Ambari local users
+Improvement,Major,Show validation error when the user specifies target hosts that are already part of the cluster
+Improvement,Minor,Refactor Job Browser filter
+Improvement,Major,Enhance Install/Start/Test progress display
+Bug,Major,Service Check fails after secure install due to wrong kinit path
+Improvement,Minor,Externalize strings to messages.js
+Bug,Major,Provide consistent ordering of hosts in heatmap
+Bug,Major,'No alerts' badge on the Host Detail page should be green  not red
+Bug,Minor,App Browser rows colours should alternate from dark grey to light grey and back
+Bug,Major,Mouse cursor hover behavior is strange on Job Browser
+Improvement,Major,Since there is the ability to log in to Ambari Web as different users the current user should be indicated
+Bug,Major,Wrong calculation of duration filter on apps page
+Bug,Major,Ambari Agent registration hangs due to Acceptor bug in Jetty for not reading through accepted connections.
+Bug,Major,Validation for username used in service configs is broken
+Bug,Major,Failure popup shown for reconfiguring HDFS when MapReduce is not installed
+Improvement,Major,Remove hard-coded stack version
+Bug,Critical,Cannot proceed after bootstrapping in some cases due to a run-time error while running host checks
+Improvement,Major,Optimize query call for retrieving host information
+Improvement,Major,Optimize query for getting service and host component status back from the server
+Bug,Major,Minimize Read and Write locks for createHosts
+Improvement,Major,Optimize ganglia rrd script to be able to respond within reasonable time to queries made by the UI.
+Bug,Major,Further optimization of querying host information from the server
+Bug,Major,Fix TestHostName to take care of issues when gethostname and getfqdn do not match.
+Bug,Major,Fix alerts at host level if MapReduce is not selected not to alert for tasktrackers not running.
+Bug,Major,Nagios script causes unwanted  Datanode logs.
+Bug,Major,Add hadoop-lzo to be one of the rpms to check for before installation.
+Bug,Major,Make all service properties reconfigurable.
+Bug,Major,Fix start up option for ambari-server where there is a missing space.
+Bug,Critical,Add hosts is broken
+Improvement,Major,Hosts page: add filtering by host status
+Bug,Critical,Ambari Web goes back and forth between frozen and usable state peridocially on a large cluster
+Bug,Major,Alerts take around 20-30 seconds to show up everytime you refresh the dashboard.
+Improvement,Major,Hosts page layout fixes
+Improvement,Major,Constrain the width of all wizard popups
+Bug,Major,Jobs failed count always returns 0 in the jobtracker API metrics
+Improvement,Major,Stack Upgrade Wizard - resume upon page refresh / login
+Improvement,Major,Host progress popup - generic component for showing progress on async operations
+Bug,Blocker,Cannot start hadoop services after hdfs re-configuration and amabri server restart.
+Bug,Major,Templeton smoke test fails for secure cluster
+Bug,Major,Config/Reconfig UI should not allow certain configs to have host-level overrides
+Improvement,Major,Security Wizard - integrate host progress popup
+Bug,Major,Some map and reduce task metrics are missing for the tasktrackers in the API
+Bug,Major,Undo should not be allowed on component hosts
+Bug,Major,Oozie properties for principal and keytab not read from oozie-site
+Bug,Major,Starting all services fails on secure cluster (excluding HBase and ZooKeeper)
+Bug,Major,Ambari/GSInstallers need to set the value of mapred.jobtracker.completeuserjobs.maximum
+Bug,Major,Agent has it hard-coded that HDP repo file can only be downloaded once
+Bug,Major,It seems upgrades available at the FE is hard-coded to 1.3.0
+Bug,Major,HBase and Zk failed to start on secure install
+Improvement,Major,Backend support for MySQL and Oracle for Oozie and Hive
+Bug,Major,Add support for Stack 1.2.2 to Ambari
+Bug,Major,Unable to get all tasks from more than one request_id by one request
+Bug,Major,Hue installation fails due to manifest errors
+Bug,Major,Security wizard - Javascript error is thrown when zooKeeper is included as a secure service.
+Bug,Major,Stopping and then Starting all services doesn't start NameNode
+Bug,Major,Can not specify request context for smoke test request
+Bug,Major,Security wizard: Add missing secure configs to Hbase service and make 'zookeeper' as default primary name for zookeeper principal.
+Bug,Major,HBase master shuts down immediately after start in a secure cluster.
+Bug,Major,Few core-site properties vanished after seemingly benign reconfiguration.
+Bug,Critical,Cluster Management > Services > MapReduce > Config throws JS error and the page comes up blank
+Improvement,Major,For global properties show restart for appropriate services only
+Improvement,Major,Make single PUT call for multiple host overrides
+Bug,Minor,Cosmetic problems on HBase Dashboard
+Improvement,Major,Capacity Scheduler: when adding a new queue  populate fields
+Bug,Major,Cannot load Nagios Alerts due to 400 Bad Request
+Bug,Major,Master broken - Cannot deploy services
+Bug,Major,ambari-agent RPM claims ownership of /usr/sbin
+Bug,Major,Ambari FE is not setting proper value for fs.checkpoint.edits.dir
+Bug,Major,HUE pid and log dir labels are flip flopped
+Improvement,Major,Capacity Scheduler: implement user/group and admin user/group validation rules
+Improvement,Major,Reassign Master Wizard  Step 2: prevent proceed next without changing target host
+Bug,Critical,stacks2 API uses 'type' to refer to config tags and no longer exposes 'filename' as a property
+Bug,Major,API to map global properties to services is partially complete.
+Bug,Major,Impossibility to scroll metric window after browser width changing
+Bug,Major,Disable editing Capacity Scheduler on host configs
+Improvement,Major,Update default stack version to 1.3.0
+Bug,Major,HBase master doesn't come up after disabling security.
+Bug,Major,Client install tasks are shown twice in install progress popup
+Bug,Major,Ambari Core-Site.xml Missing Property for LZO (enabled) - io.compression.codecs
+Bug,Major,JobTracker History Server failed to come up on 1.3.0 stack and the request for service stall is stalled
+Improvement,Major,Allow for users to customize Nagios user accounts
+Bug,Major,Allow for users to customize Ganglia gmetad + gmond user accounts
+Bug,Major,Test failure : testCascadeDeleteStages
+Bug,Major,Security vulnerability with Ganglia and Nagios
+Bug,Blocker,All Service Smoke tests fail when run with service start
+Bug,Major,Oozie Smoke test fails with errors on the start services/install page.
+Bug,Major,System logs are not present on tasktracker
+Bug,Major,hadoop dependency version for ambari-log4j is hardcoded  making it regular expression based to pick latest from the repository.
+Bug,Major,Wrong install status shown in Add Service Wizard
+Bug,Major,Hosts table: whether the alert filter is in effect or not is not clear
+Bug,Major,Client install tasks are shown twice in progress popup during start phase of install wizard (update API call to include params/reconfigure_client)
+Bug,Major,Deploying HDP-1.3.0 results in several alerts - is it related to hard-coded port
+Bug,Major,When nagios is unavailable  return null instead of throwing an Exception
+Bug,Major,Hostname pattern expression is broken
+Bug,Major,Filtered hosts get out of sync with the filter selection
+Bug,Major,Action buttons on host details page not formatted properly on Firefox
+Bug,Major,Clicking on Cancel on the Service Config page should not reload the entire app
+Bug,Major,Filtering on Jobs table does not work under certain situations
+Improvement,Major,Hosts tab: clicking on red badge should not toggle 'Alerts' filter
+Bug,Major,Using mixed OS overwrites ambari.repo during install
+Bug,Major,Cannot delete cluster with components in UNKNOWN state
+Bug,Major,Cannot decommission data node (ensure recommission also works)
+Bug,Major,Ambari Server becomes unresponsive after crashing on http reads on jersey.
+Improvement,Major,Add validation checks for Add Property on custom site configs
+Bug,Major,Error when loading /main/services directly
+Improvement,Major,Make frontend changes to account for the host component status UNKNOWN
+Bug,Major,Add clover code coverage profile
+Bug,Major,Disable 'Add Component' button in the Host Details page if the host is in UNKNOWN state or !isHeartbeating
+Bug,Major,'Add local user' button is enabled but nothing happens upon clicking it under certain conditions
+Bug,Major,Services links on Dashboard connected to incorrect pages
+Bug,Major,Add Unit test to verify  client re-install for install failed client
+Bug,Major,If 'Install from Local Repository' selected in install wizard  Add Host wizard not working
+Bug,Major,Host Detail page: if the host component is in INSTALL_FAILED state  we should let the user reinstall it
+Improvement,Minor,HBase Heatmaps: clean up labels and units
+Bug,Major,Hadoop group customization does not take affect
+Bug,Minor,'Preparing to install ' message needs spacing
+Improvement,Major,Changing service directories should popup a confirmation/warning dialog upon save
+Bug,Major,Admin role can't be assigned to LDAP user
+Bug,Critical,changeUid.sh failing during installation
+Bug,Major,Tasks are not filtered by parent request id
+Bug,Critical,Post Ambari upgrade  Hive and Oozie fail to start after reconfigure
+Bug,Critical,It's possible to get into a state where install retry is not possible if the agent stops heartbeating
+Bug,Major,Hive service check (still) failing with file permissions
+Improvement,Major,Support for configuring and running Ambari Web Server https
+Improvement,Major,Enable customization of smoke test user
+Improvement,Major,ambari-web modifications to allow for Hadoop Compatible Filesystems (HCFS)
+Improvement,Major,Use modified dependencies if a stack contains an HCFS service (Hadoop Compatible File System)
+Bug,Major,Set default value of oozie property 'oozie.service.AuthorizationService.authorization.enabled' to true.
+Bug,Major,Home paths are not set correctly in /etc/sqoop/conf/sqoop-env.sh
+Bug,Major,HBASE fails to start on master
+Bug,Major,Installation with existing Oracle DB fails
+Bug,Major,When hive and oozie users have been changed after upgrade hive metastore and oozie cannot start properly
+Bug,Major,Capture user for auditing config changes
+Bug,Major,Ambari needs to set right path for GC log directory of Hbase process.
+Bug,Major,Sometimes stale host / host component indicators are shown
+Bug,Major,After upgrading ambari from 1.2.2.5 to 1.2.3.6 the server throws 500 error when starting/stopping any service
+Bug,Major,Datanode Start fails in secure cluster.
+Bug,Major,Host status filter not restored on Hosts page when navigating back
+Bug,Major,Fix unit tests for Ambari Web
+Bug,Major,TEST BROKEN : FAIL: test_upgradeCommand_executeCommand (TestActionQueue.TestActionQueue)
+Bug,Major,Remove '0.1' stack definition since its never been used and is redundant.
+Bug,Major,Hadoop2 Monitoring: Jobs page should be hidden when HDP 2.0.x stack is installed
+Bug,Major,Update mock json data for Test mode
+Improvement,Major,Agent heartbeat lost during install
+Bug,Blocker,Ambari has a deadlock when re-installing after reboot of cluster nodes
+Bug,Minor,ambari-server start script (ambari-server.py) will never use SERVER_START_CMD_DEBUG
+Bug,Major,Background operations popup does not automatically refresh the task log
+Improvement,Major,Add unit tests for Utils
+Bug,Major,Reassign Master Wizard: refreshing page on step 2  3 or 4 breaks wizard
+Improvement,Major,Change config loading mechanism to allow for different stack versions
+Bug,Major,Increase ambari-agent test coverage
+Bug,Major,Using an external MySQL / Oracle database for Oozie does not work
+Bug,Major,Fix MySQL and Oracle DDL scripts according to last DB changes
+Bug,Major,Ensure version values are used appropriately throughout Ambari
+Bug,Major,Allow Security related configs to be modified via custom settings
+Bug,Major,Start/Stop button may stay enabled for 30-40 seconds after it has been clicked
+Bug,Major,Bad hosts query example in API docs
+Bug,Blocker,On 'install Options' page  when selecting 'Perform manual registration on hosts and do not use SSH' is setting 'Path to 64-bit JDK' disabled
+Improvement,Critical,Provide way to optionally enable two-way SSL for Server-Agent communication
+Bug,Major,Configuration mapping metadata on ambari-web should be computed as per the stack selection.
+Bug,Critical,Ambari Upgrade prcoess should preserve the old configs and add the new config options to the old config files.
+Bug,Major,500 Exception creating service component during install
+Bug,Major,UI allows adding already existing properties to custom core-site.xml /hdfs-site.xml settings and creates confusion
+Bug,Major,Security Wizard: navigation not locked down  causes artifacts  and other unwanted side effects
+Bug,Major,API call to get 'metrics/cpu' does not work for NameNode and JobTracker host components
+Bug,Major,Enhance processing of ojdbc.jar before starting ambari server
+Improvement,Major,Unit Tests: Added tests to install wizard for step 3  5  10
+Bug,Major,Intermittent test failure with HBase port Scanner test.
+Bug,Major,Security Wizard: webhcat Server start fails on enabling security
+Improvement,Major,Show installed stack and its services
+Improvement,Major,Unit Tests: Added tests to models
+Improvement,Major,Add Host Wizard: show info about manual steps required on a secure cluster
+Bug,Major,Add unit tests for ambari-server python changes
+Bug,Major,Bootstrap is broken for ambari web with RHEL-5.8
+Bug,Major,ambari-server setup borken in trunk
+Improvement,Major,Add support for 'classic' dashboard
+Bug,Major,ambari-server setup should allow user to change database password
+Bug,Major,Kerberos globals are shown in HDFS config page during install
+Bug,Major,Installer Wizard step-6: NameNode and SNameNode should not be co-hosted by default on multinode cluster.
+Bug,Major,HDFS Config page is broken in testMode on trunk
+Improvement,Major,Set default widgets to show for the Dashboard
+Bug,Major,Bootstrap failed on rhel 5.6
+Bug,Major,Ambari server start fails with reconfigured user
+Bug,Major,Security wizard: smoke test for services fails with customized service user names.
+Bug,Major,Upgrade from 1.2.2/1.2.3.7 to 1.2.5 fails because the ddl script does not work - metainfo version change is broken.
+Bug,Major,Add unit tests for bootstrap and setupAgent python scripts for the server.
+Improvement,Major,Create command line script to manipulate Ambari configurations (get  set  add  delete)
+Bug,Critical,Hive/Oozie database settings should accept custom JDBC URLs
+Bug,Major,Remove unnecessary check for hostnames/ service name which is wrong.
+Bug,Major,Ambari bootstrap actions report success even if a failure happened
+Bug,Major,Dashboard page has a lot of footer padding
+Bug,Major,shell.killprocessgrp is not working in a reliable way
+Bug,Major,Issues with setup ldap
+Improvement,Critical,Security Wizard: show which principals and keytabs need to be created on which hosts
+Improvement,Critical,Remove dependence on dfs_datanode_http_address global for Nagios checks
+Bug,Major,Cleanup setup https flow
+Bug,Major,Cannot add property mapred.task.tracker.task-controller
+Bug,Major,Decommission data node not working in secure mode
+Improvement,Major,Add download CSV action for security wizard
+Bug,Major,Zookeeper smoke test failing in secure cluster
+Bug,Major,Add helpful message when not able to download jdk with setup options for the user to be able to specify the jdk.
+Bug,Major,Incorrect permission on taskcontroller.cfg
+Bug,Major,Some memory configs are set to -1 in Ambari
+Bug,Major,Custom Repo URL cannot be set when non-root
+Bug,Critical,Regression: Agent external hostname is not verified during bootstrap with no warnings
+Improvement,Major,Simplify Local Repo setup in installer UI
+Improvement,Major,Security Wizard: Create separate page for principal/keytab
+Bug,Major,Ctrl+C during ambari-server setup prints out a python stack trace
+Bug,Critical,Setup LDAP does not validate true/false response
+Bug,Major,Using another user for ambari server user create a local group for the ambari server user with same name.
+Bug,Major,Host Check report show hosts without issues
+Bug,Major,JS Error when deleting a widget after sorting it on remove/edit sign
+Bug,Major,HDP installation fails due to puppet syntax error
+Bug,Major,Properties of the same name cannot be added to different custom site.xml's
+Bug,Major,Add Quick Links (Web UI) for Oozie  Hue  Nagios  Ganglia
+Bug,Major,'kdestroy' not required for zookeeper smoke test
+Bug,Major,WebHCat and Oozie services does not start on RHEL5 with enabled security because of 'CRITICAL: Error doing kinit for nagios'
+Bug,Major,Rename agent.fqdn property in ambari.props to server.fqdn
+Bug,Major,Host Checks: truncation on checked processes makes it difficult to know the actual processes in conflict
+Bug,Minor,Popover with config name goes beyond the container
+Bug,Major,Wrong info on Services > Summary tab for DataNodes Live  TaskTrackers Live  RegionServers live
+Bug,Major,Host cleanup left two packages(ambari-log4j  libconfuse)
+Bug,Critical,Dashboard Widgets: 'hover to show details' experience is jarring
+Bug,Major,Reset the latest stack version for 1.2.5
+Bug,Major,Perf: Service summary view inefficiently binds to host components
+Bug,Major,Dashboard Metrics legend size increased unexpectedly on mouseover from line space
+Improvement,Major,Security CSV cleanup
+Bug,Major,Going back to Customize Services page from the Install page resets certain directory values
+Improvement,Major,Update Ember-I18n
+Improvement,Major,Read timeout issues in Oracle JDBC connections where read has a long timeout
+Bug,Major,Ambari-server can not find password for remote database with password encryption enabled
+Improvement,Major,Improve styles for HostCleanup code area
+Bug,Major,Add umask checks for host checks - we should alert if umask is not 022.
+Improvement,Major,Add a re-type new password field when changing passwords for ambari users
+Bug,Major,Host checks say pass when all hosts failed to register
+Bug,Major,Security wizard: Relogin while on step3 without quitting the wizard throws JS error.
+Bug,Major,Start button not available for various components within 10 sec after stop operation finishes
+Bug,Major,setup ldap does not validate secondary url
+Bug,Major,Error messages printed to log
+Bug,Major,Enable Security Wizard stops on step '2. Save Configurations' and doesn't let the user leave the wizard
+Bug,Major,Datanode Live widget displays 0 dead when no datanode is live on a cluster.
+Improvement,Major,Disable Show report for 0 issues
+Bug,Major,Disable security not working in web-ui testMode.
+Bug,Major,Host specific progress bar for a task has some inconsistencies
+Bug,Major,Implement a cleanup thread that removes files in ambari-agent data directory that are older than a configurable amount of time
+Bug,Major,Fix JS Unit tests after merge 1.4.0 to trunk
+Bug,Major,Make ambari web testMode work for installer wizard with HDP stack-2 selection.
+Improvement,Major,Disable autocomplete on form tag for Ambari UI.
+Bug,Major,hbase super user cannot submit jobs since Ambari creates hbase super user with uid<1000
+Bug,Major,Disallow actions upon host components on hosts that stopped heartbeating
+Bug,Major,While a host component is being installed (INSTALLING state)  it does not show up in the Host Detail page
+Bug,Major,Hosts and Host Details page UI tweaks
+Bug,Major,Misc logging changes
+Bug,Major,Security Wizard step 4: no hosts shown when clicking on the 'Start Services'/'Stop Services' link
+Bug,Major,Jobs page: table is not striped and pagination is not disabled
+Bug,Major,Stack 2.0.3  Hive Check execute fail
+Bug,Major,Customize Services page - Misc tab: incorrect behavior of popup window for changing user names
+Bug,Major,Ozzie does not work with local FS user
+Bug,Major,Host Checks > Show Report is showing bogus information for FILES AND FOLDERS
+Improvement,Major,FE should show the error-details when it encounters error while persisting web client state
+Bug,Major,Cannot save HDFS configs with SNN in MAINTENANCE mode
+Bug,Major,Hadoop2 stack install should merge YARN MR2 options
+Bug,Major,YARN time series data needed for NodeManager statuses
+Bug,Major,YARN service summary additional information
+Bug,Major,Can't add from UI some queues in capacity-scheduler.xml
+Bug,Major,Customize Services: directories are shown in comma-delimited format when revisiting
+Improvement,Major,Dashboard refactor and Unit tests
+Bug,Major,Utility script to generate keytabs is broken
+Bug,Blocker,HBase 0.95.2 - Logger doesn't work
+Bug,Major,Running Requests are not visibile on the UI since the API is not returning the running requests.
+Bug,Critical,YARN and ZK data directory names have ' ' at end
+Bug,Major,Restart service component fails if pid is reallocated
+Improvement,Critical,YARN time series data needed for AllocatedContainers
+Bug,Major,Host registration fails
+Bug,Major,Nagios server fails to start with invalid configuration error
+Bug,Major,API JMX mapping needs to be updated due to property name changes
+Bug,Major,Nagios start fails due to invalid configs
+Bug,Major,Puppet script syntax issues result in hive deployment with custom DB and oozie service check failures
+Bug,Critical,Oozie failed at smoke test in secured cluster
+Bug,Critical,Oozie start fails - likely due to 'failed install'
+Improvement,Major,HDFS Service Check failed (as designed) but took 10 mins to fail
+Bug,Major,hadoop-env.sh and core-site are missing on hosts that have only yarn components deployed
+Bug,Major,Add HBase 96 metrics changes to jmx in a backwards compatible way.
+Bug,Major,SNAMENODE should not start after transition to Maintenance mode
+Improvement,Major,Rename alert titles and descriptions
+Bug,Major,ResourceManager's RPC and NodeManager counts missing from time-series
+Bug,Major,Popover stuck after routing to another page
+Bug,Major,Update stack definition for MAPREDUCE2
+Bug,Major,Update 1.3.2 stack definition for repo url
+Bug,Major,Oozie smoke tests fail on Ambari with NPE in Oozie Server.
+Bug,Major,Use a specific build number for the stck builds.
+Bug,Major,Mapreduce pid directory cutomization fails
+Improvement,Major,Provide read-only view of security wizard entries
+Bug,Major,Ambari server and agent are not stopped during package uninstall
+Bug,Major,Should turn on predicate pushdown by default.
+Improvement,Major,Trim and/or validate config parameter values to prevent failures due to extra spaces
+Bug,Major,Ambari should always point to latest repo
+Bug,Major,Customize Services page->Misc tab: Popup with related properties does not opened after 'Group User' value changing
+Bug,Major,Oozie oozie-site.xml misssing two xsd values causing shell and sla workflows to fail
+Bug,Major,Ambari server setup with silent option prints error statement for the first time
+Bug,Major,Enhance host clean up to handle tmp files and folders
+Bug,Major,Advanced config orders should be consistent in Install Wizard > Customize Services and Monitoring > Services > Config
+Bug,Major,Do not use regex to determine folder name by full path for dfs_domain_socket_path
+Bug,Major,Warning messages not cleared when task fails
+Bug,Major,Fix Unit tests
+Improvement,Major,Amabri Client refactoring -2
+Bug,Major,Ambari wont start NodeManager because one of multiple folders not created
+Bug,Major,Jobs run date and duration not sorting correctly
+Bug,Major,Jobs summary has 'oldest' and 'youngest' run dates swapped
+Bug,Major,Incorrect units of measure for 'HBase Master Heap' widget on Dashboard
+Bug,Major,Incorrect color of rack indicators on 'Heatmaps' page
+Bug,Major,Cannot change JMX ports using Ambari configuration API
+Bug,Major,Random change of blocks for Summary and Alerts and health checks on some Service pages
+Bug,Major,Security wizard: disabling security does not return to initial condition after enabling security fails.
+Bug,Major,HBase Read/Write request metrics seem to have changed for 2.x stack
+Bug,Major,NullPointerException thrown while retrieving ganglia properties
+Bug,Major,Incorrect behavior after entering wrong current password while editing user;
+Bug,Major,Out of memory issues with Request API on large cluster
+Bug,Major,Reduce the size of ExecutionCommand entity
+Bug,Major,ambari-agent service script should return non-zero when the agent is not running
+Bug,Major,Modify ganglia config to match the data resolution of the older version
+Bug,Major,Oozie install fails with 'could not connect to database' when choosing 'use existing mysql database ' and choosing 'new mysql database' for Hive within Ambari
+Bug,Major,ambari-server command output should point to Apache Ambari documentation
+Bug,Major,Secure cluster: Yarn service check fails after configuring yarn for spnego authentication.
+Bug,Major,ZKFailoverController should be shown as a component that can be started/stopped in Host Details page
+Bug,Major,WebHCat alert does not nave any description
+Bug,Major,Cannot delete a stopped host_component in INSTALLED state
+Bug,Critical,ambari-server reset is broken on centos5.8
+Bug,Critical,NameNode Uptime does not appear
+Bug,Major,Ambari does not set the correct value for 'templeton.storage.class' in webhcat-site.xml
+Bug,Major,URLStreamProvider reads are flooding the log
+Bug,Major,When Bind DN credentials are incorrect - we should log it
+Improvement,Major,Setup the krb5 Jaas configuration using 'ambari-server setup-security'
+Bug,Major,Read-only views of security admin tab became editable after visiting other tabs on admin page
+Improvement,Major,Provide UI page to enable/disable experimental functionality
+Bug,Minor,Fix text for custom JCE policy setup
+Improvement,Major,Cleanup UX for advanced database in 'ambari-server setup'
+Bug,Major,Dashboard page: buttons are shifted if screen width is more than 1200px
+Bug,Major,Strange behavior of 'JobTracker CPU WIO' dashboard widget
+Bug,Major,Help Text for NameService ID when enabling HA is random in responding to mouse movement and clicks.
+Bug,Major,Security wizard: On NameNode HA mode  General category should have spnego principal and keytab field
+Bug,Major,SSH key in logs?
+Bug,Major,Unavailable stacks should be hidden.
+Bug,Major,Parameterize the repo url for latest stack
+Bug,Major,Nagios alert text for NodeManagers should say 'live'
+Bug,Major,Fix Unit tests and create new test for step3 installer
+Bug,Major,HDFS service check should not be disabled when NN HA is enabled and one NN is down
+Bug,Major,Security wizard: 'Create Principals and Keytabs' step doesn't save state after page refresh
+Bug,Minor,Use correct case for YARN
+Bug,Major,UI optimization: constrain hostComponents model loading
+Bug,Major,Unit test for agents fail/hang at TestActionQueue and TestStackUpgrade.
+Bug,Major,switching to Configs tab causes Quick Links to disappear
+Bug,Critical,'Services'  'Dashboard' 'Navigation errors
+Bug,Critical,HDFS health status when HA config'd
+Bug,Major,When invalid jce policy file path is specified  ambari-server setup silently switches over to downloading the file from public repo
+Bug,Major,ambari-agent RPM claims ownership of /usr/sbin
+Bug,Major,wrong property name for https address of NN in hdfs-site.xml
+Bug,Major,Modify the config mappings in the upgrade script to reflect the latest
+Bug,Major,wrong path being set for JSVC_HOME on suse OS in hadoop-env.sh.
+Bug,Major,Deploy progress bar is not correct
+Bug,Minor,The number of alerts in MapReduce item in menu gets out on the next line.
+Bug,Major,ambari-server setup silently fails when it cannot connect to the remote oracle host
+Bug,Major,Add hcat.bin to pig.properties for hcat integration
+Bug,Major,On 2.x stack  dfs.block.local-path-access.user should not be set in hdfs-site
+Bug,Major,YARN cluster should not have shared directories between yarn.nodemanager.local-dirs and yarn.nodemanager.log-dirs
+Bug,Major,Incorrect alert for NodeManager
+Bug,Major,'Assign Slaves and Clients' step. 'all | none' click error
+Bug,Major,When SSL is enabled on Hadoop JMX endpoints ResourceManager quick links become unavailable
+Bug,Major,Text of installation stage doesn't correspond to reality
+Bug,Major,When multiple MR2 Clients are installed  the label is a bit off
+Bug,Major,JavaScript errors during service tab changing
+Bug,Major,Status does not show up for newly added hosts
+Bug,Major,Remove RCO management logic at ambari-agent
+Bug,Major,HBase Master/RegionServer can no longer be started after reconfiguring HBase or HDFS with NameNode HA enabled
+Bug,Major,Hbase secure config properties in HDP-2.x stack revert back to non-secure values on reconfiguration
+Bug,Major,'Assign Slaves' step. Error with installed NodeManagers
+Bug,Major,Nagios doesn't start after upgrade [SLES11  1.3.2->2.0.6]
+Bug,Major,Incorrect status counters on cluster deploy
+Bug,Major,DB url isn't calculated automatically
+Bug,Major,Hadoop Core Health Check script needs to be included in Ambari HDP installations
+Bug,Major,skip 'Customize Services' step for services that can't be customized
+Bug,Major,Allow log4j properties to be applied via the API in Ambari for hadoop/oozie/hbase/hive/zookeeper/pig
+Bug,Major,NameNode HA wizard: Refreshing the wizard displays incorrect manual commands.
+Bug,Major,'Config' step refresh
+Bug,Major,Cleanup UI restart calculations using actual_configs
+Bug,Major,Reassign Master: Misc UI display fixes
+Bug,Major,Common storage for different wizards
+Bug,Critical,Service reconfiguration fails for multiple services
+Bug,Major,os_type_check.sh for RHEL is too restrictive (Server vs Workstation)
+Improvement,Major,Hosts: clarify which filter is in effect
+Bug,Major,Enable HA wizard loads after sign in
+Bug,Major,Ambari agent creates empty folder /var/ambari-agent
+Bug,Major,host actions UI changes based on new stop/start all and delete func
+Bug,Major,cleanup dialog for unable to delete host
+Bug,Major,LiveStatus of the component is not updated when username is changed
+Bug,Major,traceback when attempting to stop ambari-agent as non-root
+Bug,Major,HA cluster: some dashboard's widgets contain 'Null'  'NaN' values after services stop
+Bug,Blocker,Failed to start Hive Metastore (centos5.8  Stack 2.0)
+Bug,Critical,Poll for host_components which have stale_configs
+Bug,Major,UI does not update active hbase master in display
+Bug,Major,Default value of 'Default virtual memory for a job's map-task' is not valid
+Bug,Major,Better error message needed when incompatible ambari-agents installed
+Bug,Blocker,NameNode HA wizard (Configure Components step): Task 'Reconfigure HDFS' always fail  and user cannot proceed to next step
+Bug,Minor,Typo in text label on Hosts page
+Bug,Major,'Confirm hosts' shows 'ntpd not running' warning  but it's running on host
+Improvement,Major,Modify UI text for host cleanup
+Bug,Major,Reduce logs emitted to report heartbeats from agents
+Bug,Major,Reconfigure of dynamic configs not showing modified values
+Bug,Major,When filtering on hosts  the table column sizes shift  should stay fixed.
+Bug,Major,Reassign Master Wizard does not display folder and hosts on 'Manual commands' page after browser reopening
+Bug,Critical,Provide read-only view of repo options in Ambari Web
+Bug,Major,Incorrect host status when slave down
+Bug,Blocker,Restart indicators for services and hosts disappear after some time.
+Bug,Critical,Ganglia monitor started with second or third attempt on secure cluster
+Bug,Major,Background ops dialog checkbox UI cleanup
+Bug,Major,Remove Exception message printed to log for successful starts
+Bug,Major,HBase Links widget has 'more' button out of bounds and looks broken when there are multiple masters
+Bug,Major,MR jobs are hanging on a 2-node cluster with default configuration
+Bug,Blocker,Add host wizard: After successfully bootstrapping host  'next' button is disabled
+Bug,Critical,Provide config-group support in add-host wizard
+Bug,Major,'Uncaught exception' in JS while navigating through services on Services page
+Bug,Major,Need better error log message when agent unable to reach server
+Improvement,Major,Ambari should allow changing Ganglia cache location
+Bug,Major,During cluster install cannot go past Step0
+Bug,Critical,Provide add/remove/rename/duplicate actions in manage-config-groups dialog
+Bug,Major,Do not store disks_info in DB. Store it as dynamic info in memory that can be used to show on the UI.
+Bug,Major,'Add service' if nothing to add
+Bug,Critical,Remove  Rename actions enabled for 'Default' config group
+Bug,Major,Provide change config-group action on host configs
+Bug,Major,Unable to close manage-config-groups dialog when only Default group present
+Bug,Major,Services sidebar for host configs needs vertical gap
+Bug,Major,Host configs page should properly order services
+Bug,Major,Error in saving host for newly created config group
+Bug,Major,Clicking on Settings link navigates to login page for a non-admin user.
+Bug,Major,JS Error in 'Add Host Wizard' if we proceed with failed registered hosts
+Bug,Major,Add host fails after configuring NN HA with JavaScript error
+Bug,Major,Unittests for User resource an all it's attributes
+Bug,Critical,Duplicate config-group action not duplicate configs
+Bug,Major,ResourceManager Heap metrics is not correct on Ambari console
+Bug,Major,UI incorrect behavior during upgrade
+Bug,Major,Background operations popup window minimum size should be fixed when narrowing down the browser
+Bug,Major,Incorrect restart required tooltip view
+Bug,Major,Background operations: two scrollbars  if width is lower then 1450px
+Bug,Major,Restart indicator flags not showing up for HDP 1.3.x stack services
+Bug,Major,'HDFS Short-circuit read' config property is repeated
+Improvement,Major,Modify messages from 'reassign master' to 'move master'
+Bug,Major,Security Wizard: Service Configuration page is broken
+Bug,Major,Add Host wizard stuck on configuration step
+Bug,Major,Hovers stay after manage-config-groups dialog is closed
+Bug,Major,Adding host to multiple groups at the same time fails
+Bug,Major,Missing host message on cluster deploy
+Bug,Critical,JS error when switching config groups in Hive / Oozie service config pages
+Bug,Major,HBase Master alerts are confusing in multi-master environment
+Bug,Major,hbase.zookeeper.quorum changing inconsistently on hosts after adding ZookeeperServer
+Bug,Blocker,Services mysteriously disappear after Stack upgrade
+Bug,Major,Background operations window  called from wizard doesn't react to 'Do not show this dialog...' flag
+Bug,Major,Config Groups: Background popup show up needs to be integrated when restarting components
+Bug,Major,YARN and MapReduce2 configs is not displayed
+Bug,Major,Resource providers are set with wrong stack version.
+Bug,Major,Manage config group links needed in save config-group confirmation
+Bug,Major,After making config changes w/o saving  prompt user if they try to navigate away
+Bug,Major,Config-Group POST call should tolerate name reuse
+Bug,Major,Long host names are inconvenient for viewing in background operations popup
+Bug,Major,Add Service Wizard: Customize Services configs are not displayed.
+Bug,Major,Duplicate hosts after closing addServiceWizard
+Bug,Major,NameNode max heap is not showing in HDP 1.3.2 stack
+Bug,Major,HiveSchema file for Hive should be hive-schema-0.12.0.oracle.sql
+Bug,Major,Dashboard quick links polls desired_configs every 6s
+Bug,Major,In installer  behavior of actions in manage config-groups dialog different from reconfigure
+Bug,Major,Refactor templates and popups
+Bug,Major,Minor manage-config-group dialog UI changes
+Bug,Major,Rename config-group dialog should allow only description change also
+Bug,Major,Need to show stale-config indicator on hosts page
+Bug,Major,ambari-agent/server should start automatically upon reboot
+Bug,Major,Add hosts  if using Local Repository  UI incorrectly says 'no'
+Bug,Major,Installer's host list doesn't show masters at top
+Bug,Major,HDFS/ZKFC relations in EmberData
+Bug,Major,Need tooltip showing error why local repo is bad
+Bug,Major,TestHardware.test_fqdnDomainHostname() fails
+Bug,Major,Should not allow blank config group name
+Bug,Major,Manage Config Group link appears on host detail page (and cannot dismiss it once opened)
+Bug,Major,HA wizard not accessible after upgrade
+Bug,Major,Stale config indicator not shown when reconfiguring WebHCat  Ganglia  Nagios  ZooKeeper
+Bug,Major,Review page doesn't have info about Repositories
+Bug,Major,Ability to restart a component
+Bug,Major,Service Config page shows a blank page after enabling security (JS error)
+Bug,Major,Fix UI Unit tests
+Bug,Major,YARN check execute fails on install
+Bug,Major,Fix versions of rpms in the stack to match the installed ones.
+Bug,Major,Global configs are not sent to server
+Bug,Major,Misalignment of 'Filter' combobox on installer when browser window is narrow
+Bug,Major,Minor UI cleanup - remove double-borders  reduce text
+Bug,Major,Significant lag between host status update and slave/master component start/stop
+Improvement,Major,Frontend: History server should be managed as separate component
+Bug,Major,Empty content of review step in Add Host wizard
+Improvement,Major,Mirroring page redesign
+Bug,Major,Padding for config override properties
+Bug,Major,When issuing Start/Stop of host components then predicate stale_config=true does not work
+Bug,Major,Starting/Stopping components based on restart indicator floods request history and execution queue
+Improvement,Major,Storm: Update Dashboard / Services to support Storm
+Bug,Major,Restart marker does not show up sometimes in the Hosts page
+Bug,Major,Add env AMBARI_JVM_ARGS to ambari-server start
+Bug,Major,Status commands are not executed for new services
+Bug,Major,Alerts  Restart  Maintenance elements in the Hosts filters
+Bug,Major,Ambari server unit test failure
+Bug,Major,Service tab: growing number of calls to update alerts
+Bug,Major,Request Schedule status not updated for Point in time execution request
+Improvement,Major,Storm: Install wizard. Add master components Storm UI Server  DRPC Server  LogViewer Server
+Improvement,Major,Storm: Add Storm UI Server  DRPC Server  LogViewer Server components config categories.
+Bug,Major,Service Restart All action cleanup
+Improvement,Major,Task timeout should be a configurable knob at the ambari-server
+Bug,Major,Incorrect behavior of 'Save' button in 'Manage Configuration Groups' window
+Bug,Major,Move 1.3.4 stack to 1.3.3 using the python libraries.
+Bug,Major,Rename 2.0.8 to 2.1.1 in the stack definition.
+Bug,Major,Slaves API-calls
+Bug,Major,HostCleanup should also clean /tmp/hadoop-*
+Bug,Major,Add relocate resources scripts to the pom file
+Bug,Major,Rolling restart failure tolerance should be percentage values
+Bug,Major,Action definitions should be provided as declarative resources - read from XML files
+Bug,Minor,Alerts block shows spinner if Nagios not installed
+Bug,Major,Hosts API-calls
+Bug,Blocker,Datanode data directory is not created correctly
+Bug,Major,ambari-server should use repo when downloading jdk 7
+Bug,Major,Misc code cleanup
+Bug,Major,Delete Config Group Host mapping broken due to error introduced by perf patch
+Improvement,Major,mapreduce.task.io.sort.mb max value should not exceed 1024mb
+Bug,Major,Remove property fs.checkpoint.size during upgrade
+Bug,Major,Background operations dialog in weird state after exception
+Bug,Major,HDFS start failed on 2.1.1 stack
+Bug,Major,ORA-01795: maximum number of expressions in a list is 1000 for Oracle DB
+Bug,Major,Add upgradestack support for MySQL
+Improvement,Major,Ambari version info should be visible in UI
+Bug,Major,health status yellow (lost heartbeat) not showing icon
+Bug,Major,Bulk Ops: Restart on Slaves should popup rolling restart dialog
+Bug,Major,Host registering failure from primary/agent os checking on centos6
+Bug,Major,Oozie Server installation fails when Falcon is selected
+Improvement,Major,Add ability to delete individual DataNode  TaskTracker  NodeManager  and RegionServer from Host Details page
+Bug,Major,Alert count badge and restart indicator issues
+Bug,Major,OOS status for component on host detail page makes button too big
+Improvement,Major,Refactor and Unit tests for host summary
+Bug,Major,BG operation pop-up: JS error encountered on clicking on host in progress state.
+Bug,Major,Falcon Client install task shows up as just 'install' rather than 'Falcon Client install'
+Improvement,Major,Jobs: implement the TEZ DAG page/panel
+Improvement,Major,Ambari should check that there is enough disk space during installation
+Bug,Major,Various issues related to decommission support
+Bug,Major,Upon restart of ambari-server  the service status on Dashboard page remain unchanged
+Bug,Major,Host Details > Actions pulldown likes to hide
+Bug,Major,Remove --jce-policy from warning statement
+Bug,Major,adding more master components styling is missing
+Bug,Major,Host names goes under text  icons
+Bug,Major,Host details: clients list disappears
+Bug,Major,medkit-icons are shifted out of their places  in hosts table in Safari.
+Bug,Major,Exception on deploing step: java.sql.BatchUpdateException: ORA-00942
+Bug,Major,'SNN Process' alert displays after HA enabled successfully
+Bug,Major,The user is not always redirected to the login page when unauthenticated
+Bug,Major,Restart All fails for Client only components
+Bug,Major,Routes are incorrect after launching wizard
+Bug,Major,Install Wizard: Assign Masters: some selects disabled
+Bug,Major,Bulk Ops: add Supervisor to Bulk Ops on Hosts page
+Bug,Major,Customize Services page of Add Service Wizard offers to customize already installed Oozie
+Bug,Major,Write unnitests for HDFS install script on HDP1 and HDP2
+Bug,Major,Hosts table: sort order arrows should be close to the respective column label
+Bug,Major,Oozie tests fails
+Bug,Critical,Actual configs not updated after restart of host component
+Bug,Major,Add unittets for hooks in secured mode.
+Bug,Major,Falcon Server can not be restarted
+Bug,Critical,Alerts for ATS Component
+Bug,Major,Value 'storm.zookeeper.servers' not changing after adding new ZK server
+Bug,Major,Tez DAG UI not showing due to changed ATS responses
+Bug,Major,AmbariManagementControllerTest Test fails with unable to delete the last user.
+Bug,Major,Security Wizard: History Server should be a different section for MR service.
+Bug,Major,Restart indicators work incorrectly after adding component
+Bug,Major,Add services wizard throw JS exception
+Bug,Major,/var/lib/hadoop-hdfs/ location does not has +x permission for others
+Bug,Major,NameNode fails to start due to 'fs.defaultFS' being null
+Bug,Major,Skip Failing tests for now.
+Bug,Major,Reconfiguring memory related properties of a service suffixes 'm' to memory related properties of other service.
+Bug,Major,Do not automatically put host component in Maintenance Mode upon decommissioning (and out of Maintenance Mode when recommissioning)
+Bug,Major,Hosts table UI cleanup
+Bug,Major,Allow Falcon to be configured with keytab/security and custom params
+Bug,Critical,Do not show 'restart' op on non-admin user
+Bug,Major,Navigation from Hosts page to HostDetailsPage breaks occasionally
+Bug,Major,Incorrect behavior of HA wizard on second step
+Bug,Major,Update falcon install scripts to recent changes
+Bug,Critical,Ambari DDL for MySQL should not create ambarirca database
+Bug,Major,Nagios alerts are not shown on SUSE
+Bug,Major,Avoid printing stacktrace for state machine exceptions
+Bug,Major,License header is repeated in oozie-log4j.properties
+Bug,Major,Service Check does not work
+Bug,Major,Slave component should include 'restart' command on host details page 'Actions'
+Bug,Major,Ganglia alerts after adding YARN+MR2
+Bug,Major,Change Hive alerts to move away from Hive metadata queries to port checks
+Bug,Critical,After configuring NNHA  nn process alerts don't work
+Bug,Major,Jobs popup message clicking continues to stay on the same page
+Bug,Major,During upgrade. migrate decommissioned DN hosts list to the new format
+Improvement,Major,Reduce loading time of Host Warnings popup
+Bug,Critical,Lost heartbeat on host but ganglia shows a heartbeat lost
+Bug,Major,Hive Service Check Failed during Install Wizard
+Bug,Major,Secured: Start All Services task got stuck forever
+Bug,Critical,2-way auth fails when using jdk7
+Bug,Major,oozie-site.xml defaults need to be updated for 2.1 stack
+Bug,Major,Start all services silently fails when a service is not startable
+Bug,Major,Security Wizard: enable Kerberos setup for Storm
+Bug,Major,Retry failure after installation failure triggers start all services request
+Bug,Major,Maintenance Mode: maintenance icon changes on Host Details page
+Bug,Major,hadoop-mapreduce.jobsummary.log is empty when specified custom YARN Log Dir
+Bug,Major,Background Operations window does not appear after triggering Rolling Restart
+Bug,Critical,Rolling Restart dialog shows incorrect message that slaves won't be restarted when service is in maintenance mode
+Bug,Blocker,After Ambari is upgraded to 1.5.0  previous JAVA_HOME is overwritten to /usr/jdk64/jdk1.6.0_3
+Bug,Major,Hive CLI using Tez runtime does not start by throwing HDFS exception
+Bug,Major,The status of App Timeline Server affect the health status of YARN service.
+Bug,Critical,hive-env.sh overwrites user value of HIVE_AUX_JARS_PATH
+Bug,Major,Add component of clients in Ambari doesn't work in a secured cluster
+Bug,Major,Wizard Step7 JS error on load page (add service wizard)
+Bug,Major,Mistake in title of operation 'Restart APP_TIMELINE_SERVER on ...
+Bug,Major,Installer: 'Undo' button for repo BaseURL does not work
+Bug,Critical,Ganglia Server goes to 'installed' state after double 'Ganglia rrdcached base directory' config changing
+Bug,Major,Supervisor under supervision fails w/o ganglia server
+Bug,Critical,supervisor.enable should be removed from Ambari's Storm Config section
+Bug,Major,Table of Confirm Hosts step is collapsed
+Improvement,Major,Don't do server-client version match check if App.version have not been set on ambari-web
+Bug,Blocker,Falcon fails to deploy
+Bug,Major,Icon 'Asterisk' on 'Assign Masters'/-Slaves steps does not display with 8-bit depth
+Bug,Major,Print better logs for openssl issues on centos/rhel 6.5.
+Bug,Major,Tez DAG Operator hover text not wrapping wide content
+Bug,Major,Ambari YARN UI - Quick Link - JMX breaks if RM port is changed
+Bug,Major,Error with finding FK constraint
+Bug,Critical,unittest NagiosPropertyProviderTest fails
+Bug,Major,Automatic bootstrap failed on CentOS 6.5 (No module named common_functions)
+Bug,Major,Dashboard: dashboard actions do not work for non-admin users
+Bug,Major,Installer: 'Undo' button for repo BaseURL is unnecessarily present
+Bug,Critical,Schema Upgrade failed when upgrading to 1.5.1
+Bug,Major,Deploy stuck during generating tasks on Review page (not always reproduced)
+Bug,Major,Remove classic dashboard view from Ambari
+Bug,Major,Pig unit test class named wrong
+Bug,Critical,Operation 'Supervisor start' failed during installation but all supervisors are alive
+Bug,Major,OS type check for centos 6.5 can fail if the /etc/issue has CentOS Linux release 6.5
+Bug,Major,Add Host failed on upgraded cluster on Suse
+Improvement,Major,When new host components are created thru API  some indication should be given that Nagios has to be restarted
+Bug,Critical,Ambari configuration for map join conversion and tez container size seems wrong
+Bug,Major,Host Checks: alternatives check results are not surfaced in Host Check popup
+Improvement,Major,Usability: Improve Stack Definition support for repositories
+Bug,Critical,Use SchemaTool in Hive for init metastore DB schema
+Bug,Major,Misleading hardcoded command in paragraph 2 on step 'Manual commands' of 'Move Master' wizard
+Bug,Critical,Move wizard and HA wizard gets stuck on any deploy step
+Bug,Major,Unit tests for number_utils  string_utils  validator and misc files.
+Bug,Major,Switch SQL standard authorization to be off by default.
+Bug,Major,Unit tests for steps 6 (with small refactor)
+Bug,Major,Call for requests with 'page_size' always return 10 most recent
+Bug,Major,Checkbox 'client' without upper case letter
+Bug,Major,NameNode HA wizard: Review page appears blank
+Bug,Major,Navigating back from Host page to Heatmaps page is broken
+Bug,Major,Fix UI Unit tests
+Bug,Major,Restart option is enabled for components in 'Decommissioned' state but it should not
+Bug,Major,Turn Off Maintenance Mode for HDFS does not work (problems with ambari-agent)
+Bug,Major,Ambari version is unknown during installer via UI
+Bug,Major,Usability UX: Default key actions for dialog boxes
+Bug,Major,Yarn Nodemanager Metrics only update every few minutes
+Bug,Major,Unit tests for object_utils  date  ui_effects  updater
+Bug,Blocker,'Upgrading schema' failed during upgrading to 1.6.0
+Bug,Major,Explicitly disabling datanucleus l2 cache for hive
+Bug,Major,Start Services command gets stuck for about 30 mins
+Bug,Major,Add Services is disabled after upgrading the stack from HDP-2.0 to HDP-2.1
+Bug,Major,Jobs dont show up as links for a moment when page is visited
+Bug,Major,Views: do not let the user click on the Views icon in the top nav
+Bug,Major,JobsDiagnostic|2.1.1: No job status and end time is shown for interrupted job
+Bug,Critical,Alternatives issues has error message (missing translation)
+Bug,Major,Zookeeper smoke test failed after being triggered after deleting a host  containing ZookeeperServer
+Bug,Major,Unit tests for utils/config.js part 1
+Bug,Critical,Views list not loading in Ambari Web
+Bug,Major,Disable security fails occasionally
+Bug,Major,pig.properties should set pig.location.check.strict to false
+Bug,Blocker,All Services Fail To Deploy Due To Agent Parsing Exception
+Bug,Major,Adding Oozie failed at service check
+Bug,Major,Space Error in container-executor.cfg
+Bug,Major,HDP deployment failed in CentOS5
+Bug,Major,File View Cleanup
+Bug,Major,Ambari upgrade to Ambari-1.6.0 from Ambari-1.5.1 logs PSQLException
+Bug,Major,Storm fails to start after disabling security
+Bug,Major,2000-node cluster testing: during install phase of cluster deployment  install tasks were stuck in PENDING state
+Bug,Critical,In some upgrade scenarios  Ambari Web's persist key-value store state causes the UI to act unpredictably
+Bug,Blocker,Recommission a DN fails when https is enabled in Ambari server
+Bug,Major,View: Files UI clean-up and adjustments
+Bug,Major,Pig fails to install through blueprint
+Bug,Critical,Global properties are not being surfaced on service config page
+Bug,Major,Populate actions drop down of Slider App details page
+Bug,Major,Implement app_types endpoint to provide app definitions
+Bug,Major,New slider app wizard should show app-types from /apptypes endpoint
+Bug,Major,Suppress any debug and info messages from package managers in setupAgent.py
+Improvement,Major,View: Files UI clean-up and adjustments (PART 2)
+Bug,Major,Predicates don't work on fields with float values
+Bug,Major,Some HBase properties are empty  but required to be filled
+Bug,Critical,Slider apps table does not remove entry when app is removed
+Bug,Major,Maintenance state and status commands perf improvements.
+Improvement,Major,Ambari should generate config files in sorted order
+Bug,Major,DB connection check error if jdk_name does not exist.
+Bug,Major,Bootstrap API call says bootstrap is running even though all agents have installed and registered
+Improvement,Major,Add support for auth proxy
+Bug,Major,Storm UI in Ambari quick link fails when Storm UI server is not co-hosted with nimbus host
+Bug,Major,metrics hostname is not correct for storm
+Bug,Critical,HDFS alert hangs for a long time after enabling Maintenance mode
+Bug,Critical,Services -> Configs page for Yarn  HIVE  MapReduce services is not displayed
+Bug,Major,Issues with jdbc properties
+Bug,Critical,Master components are missing
+Bug,Major,Ambari Agent script should check for running processes before starting
+Bug,Major,Add Host wizard get stuck on Confirm Hosts step
+Bug,Major,Agent Custom Command Output Coerces Integers to Floats
+Improvement,Major,Add refreshQueues custom command to YARN service
+Bug,Major,'ambari-server start command' hangs if was executed via ssh command
+Bug,Major,Hosts Components filter on Service summary page doesn't work
+Bug,Major,Multiple ATS appear on YARN summary page
+Improvement,Major,Customize the Hadoop metrics sink to write to MySQL store
+Bug,Critical,Filter by alerts fails on Hosts table
+Bug,Critical,Nagios install fails on SLES due to php5-json not available
+Bug,Major,issues with dialog keypresses
+Improvement,Major,Ambari Groovy client enhancements
+Bug,Major,Bulk operations confirmation popup
+Bug,Critical,Step3. Hosts checks requests
+Bug,Blocker,It's not possible to input 'Enter' on 'Target hosts' textarea on 2nd step of Installer wizard'
+Bug,Critical,Ambari Dashboard page  click NameNode link returns wrong page
+Bug,Major,JS error on POST config group request (step7 installer)
+Bug,Major,Behavior change: host filtering no longer handles startsWith matches
+Bug,Major,Installer wizard: ambari web-client issues invalid requests after switching stacks
+Bug,Major,Incorrect value for started_count of Datanode component
+Bug,Major,Unsuitable height of dropdown menu on metrics page
+Bug,Major,Decommissioned running DataNode has 'delete' menu item in action pulldown
+Bug,Major,ListBoxes with hostnames on 'Select Hosts' page of 'Enable NameNode HA Wizard' do not work
+Bug,Major,Fix sub-resource names in /stacks API
+Bug,Critical,Unable to assign host in HA wizard
+Bug,Major,BGO popup: Incorrect number of tasks in category
+Bug,Blocker,Installer Wizard Step 7-8: namenode_heapsize property incorrect value.
+Bug,Major,Nagios 'Restart all components' button does not work
+Bug,Blocker,Default add host sequence triggers many unseen before cluster-wide operations
+Bug,Critical,Ambari Server reset show wrong commands for DB manipulation
+Bug,Critical,host checks 'Show Report' link is missing from dialog
+Bug,Critical,Security issue - private key password show in logs
+Bug,Critical,Hosts page: there is no indication that filtering/sorting/paging is happening or not (confusing)
+Bug,Critical,Restart icon is present after Service Actions->Restart all button click.
+Bug,Blocker,Add host stops all services
+Bug,Critical,Have spinners instead of charts at Dashboard and Service tabs on IE 11
+Improvement,Major,Get sql metrics logic should be reviewed
+Bug,Blocker,Add Services fails with a server error under some conditions
+Bug,Major,step 6 pagination is slow
+Bug,Major,Repoinfo.xml should use family tag rather than type tag
+Bug,Major,Manage Config Groups: if Ganglia is not installed config group popup doesn't appear
+Bug,Critical,Prompt to put Service in Maintenance Mode when doing Rolling Restart / Service Stop
+Bug,Major,Python client caches curl flags between requests causing problems
+Bug,Major,UI freezes for more than 2 seconds  every 15 seconds  on 2K-node cluster
+Bug,Major,Custom Command execution takes too long
+Bug,Critical,JMXPropertyProvider makes call to endpoint without checking support for properties
+Bug,Blocker,Bulk Ops only targets a maximum of 'page size' hosts
+Bug,Major,Choosing bulk hosts to decommission on 120 node cluster on the hosts page just spins.
+Bug,Major,Rolling Restart: 'only start stale' checkbox not worked functionally
+Bug,Major,Bulk Decommission: Background Operation Popup content looks broken
+Bug,Blocker,Add service wizard removes any new property added to core-site and global after cluster installation
+Bug,Critical,Hosts page. Incorrect total number of hosts after filtering by installed component
+Bug,Critical,filtering by selected hosts resets pagination
+Bug,Major,After changing property and clicking save button in MapReduce Config Page  no comfirmation popup
+Bug,Critical,Unable to restart all host-components on 110 node cluster
+Bug,Blocker,Hosts page : mysterious 'selected hosts' keep coming back
+Bug,Major,hostname wrapping with icon asterisks on assign slaves
+Bug,Critical,Excessive requests are sending on hosts page
+Bug,Critical,In Host Detailed Page  decommissioned NM is labeled as STOPPED
+Bug,Blocker,Many services failed to start when using custom user names and groups
+Bug,Critical,Move Wizard: get stuck if wizard is running second time for the same component without page refresh
+Bug,Critical,Move Wizard: assign master step next button is not disabled  when host input has error
+Bug,Major,Postgres create script generates errors for clusterconfig
+Bug,Critical,Config pages load slowly on 2k-node cluster for some services
+Bug,Trivial,Link to ExtJS license in 'Choose Services' page has moved
+Bug,Critical,Filter state does not clear in Background Operation popup and causes a lot of confusion
+Bug,Blocker,Unable to move NameNode
+Bug,Major,JS error occurs periodically when Job Details page is opened
+Bug,Blocker,Add Services Wizard can corrupt config files unpredictably
+Bug,Major,AddHost Wizard: error for existing host is not present
+Bug,Major,JS errors on Jobs page if ATS is stopped
+Bug,Major,Default config group name contains 'undefined' instead of service name in Manage Config Groups popup
+Bug,Major,Unable to proceed from step 4 of installer if YARN-dependent services are selected but YARN isn't (HDP 2.0)
+Bug,Blocker,Incorrect errors count for YARN on step 7 of Install Wizard (HDP 2.0)
+Bug,Major,Hostname case sensitivity
+Bug,Major,Unable to install cluster after coming back to step 1 and selecting different stack version
+Improvement,Critical,Ambari support on CentOS7 /RHEL7 - I
+Bug,Major,Create main page with table of jobs
+Improvement,Major,Add ZKFC component to summary page (when NNHA enabled)
+Bug,Major,FE allows add host on host that is in UNKNOWN state (agent was stopped)
+Bug,Major,Service pluggability: New added services in the stack has Add Property link in log-4j and env categories
+Bug,Major,Fast user can skip 'Customize Services' step (add service wizard) while configs are not loaded
+Bug,Major,'all/none' links affect already installed services on 'Select Services' step
+Bug,Major,Linked Ganglia charts from Host Details page don't show any graphs (except on NameNode host)
+Bug,Major,Deleted hosts come back to life after ambari-server restart
+Bug,Major,Views: exception on server restart after creating view instance
+Bug,Major,Management Console: UI Layout  Basic Routing and Create User Management Page (with mock data)
+Bug,Major,Install wizard should have ability to load default 'final' configs  and save them
+Bug,Major,Ambari-DDL-Postgres-CREATE.sql fix for CLUSTER.OPERATE
+Bug,Major,BlueprintResourceProviderTest fails on exception message assertion
+Bug,Major,Fix unit tests that are broken after AMBARI-6533
+Bug,Major,HDP-1.3 stack shows HUE in select services page
+Bug,Blocker,Cannot start ambari-server due to empty metainfo table
+Bug,Critical,Add Service wizard: Retry installation functionality does not work
+Bug,Critical,Config categories aren't displayed on 'Configure Services' step of Secrity Wizard
+Bug,Major,Memory leaks during tabs switching on 'Customize Services' page
+Bug,Blocker,Oozie service can not be started on Ambari server with external Postgres
+Bug,Critical,Unit test failures on jenkins for Ambari 1.7.0 related to alerts.
+Bug,Major,Oozie fails for stack 2.0 and 2.1
+Bug,Blocker,'Refresh configs' action doesn't work for Flume
+Bug,Blocker,Capacity Scheduler config cannot be saved
+Bug,Critical,RM HA wizard is experimental but shouldn't be
+Bug,Major,Once RM HA is config'd  none of the RM summary info or RM dashboard widgets show data
+Bug,Major,On HDFS config page edit boxes with memory size values have incorrect behavior.
+Bug,Critical,'Select Host' page on Resource Manager HA Enabling wizard does not save selected values after next/back steps
+Bug,Critical,Flume service should be in STARTED state when no agents configured
+Improvement,Major,HostNames and Slaves broken in two lines on Assign Slaves step
+Bug,Major,Resource Manager HA: after enabling RM HA  UI does not display standby and active Resource Managers on Summary tab
+Bug,Critical,Add security configs on Add service wizard
+Bug,Critical,Wizard: Adding Master component does not create and install the master host component
+Bug,Major,Cleanup of Cluster > Admin tab
+Bug,Major,Ambari installation webhcat templeton.hive.properties set thrift host name to be localhost
+Bug,Major,Need ResourceManager UI Quicklinks for active / standby

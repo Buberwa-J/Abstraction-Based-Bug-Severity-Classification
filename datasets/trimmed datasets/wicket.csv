@@ -1,0 +1,1001 @@
+type,priority,summary
+Improvement,Major,open Modal Window without AjaxRequestTarget
+Bug,Major,missing base64/ URL encoding
+Bug,Minor,Wrong source paths in build.xml
+Bug,Minor,WicketTester fails when calling clickLink on a ResourceLink to a mounted resource
+Improvement,Major,Make debug settings session dependent
+Improvement,Major,Support case insensitive mount paths
+Bug,Major,FormTester does not set request parameters for unchanged form fields
+Bug,Major,NPE in Check.java
+Improvement,Trivial,Russian Application.properties
+Improvement,Major,extract IPageMap interface from PageMap
+Bug,Minor,Lazy-registration fails for mounted resources.
+Improvement,Trivial,Remove RequiredTextField from 2.0
+Bug,Major,NullPointerException after deserialize wicket.util.concurrent.CopyOnWriteArrayList
+Bug,Major,wrong handling of exceptions for Resource#respond and ComponentResourceRequestTarget#respond
+Bug,Major,mounted URLs fail if filterPath is blank
+Improvement,Major,set session locale when constructing session object
+Improvement,Major,Access to init parameters through getServletContext.getInitParameter() not working
+Improvement,Major,Extend cases where the exception can be ignored due to an aborted request
+Improvement,Major,Default code for popups should always try to bring the popped up window to the top (focus)
+Bug,Minor,While testing with FormTester: onSelectionChanged is not being invoked if DropDownChoice is enabled for notifications
+Improvement,Major,table background='foo' url prefixing
+Bug,Major,Component reAttach and versioning
+Bug,Minor,Uncaught exception guesing urls using CryptedUrlWebRequestCodingStrategy
+Bug,Major,creating a mountBookmarkablePage with PageMap
+Bug,Major,Removing comments from markup can fail
+Bug,Major,NPE in RequestLogger?
+Bug,Major,WicketServlet deprecation and WicketFilter
+Bug,Minor,Allow to set field values before submitting a form with Ajax in WicketTester
+Bug,Minor,pallete: ' is missing in HTML
+Bug,Critical,Calls to enabled and visibleInHierarchy should not be done in component resolving.
+Bug,Major,EmailAddressPatternValidator does not correctly identify TLDs with more than 3 letters
+Improvement,Major,Remove IRequestTarget.getLock and the synchronize blocks using it
+Bug,Major,PackageRequestTargetUrlCodingStrategy should interrupts the cycle and sends a 404 when a page/class cannot be found.
+Improvement,Trivial,Translation for Czech language
+Bug,Minor,AjaxEditableLabel on setModel does not update the labels model only the editors
+Improvement,Major,Download link does not set Content-Type and Content-Length headers
+Bug,Major,CheckBox incorrectly converts its model value when a custom Boolean converter is installed
+Bug,Major,Inheritable model cannot be a wrap model
+Improvement,Trivial,clock component doesn't display seconds in some Locales
+Bug,Major,BookmarkablePageLink only sets the target attribute when it exists in the markup
+Improvement,Major,Add ability to manage disabled items from subclasses of AbstractChoice
+Improvement,Major,@SpringBean support of non-singleton beans
+Bug,Major,Some components miss localization (NavigatorLabel  Palette)
+Bug,Major,Converter misusage/mangling in RadioChoice
+Improvement,Minor,[Patch] do not serialize choices and select in palette.
+Bug,Major,Wicket.Focus code utterly breaks AjaxEditableLabel
+Bug,Trivial,DropDownChoice  empty Model wrong default encoding of special chars
+Bug,Major,Using Borders with Markup Inheritance causes component resolution failures
+Improvement,Minor,Handle / servlet mapping or fail consistenly
+Improvement,Major,Be able to add string arrays to configuration of DatePicker
+Bug,Major,Ajax requests don't detach component models
+Bug,Major,NullPointerException in MarkupFragmentFinder.find()
+Improvement,Minor,improved reporting on locked page maps
+Bug,Major,mvn jetty:run; maven-jetty-plugin not configured
+Bug,Major,Add global override to disable gzip compression (SAP double-compresses).
+Bug,Critical,Feedback is not cleaned up upon AJAX-requests
+Improvement,Major,Investigate whether we can use component meta data for the storage of feedback messages
+Bug,Critical,JavaScript comment stripping doesn't handle regexps
+Improvement,Major,Change name of IFormProcessingListener
+Bug,Major,ModalWindow does not function under Opera
+Improvement,Trivial,Better error message for problematic configuration
+Improvement,Major,HeaderContributions are missing if  is a Component.
+Bug,Major,Use WebRequestEncoder everywhere a query string is constructed
+Bug,Critical,LocalizedImageResource escapes ampersands twice (regression)
+Bug,Trivial,tests should be test
+Bug,Minor,WicketTester does not bind created Session to SessionStore
+Bug,Minor,TimeOfDay.next(Calendar) can return time on same day rather than next day
+Bug,Blocker,AbstractTextComponent#setConvertEmptyInputStringToNull(true) does not work with IObjectClassAwareModels (affects TextField  etc.)
+Bug,Minor,HeaderContributor forces relative URL
+Bug,Critical,Prototype scoped Spring beans
+Bug,Minor,WicketFilter tries to call setClassLoader() even if it's not changing the default - doesn't work on strict SecurityManagers.
+Bug,Major,Resource.getParameters() empty when resource is mounted
+Improvement,Trivial,wicket-examples grey-on-white colour scheme is very hard to read
+Improvement,Minor,wicket-examples source code view is not resizable
+Improvement,Minor,fire onchange event of associated component after date selection
+Improvement,Major,enhance ichoicerenderer with id->choice object lookup
+Bug,Major,[PATCH] remove XX in firefox and palette
+Improvement,Minor,AjaxEditableLabel needs Model for adding a IValidator
+Improvement,Minor,DateTextField is too session-heavy
+Bug,Major,ReloadingWicketFilter not working with markup inheritance
+Bug,Minor,Border.resolve() should not attempt to render contents if bodyVisible is false
+Bug,Major,If the model is List  PropertyResolver doesn't try to find fields.
+Bug,Major,AjaxEditableChoiceLabel doesn't work
+Bug,Minor,Invoking a request listener on a page returns an Expired Error page
+Improvement,Minor,Unable to remove an IFormValidator from a Form
+Improvement,Major,make getConvertedInput final again and remove final from convert  which should be renamed to convertInput
+Improvement,Major,make default maximum upload size an application setting
+Improvement,Major,WicketTester cause SerializableChecker$WicketNotSerializableException
+Bug,Major,WicketTester could not handle Multipart form without upload
+Bug,Major,OnChangeAjaxBehavior does not work with  when using Safari
+Improvement,Minor,Qualified resource key should take priority over unqualified one
+Bug,Minor,setVisible(false) on Page throws NPE
+Bug,Major,ServletWebRequest.getRelativePathPrefixToContextRoot generates wrong relative path if current page has URL-encoding in the params.
+Improvement,Major,add support for localization
+Improvement,Major,Disable line-precise exceptions for component use check
+Bug,Critical,default pagemap name of null is not always properly encoded into the url
+Bug,Minor,Select doesn't validate 'Required'
+Improvement,Trivial,Easy access to final rendered page source
+Bug,Major,setresponsepage() does not properly redirect from ajax requests
+Improvement,Minor,upgrade to SLF4J to version 1.4.2
+Bug,Major,MockHttpServletRequest.addFile does not work with binary files
+Bug,Major,Empty content inserted into Border - throws ugly exceptions
+Bug,Critical,Session id encoding problem in cookie-less mode
+Bug,Minor,No scrolling behaviour of source code viewer in IE 6
+Bug,Major,Ajax refresh fails when a fragment is included in the target
+Improvement,Trivial,Use -DpackageName if it is specified
+Bug,Major,AjaxFormChoiceComponentUpdatingBehavior not working
+Bug,Major,More problems with ajax and transparent containers
+Bug,Minor,Javadocs for AbstractDefaultAjaxBehaviorPrecondition#getSuccessScript() and #getPreconditionScript() are swapped
+Bug,Major,DateField's/ DateTimeField's factory methods should pass in ids
+Bug,Minor,NumberFormatException with UrlCompressingWebRequestProcessor in WicketTester
+Bug,Major,HttpServletResponse.encodeRedirectURL() missing in WicketFilter
+Bug,Major,Markup hirarchy gets messed up when value of  attribute 'background' is a relative path
+Bug,Major,Typo in org.apache.wicket.markup.html.tree.res.tree.js causes AJAX tree node addition failures
+Improvement,Minor,Option to align DatePicker to the left of icon
+Improvement,Major,Add class or id to AjaxFallbackDefaultDataTable elements (NavigationToolbar  etc.) to facilitate CSS styling
+Bug,Major,InlineFrame with null PageMap raises exception
+Bug,Major,Unable to find InlineFrames when inside ListViews
+Bug,Major,If a form includes a DataTable with AjaxEditableLabels and the form should be refresh an exception occurs when a user switches between a changed label to another
+Bug,Critical,WicketServlet no longer sets application on current thread
+Bug,Critical,There is no way to specify what exceptions to log in RequestCycle
+Bug,Minor,onBeforeRender not called on ModalWindow contents
+Bug,Major,Tree not 'redrawn' when resetting root node
+Bug,Minor,inconsistent state after setting AjaxDebugModeEnabled to true in an AjaxRequest
+Improvement,Trivial,Minor patch in polish translation
+Bug,Major,embedded jetty configuration stops working on beta3
+Bug,Minor,BaseWicketTester support for SubmitLink
+Bug,Major,WebRequestCodingStrategy is not synchronized
+Bug,Major,Default button does not provide button name
+Bug,Trivial,FilteredAbstractColumn unary constructor expects Model instead of IModel
+Bug,Major,Static Pages -> Passing URI to a Wicket page == 404 Error
+Improvement,Minor,Wicket Javadoc Standardization: org.apache.wicket.util.value
+Bug,Major,StringIndexOutOfBoundsException in ServletWebRequest.getRelativePathPrefixToWicketHandler
+Bug,Major,[PATCH] Javascript error in IE7 when selecting a date
+Bug,Minor,Text not visible in Wicket Ajax Debug window
+Bug,Minor,setEnabled() does not work on YUI DateField
+Improvement,Trivial,Fix a TODO for 1.3 at AjaxFormSubmitBehavior.onError()
+Improvement,Trivial,javadoc typos
+Bug,Major,FeedbackMessages don't get cleaned up in an AJAX request when renderstrategy is REDIRECT_TO_RENDER
+Bug,Major,StyleSheetReference doesn't take style/locale into account
+Improvement,Minor,Wicket Javadoc Standardization: org.apache.wicket.util.thread
+Improvement,Minor,Wicket Javadoc Standardization: org.apache.wicket.util.tester
+Improvement,Major,Remove final from WebRequestCodingStrategy. urlCodingStrategyForPath
+Improvement,Minor,Correct javadoc for Fragment
+Improvement,Trivial,Missing img alt attribute in WicketAjaxIndicatorAppender
+Improvement,Major,Extending PagingNavigator for stateless pages
+Bug,Major,DateTextField.setEnabled() is not propagated to attached DatePicker
+Bug,Major,Problem closing a ModalWindow when used through an IFrame
+Bug,Major,AjaxEditableLabel: defaultNullLabel() should really be a defaultNullorEmptyLabel()
+Bug,Trivial,XHTML validation failure for DatePicker
+Improvement,Minor,Change log in Form.handleMultiPart() from error to warn
+Bug,Major,AbstractTree utilizes Collections.EMPTY_LIST for a node's children container which causes errors when adding children
+Improvement,Minor,add sanity check on form submit for request method
+Improvement,Minor,Tolerate malformed If-Modified-Since header
+Improvement,Major,IDataProvider-Overflow with size()
+Bug,Minor,AjaxEditableLabel and AjaxMultiLineEditableLabel do not honour enabled status
+Bug,Major,Ajax Memory Leak in IE
+Improvement,Minor,i18n: Translation of resource files in Korean
+Bug,Major,NPE in IndexedHybridUrlCodingStrategy during encoding
+Bug,Critical,false positive or wrong unit tests unit tests when ajax is involved
+Improvement,Major,Use X-Forwarded-For header for getting the IP address of the client in WebClientInfo
+Improvement,Major,upgrade to YUI 2.4.0
+Improvement,Major,WicketTester recreates session after setting attributes on it
+Bug,Major,Inside a html tag wicket:message's attribute cannot contain colon : in it  it uses the first colon and tokenizes the rest to be the resource_identifier. Need some way to use colon in the attribute name.
+Bug,Critical,Temporary files not deleting when multipart upload fails with IO error
+Bug,Major,java.lang.IllegalAccessError when changing AjaxEditableLabel
+Bug,Minor,assertComponentOnAjaxResponse does not work with WicketTester.clickLink
+Bug,Major,NPE in ListMultipleChoice.updateModel()
+Bug,Major,Script in RenderHead method of AjaxFormChoiceComponentUpdatingBehavior needs fixing
+Improvement,Minor,Allow to query component markup id without creating one
+Improvement,Minor,Report last focused element id on ajax request
+Improvement,Minor,Make Cookie-Detection possible without JavaScript
+Bug,Minor,WicketTester Doesn't Support setDefaultFormProcessing(false)
+Improvement,Minor,Improve SelectOptions: allow customization of created SelectOption objects
+Improvement,Minor,HybridUrlCodingStrategy should throw a PageExpiredException if a RequestListenerInterface is targeted on a non-existent page-id/version
+Improvement,Major,Make substitutePropertyExpressions() in Localizer overridable
+Bug,Major,AbstractTextComponent requires itself to be rendered before conversion happens
+Bug,Major,DateTimeField does not correct the timezone properly
+Bug,Minor,Javadoc error in QueryStringUrlCodingStrategy
+Bug,Major,AbstractPageableView has transient cachedItemCount  but doesn't set it to -1 on deserialization.
+Bug,Major,AjaxFormChoiceComponentUpdatingBehavior just updates the group 'grandchildren'
+Bug,Major,HybridUrlCodingStrategy and StatelessForm ( or StatelessLink ) results in invalid parameter encoding
+Improvement,Minor,BigDecimalConverter is not precise
+Bug,Major,AutoCompleteTextField's *scrollable* suggestion list disappeared when a mouse pointing to the scroll bar in IE6/7
+Bug,Major,Localizer doesn't honor style when caching property lookups
+Bug,Major,Having instance variables referencing pages causes memory leaks  StackOverflowErrors and ClassCastExceptions
+Improvement,Minor,Not all of SignInPanel is properly localized
+Bug,Critical,MarkupCache can 'leak' memory
+Bug,Minor,Input field with autocomplete behavior does not submit the form via enter key in some cases
+Bug,Minor,AbstractCalendar use the wrong resources path
+Bug,Major,MiniMap IndexOutOfBoundsException when empty
+Bug,Major,'charset=UTF-8' is appended to Content-Type of  DynamicWebResources
+Bug,Major,bug: setObject(null) called for excplicitly invisible fields in a non-visible enclosure
+Bug,Minor,AjaxSubmitLink doesn't always find enclosing form properly
+Bug,Major,Escaping DiskPageStore SessionFolder needed
+Bug,Major,FormComponent.error(ivalidationerror) error needs to show tried resource keys
+Bug,Major,StyleDateConverter does not use the components Locale when formatting.
+Bug,Critical,External JAvascript references not included
+Improvement,Trivial,CheckGroupSelector should implement ILabelProvider
+Improvement,Major,Allow to change charset in StringRequestTarget
+Improvement,Major,request to make RadioChoice getPrefix() and getSuffix() non-final
+Bug,Minor,AuthenticatedWebApplication uses deprecated constructor of AuthenticatedWebSession
+Improvement,Minor,make setAfter/BeforeDisabledLink return 'this' for chaining
+Improvement,Minor,Make the Source Code pages for examples stateless
+Bug,Major,WicketTester.startPage(Class) does not trigger WebRequestCycle.onBeginRequest
+Bug,Major,WicketTester.clickLink(String) only triggers the WebRequestCycle.onEndRequest
+Bug,Minor,Unable to use properties file when generating XML files
+Bug,Major,detach behavior
+Bug,Minor,nested forms inside a multipart form can't be submitted via ajax
+Bug,Major,StreamCorruptedException/PageStore/Serialization broken because ObjectOutputStream was not flushed
+Bug,Major,Problem with ajax form submission inside model window in IE and Safari
+Improvement,Major,Add downloadSources option to quickstart page
+Bug,Minor,BaseWicketTester.isComponentOnAjaxResponse() test is too strong
+Bug,Minor,Unusual ClassCastException (SimpleAttributeModifier to IBehaviorListener) processing onError.
+Improvement,Minor,Allow form to specify prefix for formcomponent names
+Bug,Trivial,DataTable.html does not validate (HTML 4.01/XHTML-Strict)
+Bug,Major,AjaxEditableMultiLineLabel + race condition /
+Bug,Critical,MarkupCache.putIntoCache doesn't behave correctly!!
+Bug,Major,AutoCompleteTextField - javascript error 'type mismatch' in line 227 in IE
+Bug,Critical,MarkupCache style/variation/locale support broken
+Bug,Major,Widen Generics for Lists/Iteratos
+Improvement,Major,WicketAjaxIndicatorAppender rename to AjaxIndicatorAppender
+Bug,Major,NPE in EnclosureResolver
+Bug,Major,addDomReadyEvent unreliable for Safari
+Improvement,Minor,make AutoCompleteBehavior's configuration more flexible
+Improvement,Major,Localizer API should be enhanced so that the cache implementation can be overwritten
+Improvement,Minor,Fix default localizations
+Bug,Major,Bookmarkable / Stateless form submit bug
+Bug,Major,Syntactic errors in the manifest OSGi headers
+Bug,Major,AbstractRequestTargetUrlCodingStrategy(line 174) throws confusing exception. It would be better redirect to 404-page in this case.
+Bug,Major,Memory leak in Localizer
+Bug,Minor,TimeFrame.equals(Object)  does not work as expected
+Bug,Major,Memory leak in DiskPageStore
+Bug,Major,HtmlHandler can't handle tags not requiring closed tags if the tag names are uppercase
+Bug,Minor,FileUploadField should return FileUpload as its converted input
+Bug,Major,wicket complains that ValueMap$NullSafeKeyComparator is not serializable
+Improvement,Trivial,Make functionality of ContextImage a behavior so that other types of components can utilize its functionality
+Bug,Major,GuiceComponentInjector mishandles static fields
+Bug,Minor,org.apache.wicket.util.lang.Objects.convertValue returns null if it cannot convert the value
+Improvement,Major,Allow configuration of the guice Stage for GuiceWebApplicationFactory
+Improvement,Minor,Improve Locale fallback in BundleStringResourceLoader
+Bug,Major,PackagedTextTemplate does not load resource from application resource stream locator
+Bug,Major,StringResourceModel may fail to format numbers using MessageFormat
+Bug,Minor,RfcCompliantEmailAddressValidator accepts whitespace and tab
+Bug,Major,Inconsisting Handling of id mismatch on wicket:container
+Bug,Minor,form action URLs in non-Wicket forms not rewritten
+Bug,Trivial,In html Include component isAbsolute method returns false for an absolute path in unix-like systems
+Bug,Major,Generify PropertyColumn
+Bug,Major,Overflow when setting Expires header in WebResource
+Bug,Major,NPE in feedback panel
+Bug,Major,'Invalid procedure call or argument' on AJAX call with IE7
+Bug,Major,WicketTester.clickLink and IndexedParamUrlCodingStrategy don't work together
+Bug,Major,JavascriptStripper ignores context when looking for multiline comments
+Bug,Major,Wicket 1.3.4 violates servlet standard  Glassfish spews warnings
+Bug,Minor,WicketRuntimeException when using wicket-auth-roles in a frameset
+Bug,Minor,Using an AjaxSubmitLink outside of a Form does not set the form property
+Improvement,Trivial,AbstractTree XHTML Strict validation
+Bug,Major,Unfound markup information is not entirely cached even in deployment mode
+Bug,Major,DateTimeField: small bugs
+Bug,Major,i18n package resource resolving depends too much on available locale
+Bug,Major,org.apache.wicket.util.string.Strings#stripJSessionId StringIndexOutOfBoundsException
+Bug,Major,WicketTester Cookie handling
+Improvement,Minor,FormComponents (and subclasses) should be able to provide their own resource bundles
+Bug,Minor,AjaxFallbackButton: inconsistent submit order
+Bug,Major,StatelessForm submitted to the wrong page
+Bug,Major,WebRequestCycleProcessor.resolveHomePageTarget for empty path with enforceMounts=true provokes 403 - 'Direct access not allowed for mounted targets'
+Bug,Major,RadioChoice disable certain choice bug
+Bug,Major,CheckBox incorrectly converts its model value when a custom Boolean converter is installed - again
+Bug,Minor,wicket:message sometimes broken
+Bug,Major,MarkupContainer.setEnabled() doesn't enable/disable child components
+Bug,Major,FileUpload.writeToTempFile uses field Id as filename - Windows doesn't support some characters
+Improvement,Minor,Add getter and setter for data provider to  AjaxFallbackDefaultDataTable
+Improvement,Trivial,Please make RequestLogger.log(RequestData  SessionData) protected
+Bug,Major,rc1 generics - LabelTree
+Bug,Major,Component.isVisibilityAllowed() not consulted before calling onBeforeRender()
+Bug,Major,AutoCompleteTextField - gives a type mismatch error on IE - version wicket-1.4-rc1
+Improvement,Minor,setters on FeedbackPanel do not return self  which prevents chaining
+Bug,Major,AbstractTree breaks on multiple tree model events in the same request
+Bug,Critical,DatePicker is not thread-safe
+Bug,Major,FormComponent cookie persistent issue
+Bug,Major,Empty File Upload field breaks validation of other fields in WicketTester.
+Bug,Major,FormTester (BaseWicketTester.executeAjaxEvent[component event]) submits also buttons that are hidden (isVisible=false) resulting in exception
+Bug,Major,Validation messages aren't cleared on success.
+Improvement,Major,Callback after detaching the page but before the PageMap lock is released
+Bug,Trivial,AutoComplete ShowListOnFocusGain not working
+Bug,Major,isVisible should not be called after detach
+Improvement,Minor,AutoComplete - KEY_TAB should work like KEY_ENTER
+Bug,Major,BaseWicketTester can't find the pageLink field using reflection when you override the PageLink class.
+Bug,Minor,FileUploadField.onDetach() causes IllegalStateException()
+Bug,Minor,HtmlProblemFinder documentation bug
+Bug,Major,beforeRender not called for behaviour added to ComponentTag
+Bug,Minor,KittenCaptchaPanel generates a Ajax callback image url which potentially breaks when used in a Portlet
+Bug,Major,AjaxPreprocessingCallDecorator calls the delegate decorator before itself (same behavior as AjaxPostprocessingCallDecorator)
+Bug,Major,Wizard buttons (previous / finish) aren't enabled when they should be
+Bug,Minor,SmartLinkLabel does not handle ~ in urls
+Bug,Minor,KittenCaptcha filter declared twice in wicket-examples web.xml
+Improvement,Major,Should the QuickStart archetype generated HomePage.html inlude the Wicket namespace in the html tag?
+Bug,Major,SerializationChecker issue
+Bug,Minor,Component Use Check always fails for visible components inside an invisible border body
+Bug,Minor,ApacheLicenceHeaderTests fail after projects' metadata created by Eclipse
+Bug,Minor,MultiFileUploadField.js can't find file input when serving pages as XHTML
+Improvement,Minor,PageLink is inherently non extendable
+Bug,Major,Misplaced IllegalStateExceptions when accessing stateful URL with different session
+Bug,Major,WicketTester fails to execute AjaxBehavior (onclick) due to old requestCycle (this bug is caused by bugfix WICKET-254)
+Bug,Major,Make Component. 'protected List getBehaviors(Class' public
+Improvement,Major,Polish translations for wicket-extensions properties
+Bug,Major,Javascript function Wicket.replaceAll is unbearably slow
+Improvement,Minor,StringValidator error messages erroneously mention input instead of label
+Bug,Major,Conversion Exception Thrown for Submitting A Page with Multiple Forms within A Border
+Bug,Major,FormComponentPanel should not add a name attribute
+Bug,Major,WicketSessionFilter doesn't takes into account WebApplication#getSessionAttributePrefix(WebRequest)
+Improvement,Minor,TabbedPanel accepts only ITab(s)
+Improvement,Trivial,application_nl.properties is outdated
+Bug,Minor,DropDownChoice NO_SELECTION_VALUE static field is final
+Bug,Major,Invalid nested form tag name when the form is not visible and setoutputmarkupplaceholdertag(true) has been called
+Bug,Minor,quickstart archetype adds invalid maven-compiler-plugin configuration
+Bug,Major,Form#getMaxSize() -> no custom format
+Bug,Trivial,onBeforeRender() set visibility of NavigationToolbar prevents it from showing again
+Bug,Minor,Fix API documentation for DataTable
+Improvement,Major,PatternValidator could allow reverse matches
+Improvement,Minor,less dynamic or missing toString( ) methods in Component class
+Bug,Major,WebApplication is not thread-safe
+Bug,Major,Form gets submitted using AjaxSubmitBehavior when sub-form has error's
+Bug,Major,WicketTester clickLink on submitLink fails with conversion error
+Improvement,Trivial,typo in ApplicationContextMock.putBean() exception message:  'alredy'
+Improvement,Major,Resource lookup/caching in OSGI environment spams errors for gone resources
+Bug,Major,YUI library used by Wicket Extensions - DateTime isn't IE8 compatible
+Improvement,Major,Nested directory support for ZipResourceStream
+Bug,Minor,java.sql.Timestamp converter bug
+Improvement,Major,Allow overriding of the Validator default MessageKey
+Bug,Minor,PageParameters always non-empty
+Improvement,Minor,IndexedHybridUrlCodingStrategy constructor should accept a redirectOnBookmarkableRequest boolan
+Bug,Trivial,The JavaDoc for IPageLink still holds a reference to PageLink which is deprecated
+Bug,Major,open/close div tags are rendered erroneously
+Bug,Minor,isComponent in BaseWicketTester contains possible nullpointer exception
+Bug,Major,Radio#onComponentTag uses Objects.equal instead of model comparator
+Improvement,Major,Remove IComponentBorder in favor of IBehavior
+Bug,Minor,When injecting more than one parm in a method  an ArrayIndexOutOfBoundsException is thrown
+Bug,Major,[devutils] Can only inspect pages in same pagemap as the inspector
+Bug,Major,ClassCastException in SqlDateConverter
+Bug,Major,FormTester.setValue should throw exception if not FormComponent
+Bug,Major,BaseWicketTester doesn't invoke Application.newAjaxRequestTarget for ajax request target
+Bug,Major,Form generates invalid html in appendDefaultButtonField
+Bug,Major,IChoiceRenderer generic type parameters are wrong throughout the AbstractChoice class hierarchy
+Bug,Minor,WicketTester does not accurately simulate scenario where entire page is added to AjaxRequestTarget
+Bug,Major,DebugBar throws an java.lang.ExceptionInInitializerError when Tomcat is restarted
+Improvement,Minor,Link: PopupSettings - overriding getPopupSettings has no effect
+Improvement,Trivial,Update hungarian localization
+Improvement,Major,CLONE -Make LoadableDetachableModel writable
+Bug,Minor,IModel parameters of StringResourceModel not getting detached
+Bug,Critical,OutOfMemoryError occur for memory leak on FeedbackPanel & FeedbackMessages
+Bug,Major,JavaDoc: Some JavDoc examples still refer to WicketServlet
+Bug,Major,Tag ''has a mismatched close tag at ''
+Bug,Major,MarkupComponentBorder fails to close stream (?)
+Bug,Major,KittenCaptcha example broken
+Bug,Major,DateField.newDateTextField's parameters should be generified
+Improvement,Minor,AjaxFormSubmitBehavior cannot be applied to Form
+Bug,Trivial,Quickstart for 1.4 uses 1.3 dtd in HomePage.html (with patch)
+Improvement,Minor,Widen type-constraint on TextTemplate.interpolate(Map variables)
+Improvement,Trivial,DefaultCssAutocompleteTextField should be renamed
+Bug,Major,DefaultDataTable hides NavigationToolbar once and forever
+Bug,Major,Not all 'domready' events are called when two wicket-event.js files are added to the page
+Bug,Minor,OnChangeAjaxBehavior + DatePicker do not work together
+Bug,Minor,Couldn't resolve model type of Model' for PasswordTextField
+Bug,Major,Ajax support for multipart forms broken in a nested form
+Bug,Major,RequestCycle urlFor ignores existing parameters when appending provided params
+Improvement,Major,Improve MixedParamUrlCodingStrategy  introduce Hybrid
+Improvement,Minor,Internal Spring beans should be ignored
+Improvement,Trivial,AjaxEditableLabel: newPanel - use Component instead of WebComponent for easier subclassing
+Bug,Major,Form.findForm(Component c) bug. When form is part of Border and form component like TextField is inside another Border   component cannot resolve its form.
+Improvement,Major,IE8: be more verbose if ajax refresh fails
+Bug,Minor,javadoc the CryptedUrlWebRequestCodingStrategy needs to be update/corrected to reflect the usage of session-id for encryption and hence URLs which were bookmarkable before will NOT remain bookmarkable.
+Improvement,Minor,Allow using a different FileItemFactory by extracting a method in MultipartServletWebRequest class
+Bug,Major,AjaxEditableChoiceLabel does not detach choices model
+Bug,Trivial,Button.onSubmit javadoc is misleading
+Bug,Major,Regression: 'Could not find child with id:  in the wicket:enclosure' for non-component tag
+Bug,Minor,NullPointerException in BehaviorRequestTarget.processEvents(BehaviorRequestTarget.java:96)
+Improvement,Minor,Upgrade to SLF4J version 1.5.8
+Bug,Minor,Use of Object instead of generic T in StringAutoCompleteRenderer
+Bug,Major,Easy fix suggestion: In BaseWicketTester 'IFormSubmitting' component should be the submitting component  not just a 'Button'
+Bug,Major,Class not found when using OSGI class loader
+Improvement,Minor,Behavior for accepted locales should fit the HTTP Specification
+Improvement,Minor,Improve consistency of ParseException error messages
+Bug,Minor,MetaDataKey does not meet hashCode() contract
+Bug,Major,WebRequestCodingStrategy assumes that a shared resource URL should always be relative to the Wicket handler
+Bug,Major,Unnecessary method calls in IDataProvider
+Bug,Major,Inheritance layout excludes XML header from output
+Improvement,Major,o.a.wicket.ng.** Resource related classes don't take 'variation' into account
+Improvement,Trivial,RepeatingView's Javadoc to include newChildId() and add()
+Bug,Major,Javadoc of Component#setOutputMarkupPlaceholderTag is wrong
+Improvement,Minor,ExternalLink to take IModel instead of IModel for label
+Improvement,Major,Allow subclasses of AuthenticatedWebSession to set 'signedIn' field
+Bug,Major,Ajax multipart fails for inner forms added via ajax
+Bug,Major,Some components still escape non-ASCII symbols by default
+Bug,Major,EnumChoiceRenderer misbehaves with anonymous enum classes
+Bug,Minor,DataTable generates two
+Bug,Major,Ajax buttons inside ModalWindows don't submit properly
+Bug,Major,MockHttpServletResponse doesn't delete cookies
+Bug,Major,Sucessfull login on SignInPanel causes HomePage to become stateful
+Bug,Major,Form.isMultipart() doesn't check FormComponent.isMultipart() on nested components
+Bug,Major,More pages missing xml prolog
+Bug,Major,Resources aren't gziped by default
+Bug,Major,Consistently create body for short tags.
+Improvement,Trivial,Make GoAndClearFilter.defaultClearModel and GoFilter.defaultGoModel internationalizable
+Bug,Major,WicketTester javadocs are referring in many places to a component's path but it's not documented anywhere
+Improvement,Major,Ability to add CSS style to table body in DataTable
+Bug,Minor,Multipart forms fails on Chrome during Ajax submit
+Bug,Major,Wickettester executeAllTimerBehaviors executes stopped behaviors too
+Bug,Critical,Enclosure causes Nullpointer exception
+Bug,Minor,CryptedUrlWebRequestCodingStrategy fails in form with method='get'
+Bug,Minor,update PropertyColumn Javadoc
+Bug,Minor,FormComponent.MessageSource.getMessage(String) and getValidatorKeyPrefix()
+Improvement,Major,Extract lazy AbstractListDataProvider out of ListDataProvider.
+Improvement,Minor,Panel throws MarkupException without passing MarkupStream
+Bug,Major,AjaxFormChoiceComponentUpdatingBehavior cannot find the choice
+Improvement,Major,AjaxPagingNavigator Link factories should return AbstractLink
+Bug,Minor,Javascript in Form.registerJavascriptNamespaces() fails in Firefox 3.5.8
+Improvement,Major,InjectorHolder.getInjector().inject(this) doesn't work with wicket-guice
+Bug,Major,DatePicker Calendar: wrong year format when 4 digits are used (yyyy)  e.g. 2010 --> 0010
+Improvement,Minor,Enhancing RadioChoice input items with individual title and css class attributes
+Improvement,Minor,Set Application ThreadLocal in WicketSessionFilter
+Improvement,Major,Submitting a form with Ajax in WicketTester does not check if form is multiPart
+Improvement,Minor,ListMultipleChoice's Constructors Should Accept IModel>
+Bug,Major,ListMultipleChoice: updateModel method looses the value submitted from the select control
+Bug,Major,Textarea ignores first line in case of blank line
+Improvement,Minor,ChoiceGroup's Constructor Should Accept IModel>
+Improvement,Minor,More 'IModel<? extends Collection<' Fixes
+Improvement,Minor,FileUpload#writeTo copies the stream / a possible rename would be faster
+Bug,Minor,Palette nested in a ListView results in a NPE when an error feedback is logged when submitting form
+Bug,Trivial,Wrong name for swiss Application.properties
+Bug,Minor,getConvertedInput() returns null and selectedValues.addAll tries adding it
+Improvement,Minor,RangeValidator should use getMinimum and getMaximum
+Bug,Minor,Typo in IllegalStateException when there are multiple beans of the same type
+Bug,Trivial,Javadoc for AbortWithHttpStatusException class constructor says 'true' when it should say 'false'
+Bug,Major,WicketSessionFilter still broken: you can only locate or create sessions in the context of a request cycle
+Improvement,Major,Use Apache Nexus Maven Repository instead of self hosted maven repository on wicketstuff.org
+Bug,Minor,inconsistency in property expression when using . for self reference
+Bug,Major,Modal window titles need to be marked up as such  for accessibility
+Bug,Major,Form.MULTIPART_HINT is not cleared correctly with nested forms
+Improvement,Major,AbstractPropertyModel getObjectClass don't consider nested IObjectClassAwareModel targets
+Bug,Major,Application addRenderHeadListener causing error
+Bug,Minor,Markup for AjaxLazyLoadPanel's is not valid HTML
+Improvement,Minor,Exposes Application DebugSettings related functionality for JMX
+Improvement,Major,Remove HeaderContributor and friends in favor of IHeaderContributor
+Improvement,Major,Make Component and IBehavior directly implement IHeaderContributor to make things simpler
+Bug,Major,ClassCastException when requesting for non-page class
+Bug,Major,DateTime bug with a date pattern without separator
+Improvement,Minor,Form.delegateSubmit: invoke onSubmit() of nested Forms before onSubmit() of enclosing Form
+Improvement,Major,Add timestamp part to resource filenames for better caching
+Bug,Major,Return the possibility to create custom WebRequest/WebResponse per Application
+Bug,Major,WicketServlet failes to initialise with NullPointerException in WebXmlFile.getFilterPath()
+Bug,Major,WicketTester does not preserve the form component values when submitting with AjaxSubmitLink
+Bug,Major,The new mappers ignore single query parameter with empty value
+Bug,Minor,AJAX file upload fails in IE8 due to Wicket.Ajax.handleMultipart() sniffing wicket:body tags as an HTML body element when running Wicket in development mode
+Bug,Major,Broken AbstarctCalendar dependency
+Bug,Major,isTemporary behavior and ajax behavior together crashes with WicketRuntimeException: Couldn't find component behavior.
+Bug,Major,No exceptionpage on exceptions during ajax
+Bug,Minor,RequestCycle logs something  when its intended for servlet container
+Improvement,Minor,Add IRequestListener interface to allow easier framework extension points
+Bug,Minor,Adding node to a collapsed tree node should not cause it to expand
+Bug,Major,Commons logging must die
+Bug,Major,No Exception page are rendered when using ajax
+Bug,Critical,Dropped support for Servlet 2.5 inadvertently
+Improvement,Trivial,test for undefined in the  same manner throughtout the code.
+Bug,Major,Can not create cookies
+Improvement,Major,support building wicket offline by resolving DTD references locally
+Bug,Major,executeAjaxEvent in WicketTester works although Component is not enabled
+Improvement,Minor,Strange IResourceStream type hierarchy
+Improvement,Minor,Parametrize IFilterStateLocator
+Improvement,Trivial,Chunk.slice seq.subList(pos  pos) returns empty list so why bother
+Bug,Major,Correctness of tests is order dependent  ThreadContext.detach not always called
+Bug,Major,IResourceSettings.setUseTimestampOnResources(true) and performance
+Bug,Major,Form  containing FileUploadField and UploadProgressBar throws an exception when removed from the parent
+Bug,Major,Localizer.substitutePropertyExpressions() is called twice when Localizer.getString() is called
+Bug,Major,WicketTester can't create new sessions
+Bug,Major,AutoCompleteTextField does not work in an iframe under IE 6  7 or 8
+Bug,Trivial,DatesPage test LocaleDropDownChoice getObject calls getSelectedLocale()  does not use result
+Bug,Major,AbstractMarkupParser doesn't remove Comments correctly
+Improvement,Major,Complete documentation of Component Lifecycle
+Bug,Trivial,In extensons CaptchaImageResource render method  while loop does not loop
+Bug,Major,for stateless pages wicket complains with 'The Buffered response should be handled by BufferedResponseRequestHandler'
+Improvement,Trivial,AnnotationsRoleAuthorizationStrategy isInstantiationAuthorized package==false  class==true returns true
+Bug,Major,NPE with nested property models
+Improvement,Major,Add restartResponseAtSignInPage() Method to AuthenticatedWebApplication
+Bug,Major,ModalWindow title not visible
+Bug,Major,IResponseFilter doesn't work in 1.5
+Improvement,Major,DropDownChoice:  'data' or 'choices?'
+Improvement,Minor,Please use lists instead of arrays
+Improvement,Minor,Url should accept null parameters list
+Bug,Major,unable to add nodes to an empty rootless Tree (e.g. LinkTree)
+Improvement,Major,Multiple language support for UploadProgressBar
+Bug,Major,AjaxEditableMultilineLabel generates invalid HTML
+Bug,Major,Ajax submit  link does not show busy indicator under IE
+Bug,Minor,Patches to correct some Findbugs warnings in core  request and util
+Bug,Minor,TreeTable should call attachUpdate javascript on domready event.
+Bug,Major,Url to the home page is not correct when the current base url has only one segment
+Improvement,Major,Upgrade jetty version to 7.2
+Improvement,Minor,Add class for span with text in wicket-extensions/treetable
+Improvement,Minor,'wicket' Maven module brings the other three wicket modules as transitive dependencies
+Improvement,Minor,Improve SerializableChecker message
+Bug,Major,Validation Error on AjaxEditableLabel causes ajax calls in loop on Chrome Browser
+Bug,Minor,1.5-RC1 sources seem to be missing in Maven repository
+Improvement,Major,Extend multiple file handling to IMultipartWebRequest
+Bug,Major,HttpsMapper and BookmarkablePageLink
+Improvement,Trivial,Comment: org.apache.wicket.util.upload.RequestContext interfsace to interface
+Bug,Major,Incorrect casts to AuthenticatedWebSession in AuthenticatedWebApplication class
+Improvement,Trivial,org.apache.wicket.request.mapper.parameter.PageParameters Comment
+Improvement,Minor,Add wicket version to initial page in wicket-examples
+Bug,Major,RememberMe doesn't remember me
+Bug,Major,1.5 equivalant of protected void WebRequestCycle.onRequestTargetSet(IRequestTarget requestTarget) is mising from AbstractRequestCycleListener
+Improvement,Trivial,org.apache.wicket.util.collection.MultiMap addValue
+Bug,Minor,javascript with a less than character ('<') fails to execute when added through a header contribution in ajax response
+Bug,Minor,org.apache.wicket.markup.html.form.AbstractChoice renderer cast in method appendOptionHtml
+Bug,Trivial,org.apache.wicket.util.collections.MostRecentlyUsedMap getRemovedValue method returns Object not V
+Bug,Minor,ChangeHandler fires in IE on POS1 and END
+Bug,Major,Value exchange in a wicket:message throws an exception
+Improvement,Minor,Add methods to IBehavior to listen for configuration events
+Improvement,Trivial,PackagedTextTemplate -> PackageTextTemplate
+Improvement,Minor,Update jetty to 7.3 and spring to 2.5.6.SEC02
+Improvement,Trivial,Greek (el) Application.properties
+Bug,Major,BaseWicketTester#isInvisible(String path)
+Bug,Major,Can't write session to disk with tomcat : Servlet is destroyed before serialization
+Improvement,Major,Allow for dynamic prefix and suffixes in CheckBoxMultipleChoice
+Bug,Major,NullPointerException in PersistentPageManager's page cache
+Bug,Minor,Link tries to construct the URL when the link is disabled
+Improvement,Trivial,Modify o.a.w.Component.send method signature to exactly match the one defined in superinterface
+Bug,Major,ResourceMapper doesn't work: mapHandler() always returns null
+Bug,Minor,HttpsMapper triggers rendering of incorrect absolute callback url for Link
+Bug,Major,SHOW_NO_EXCEPTION_PAGE responding with HTTP status 500 is overwritten by redirect
+Improvement,Major,Proposal: merge upload progress monitoring functionality into wicket-core
+Improvement,Major,Make AjaxLink's URL more configurable
+Improvement,Major,Add possibility to test Resources/ResourceReferences with WicketTester
+Improvement,Minor,Make Select component generic
+Bug,Major,Using web.xml  to render error pages via Wicket yields undesired behavior in Wicket 1.5
+Improvement,Minor,Allow AttributeAppender to also prepend values
+Improvement,Major,Reset the busy flag in Wicket.Channel if the execution of the callback fails for some reason
+Improvement,Minor,Constructor of org.apache.wicket.PageReference should be public
+Bug,Major,RequestLogger doesn't dump its collected data at the end of the request
+Improvement,Minor,Expose active requests via JMX
+Bug,Major,Autolink (AutolinkBookmarkablePageLink) already rendered problem
+Bug,Major,onInitialize() is not called before StatelessForm.onSubmit()
+Bug,Minor,Popup close link not working in wicket examples linkomatic page
+Improvement,Trivial,Add a link to the main page of Wicket Examples in the 'stateless' example page
+Bug,Minor,CryptoMapper ignores the IProvider argument
+Improvement,Trivial,Let AbstractResourceStreamWriter implement empty getContentType()
+Bug,Major,AppendingStringBuffer.append(StringBuilder  int  int) interprets length as stopIndex
+Bug,Major,NumberTextField and RangeTextField should always render/parse its value with English locale
+Bug,Major,DatePicker issues with locale medium date format
+Bug,Minor,Ajax header-contribution omits IE conditional comments
+Bug,Trivial,ContainerFeedbackMessageFilter should use Objects.equal for equality checking
+Bug,Major,Using render strategy ONE_PASS_RENDER fails for Ajax requests
+Bug,Trivial,Application_pt.properties
+Bug,Major,Wicket do not test the 'buffer response' property in IRequestCycleSettings when creating the WebResponse in WebApplication
+Bug,Major,Tree 1.4 to 1.5 migration issue warning
+Improvement,Major,Unable to override final method isLinkEnable of class AbstractLink
+Bug,Trivial,BookmarkablePageLink :: setParameter int versions missing
+Improvement,Trivial,MarkupResourceStream should use debug instead of info to log non-standard namespace
+Bug,Major,UrlRenderer should not always add '.' to url
+Bug,Minor,parentFolderPlaceholder default value in Settings implementation is inconsistent with the javadoc
+Improvement,Minor,Add converter for Calendar class
+Improvement,Minor,IHeaderResponse.renderJavaScriptReference does not support the 'defer' attribute
+Bug,Major,element in Ajax requests is executed twice in Opera 11
+Bug,Major,Usage of JavaScriptCompressor by resources other than PackageTextTemplates is lost!
+Improvement,Minor,Improve WebClientInfo logic to extract the exact browser version
+Improvement,Major,Make Objects.convertValue() generic
+Improvement,Major,Split IHeaderContributor into IHeaderContributor and IComponentAwareHeaderContributor to make implementation cleaner
+Bug,Major,WebPage cannot find the head container if TransparentWebMarkupContainer is associated with
+Bug,Major,Session is invalidated more than once because Session.sessionInvalidated is not reset
+Bug,Major,WicketTester.startComponent(Class  Markup) doesn't deliver the contributed response to the headers
+Improvement,Trivial,Component.getAjaxRegionMarkupId loops over all behaviors even if markupId is found
+Improvement,Major,Please improve ErrorMessage for WicketTester#assertRenderedPage
+Bug,Major,wickettag contents aren't skipped when trying to find markup in 1.5
+Bug,Major,MultiFileUploadField internationalisation does not work
+Improvement,Major,Allow filtering and grouping of resources in the
+Bug,Major,extremely slow performance in development mode
+Bug,Major,npe in StoredResponsesMap
+Bug,Major,wicket-datetime datepicker fails to display calendar with js error in calendar.js:3225 in IE8
+Bug,Major,Scalability issue with PageAccessSynchronizer
+Improvement,Major,Add RestartResponseException constructors to specify a RedirectPolicy
+Bug,Major,throw new RestartResponseAtInterceptPageException is not serializable
+Improvement,Major,Touch the page only when it is just read from the page store
+Bug,Major,unexpected order of head contributions
+Bug,Trivial,html file are not encoding to utf-8
+Bug,Minor,Warning text outdated in InheritedMarkupMarkupLoader
+Improvement,Major,Differentiate Google Chrome from Safari in wicket-xyz.js
+Improvement,Major,CheckGroup's model update should be aligned with ListMultipleChoice
+Improvement,Major,wicket FileChannelPool has scalability issues
+Bug,Major,ModalWindow shows 'Page Expired'
+Improvement,Major,Simplify BrowserInfoPage by using InterceptData
+Improvement,Major,Remove duplicated resource resolution logic
+Improvement,Major,Prevent ResourceNameIterator from iterate the same name twice
+Bug,Major,Localizer.get() should be static
+Improvement,Minor,LinkType inner class is duplicated
+Bug,Major,some jmx values are not working since they require wickets filter environment (application  session  etc.)
+Bug,Major,RequestLogger doesn't log incoming event and outgoing page
+Bug,Major,WicketTester does not follow absolute redirects
+Bug,Major,In wicket 1.5 urlFor returns incorrect string for package mounted pages
+Bug,Major,The wicket:enclosure attribute doesn't work properly
+Bug,Major,in environments without reliable timestamps (e.g. some clusters) resource caching is useless
+Bug,Major,Modal window won't show in internet explorer document mode 8
+Improvement,Minor,make PropertiesFactory easier to use outside of wicket scope
+Bug,Trivial,StoredResponsesMapTest Random.nextInt takes only positive integer arguments  not 0
+Bug,Minor,AbstractTransformerBehavior sets wrong namespace
+Bug,Major,URIs should be used instead of URLs as Set or Map keys.
+Improvement,Major,Allow validators to detach by mixing in IDetachable
+Bug,Major,Reference to a non-existing images causes IllegalStateException 'ResourceResponse#setWriteCallback() must be set.'
+Bug,Major,setResponsePage in AjaxLink goes always to localhost:8080 instead to the right host and port
+Bug,Minor,Problems concerning IE9 with 'ActiveX Filtering' enabled
+Bug,Major,in development mode Wicket stops picking up markup changes
+Bug,Major,Modal window does not show the right page
+Bug,Major,renderCSSReference doesn't work with mountPage('/')
+Bug,Major,PageParameters#set not follow INamedParameters#set behavior
+Bug,Major,Encoding problem with POSTing a form with Ajax
+Bug,Major,Encoding problem with JavaScriptRefrences
+Bug,Major,SCRIPT tags in Ajax-Response are not evaluated in Chrome
+Improvement,Trivial,FilterForm#enableFocusTracking(FormComponent) method uses ComponentTag#put(String CharSequence) with key='id' which gives a warning in Wicket 1.5
+Bug,Major,NPE with RequestLogger enabled and Https
+Bug,Major,NPE when requesting http://example.com/app/wicket/resource/org.apache.wicket.extensions.ajax.markup.html.modal.ModalWindow/res/
+Bug,Major,CryptoMapper does not correctly decrypt URLs for the home page
+Improvement,Trivial,Improve AJAX FunctionsExecutor robustness with try/catch
+Improvement,Major,IResourceCachingStrategy is too much bound to PackageResource  make it more general
+Bug,Major,the wrong option in select components is rendered (Combination of reusing panels and defaultFormProcessing==false)
+Bug,Major,A (stateless) page immediately disappears after the first render
+Bug,Major,TextTemplateResourceReference should be registered into the ResourceReferenceRegistry because otherwise the next request is served by PackageResourceReference
+Bug,Major,Modal Window is not shown in IE8
+Bug,Minor,Potential StackOverflowError in SerializableChecker
+Improvement,Major,Make AbstractMapper.getPlaceholder and similar methods as public methods
+Bug,Major,SignInPanel prevents the page being Stateless when signing in with the 'rember me' facility.
+Bug,Major,Page Lock on Browser Back Button after Page Expiry
+Bug,Major,SignInPanel may lead to infinite redirects if there is rememberMe cookie with outdated data
+Bug,Major,Wicket 1.5 Form Post Action and Link Get discard Page Class Information
+Bug,Major,MarkupContainer.toString(true) fails with MarkupNotFoundException if the call is made in the component constructor
+Improvement,Major,Please Allow AjaxLink to use getChannelName
+Bug,Major,ComponentStringResourceLoader must not include the index of repeater items in resource lookup but still resolve properties to them
+Bug,Trivial,Fix Javadoc in SimpleAttributeModifier.
+Bug,Major,AbstractTree#updateTree(AjaxRequestTarget target) is invoked even when request is non-ajax
+Bug,Major,Memory leakage in browser with AbstractAjaxTimerBehavior
+Bug,Minor,LocaleFirstMapper does not strip Locale from url in getCompatibilityScore()
+Improvement,Major,Register devutils only if IDebugSettings#isDevelopmentUtilitiesEnabled() is true
+Improvement,Major,Assume that form.onsubmit() without explicit return value means that submit should proceed
+Bug,Minor,AjaxIndicatorAppender removes itself immediately when added via ajax
+Bug,Major,Wicket quickstart advertise HTTPS but it doesn't work when started with jetty:run
+Bug,Major,INamedParameters.getAllNamed() returns a list of NamedPairs defined as inner class of PageParameters
+Bug,Minor,Error detaching RequestCycle listener after serialization failure
+Improvement,Minor,Provide new HybridPageParametersEncoder class for backwards compatibility with pre 1.5.x Hybrid URL encoding
+Improvement,Minor,Make Application#init() run after IInitializers to allow the application to override any settings configured by initializers
+Bug,Minor,SmartLinkLabel doesn't recognize already tagged links
+Bug,Major,addDomReadyEvent broken for IE
+Bug,Major,Automatic Image Linking broken for images in base packages
+Bug,Critical,Localizer.getCacheKey() generating redundant keys for same values causing memory leak.
+Bug,Major,Automatic Linking in base page broken
+Bug,Major,NPE in CachingResourceStreamLocator due to the search in parent's markup in Autolink code
+Improvement,Minor,Add localization resources for DataTable components
+Bug,Major,AbstractResourceAggregatingHeaderResponse does not order javascript properly
+Bug,Major,Error page resource relative urls are wrong
+Improvement,Major,Add additional constructor to DownloadLink that accepts the filename in a Model
+Bug,Minor,Enclosure can't find a child with deeper path in TransparentWebMarkupContainer
+Bug,Major,NullPointerException in JsonRequestLogger when logging resource requests
+Bug,Major,AppendingStringBuffer.insert  infinite loop
+Bug,Major,ListenerInterfaceRequestHandler should not assume existence of a page
+Improvement,Major,RequestHandlerStack: Unnecessary Stacktrace in log on PageExpiredException
+Improvement,Major,Do not add anti cache parameter to the images used for the Tree's junction links
+Improvement,Trivial,update/improve javadocs of SpringComponentInjector and GuiceComponentInjector.
+Improvement,Trivial,Allow passing custom AjaxChannel in AjaxLazyLoadPanel
+Improvement,Minor,Add CachingResourceVersion#invalidate(IStaticCacheableResource) to manually purge cache entries
+Bug,Major,dropping ajax request causes componentnotfoundexception
+Improvement,Trivial,add wicket-jar_es.properties for spanish localization
+Bug,Minor,AbstractResourceAggregatingHeaderResponse forgets some information about references
+Improvement,Minor,Upgrade pom reference for joda-time from 1.6.2 to 2.0
+Bug,Minor,DebugBar displays stacktrace with FeedbackPanels
+Bug,Major,UrlRenderer renders invalid relative URLs if first segment contains colon
+Bug,Major,Wicket autocomplete keeps working on the replaced element when somehow the element is replaced by another ajax request when it is shown.
+Bug,Major,Thread Test Uses Sun Proprietary API
+Improvement,Major,Quality of ThumbnailImageResource
+Improvement,Major,Remove superfluous call to ResourceReference#getResource() in ResourceMapper when trying to map the resource URL
+Improvement,Major,Rendering of resources in the header with dependency resolving and support for bundles
+Bug,Major,Select component loses it's value
+Bug,Major,Performance regression in Component.configure() in 1.5
+Bug,Major,CheckGroupSelector 'Select all' behavior broken when the CheckGroup contains a single check box.
+Improvement,Major,PageSavingThread.stop() blocks forever
+Bug,Major,ListView causes page ID increment
+Bug,Major,MockHttpServletResponse.addCookie(Cookie) adds duplicate cookies
+Bug,Major,FormTester doesn't handle nested forms correctly
+Bug,Major,StringValueConversionException for correct situation
+Bug,Minor,Logic or Exception Message is incorrect in ModalWindow.setCookieName
+Improvement,Major,Wicket autocomplete doesn't take the scrollbar into account when calculating the width
+Improvement,Major,Make AjaxRequestTarget an interface and move the impl to AjaxRequestHandler
+Bug,Major,Rerendering a page with WicketTester after you loose permission does not give access-denied
+Improvement,Major,Implement onValidateModelObjects() and beforeUpdateFormComponentModels() for nested forms
+Improvement,Major,Extract the code that creates the XML for Ajax responses out of AjaxRequestHandler
+Bug,Major,BufferedWebResponse fails to add/clear cookie in redirect
+Bug,Major,Markup Inheritance & getVariation(): markup loading (and merging) order depends on whether the super constructor adds components or not.
+Bug,Major,Duplicate html ID for generated divs in modal.js
+Bug,Major,Form components' name/value are encoded in stateless form's action url
+Improvement,Trivial,Useless concatenation with empty string in DefaultAuthenticationStrategy.save
+Improvement,Trivial,Two WicketSerializableException classes
+Bug,Major,datatime extension's calendar-min.js appears to be corrupted / out of sync
+Bug,Minor,org.apache.wicket.validation.ValidatorAdapter class causes problem with validator properties to be loaded
+Improvement,Minor,Add maxlength to  wicket-datetime hours  minutes input fields
+Bug,Critical,StringIndexOutOfBoundsException when forwarding requests
+Improvement,Trivial,ChoiceFilteredPropertyColumn with setNullValid to true
+Bug,Major,CheckGroup model in AjaxFormChoiceComponentUpdatingBehavior onUpdate contains only last checked item
+Bug,Minor,Unversioned pages don't get touched when created and cannot be found by ID later
+Bug,Major,Wicket 1.5 rewrites template content where it should not
+Bug,Minor,executeAllTimerBehaviors does not find all timer behaviours
+Improvement,Trivial,Replace all String.split(char) with Wicket's Strings.split(String  char) for better performance
+Bug,Major,PageProvider should create a new Page instance if PageParameters are changed  even if a stored page exists.
+Bug,Major,processScript in Wicket.Head.Contributor doesn't remove CDATA - eval fails in IE
+Improvement,Major,Change IValidationError API to work with java.io.Serializable as other methods (info  error  success  ...) in Component and Session
+Bug,Major,Repaint the initial state of the page if the page is expired  a new one is freshly created and the requested component is not available
+Improvement,Major,setTextEncoding on JavascriptResourceReferences/CssResourceReferences
+Bug,Major,Autocomplete IE javascript error: 'target' is null or not an object
+Improvement,Major,Use an external host for the static javascript files (specially JQuery)
+Improvement,Minor,Stateful components which are invisible force page to be stateful
+Improvement,Minor,Generic registry of javascript/css resource references
+Bug,Major,Inline Enclosure needs to check isVisibleInHierarchy  not only isVisible
+Improvement,Major,ModificationWatcher easier for extending
+Improvement,Major,Add setHeader() to MockHttpServletRequest to be able to override default headers
+Bug,Major,Component#setDefaultModel() should call #modelChanging()
+Bug,Major,wicket:link component ids get too long
+Bug,Major,TagUtils uses wrong separator in its #copyAttributes()
+Improvement,Minor,Give StringValue toEnum methods
+Bug,Major,TextTemplate in RenderHead() on component doesn't Re-Render for every page
+Bug,Major,HtmlHandler wrongly handles tags not requiring closed tags if the markup does not have 'top' level tag
+Bug,Major,NumberTextField renders its value in unsupported number format
+Bug,Major,Make it easier to produce a page with links with absolute urls
+Bug,Major,AjaxLazyLoadPanel not replaced within AjaxTabbedPanel
+Bug,Major,AbstractTextComponent not escaping html data by default therefore user text is not redisplayed correctly
+Bug,Major,Fix missing in 1.4.19  was fixed in 1.3.3:  Discrepancy between Button implementation of getForm and the code in Form.findSubmittingButton()
+Bug,Major,wicktTester.getLastResponseAsString() returns wrong result after starting a Component
+Bug,Major,Spaces in path cause ModifcationWatcher to fail
+Bug,Major,UrlRenderer produces wrong full urls when the passed parameter is not absolute (as Url understands 'absolute')
+Bug,Major,Wicket example 'forminput' is broken due to bad url for IOnChangeListener
+Improvement,Minor,OpenCloseTagExpander should include i tag
+Improvement,Major,Recorder#getSelectedChoices() can be very slow under certain circumstances
+Bug,Major,AjaxEditableLabel not selecting text or moving cursor on Firefox 11.0 or Safari 5.0.5
+Bug,Major,Final methods on ResourceNameIterator prevent full customization of IResourceStreamLocator
+Improvement,Major,Add Generics to TabbedPanel:
+Bug,Major,AbstractDefaultAjaxBehavior.getCallbackFunctionBody uses jQuery.extend
+Bug,Major,Unencoded ampersands in CSS-/Javascript-Reference
+Bug,Major,Component#getMarkupId() generates id that gets hidden by AdBlock
+Bug,Major,Wicket 1.5.6 duplicates segments in absolute URLs
+Bug,Major,Resource filtering breaks the calculation of rendered resources
+Bug,Minor,Shared Behavior's renderHead method called only for one component  not for all of them
+Bug,Major,ThreadContext does not properly remove the ThreadLocal from the current thread
+Bug,Major,NumberTextField does not have default minimum and maximum
+Bug,Major,URLRenderer renderFullUrl
+Bug,Minor,Closing  tag is incorrectly setup as autocomponent
+Bug,Major,WicketAjaxDebug.logError used in Wicket.Head.addJavascript - JS error when wicket-ajax-debug.js not loaded
+Bug,Minor,DataTable toolbars do not handle dynamically changing columns in the table
+Improvement,Minor,Vars in ValidationErrors should be properly converted
+Bug,Major,ResourceStreamLocator vs ResourceFinder
+Improvement,Major,Optimize PageExpiredException to not load its stacktrace
+Bug,Major,WicketFilter unify the filterPath
+Improvement,Trivial,Change Url#parse() methods to accept CharSequence instead of String
+Improvement,Minor,AbstractLink does not call getBody to get its body
+Bug,Major,ResourceStreamResource should use #getResourceStream() instead of directly using the 'stream' field
+Bug,Minor,MultiFileUploadField after selecting a file does not hide properly input field
+Improvement,Minor,Using setResponsePage() before page rendering should skip the rendering of the page
+Improvement,Major,Make it possible to use JsonFunction as a AjaxCallListener's handler
+Bug,Minor,AjaxFallbackLink and log a warning when there are several ajax event behaviors on the same event
+Bug,Minor,Atmosphere Modul not working on first page after Jetty restart
+Bug,Major,encodeURL broken on Tomcat 7.0.28
+Improvement,Major,Upgrade Atmosphere to 1.0-beta
+Improvement,Major,Add an additional Ajax call listener point - before the call
+Bug,Major,LazyInitProxyFactory uses wrong ClassLoader in OSGi environment
+Improvement,Trivial,ResourceModel once assigned should not re-assign
+Bug,Major,XmlPullParser doesn't parse correctly attributes with complex namespace
+Bug,Major,AutoLinkResolver looks in the wrong scope
+Bug,Major,tag broken in certain situations when  reference added in page header section
+Bug,Minor,Unescaped html in autocomplete
+Improvement,Minor,Allow using custom CSS classes for the selected and last TabbedPanel tabs
+Bug,Minor,StringValidator.exactLength has wrong variable in ErrorMessage
+Bug,Major,tracking id retrieved in AtmosphereBehavior#onRequest() is always 0
+Bug,Major,ThreadContext should be detached before each subscribed page gets notified
+Improvement,Major,Filter component does not clear filter fields
+Improvement,Minor,TimeField not able to work with a java.sql.Time
+Bug,Major,CssPackageResource doesn't work if the extension isn't css
+Bug,Major,KittenCaptchaPanel is broken
+Bug,Major,SerializingObjectSizeOfStrategy do not use framework serializer
+Bug,Major,Resource bundles are not resolved on PriorityHeaderItems
+Bug,Major,''NEW VALUE' is not a valid Serializable' error during ajax form submission
+Bug,Major,FormComponents remain invalid forever if there is no feedback panel
+Bug,Major,DOM ids change of the input fields of FilterToolbar
+Bug,Major,JavaScriptStripper fails with single line comments
+Bug,Major,Clicking on Label of Radio doesn't update component with Ajax update
+Bug,Major,Wicket 6: modal windows in Safari are always in drag or resize mode
+Bug,Major,ComponentFeedbackPanel broken under Wicket 6.0.0 when RenderStrategy.REDIRECT_TO_RENDER
+Bug,Major,PageParameters#mergeWith may loose values of the 'other' PP
+Bug,Major,Using both MountedMapper and CryptoMapper causes warning
+Bug,Major,DOM ids change of the input fields of FilterToolbar
+Bug,Critical,URL rendering regression
+Bug,Minor,RfcCompliantEmailAddressValidator error message not defined
+Improvement,Minor,Wicket unit tests rely on hashmap iteration order
+Bug,Trivial,DatePickerTest fails because of java inconsistensy on localizing March german shortname Mrz vs Mr
+Bug,Minor,UrlDecoder should log a message when invalid input is provided
+Improvement,Major,Add #setStatus(int) in AbstractResource.ResourceResponse
+Bug,Major,AjaxEditableChoiceLabel won't close select onblur
+Bug,Minor,CLONE - BaseWicketTester.clickLink() does not work with a ResourceLink with ResourceReference
+Improvement,Major,Make SerializationChecker easier for extending so custom checks can be added to it
+Bug,Major,Modal panel mouse pointer in resize style for MSIE8 and MSIE9
+Bug,Major,Return error code 400 when an Ajax request has no base url set in header/request parameters.
+Bug,Major,AbstractResourceReferenceMapper doesn't escape separators in style/variation names
+Bug,Major,Integer overflow in AbstractToolbar
+Improvement,Minor,Making MultiFileUploadField use HTML5 multiple attr & remove confusing fakepath
+Bug,Minor,Page parameters not working with CryptoMapper
+Bug,Major,Wicket-Atmosphere track message length
+Improvement,Minor,CheckBoxMultipleChoice should implement getAdditionalAttributes as RadioChoice
+Bug,Major,Rendering of feedback messages fails with DebugBar in page
+Bug,Minor,ValidationError messages for NumberTextFields with minimum/maximum are always English
+Improvement,Major,Use a Set to keep the supported wicket elements in WicketTagIdentifier
+Bug,Minor,UrlRenderer.renderRelativeUrl misbehavior if the filterPath is composed.
+Improvement,Minor,AjaxPagingNaviagtionLink should provide updateAjaxAttributes like AjaxLink
+Improvement,Major,ConcatBundleResource should use the respective ITextResourceCompressor
+Improvement,Minor,Use a behavior that modifies AbstractLink's markup when disabled
+Improvement,Minor,PagingNavigation: possible to call setStartIndex() earlier than onBeforeRender?
+Bug,Minor,Form#visitFormComponents can cause ClassCastException
+Bug,Trivial,Wrong charset or screwed up characters in Norwegian properties-file
+Improvement,Minor,ModalWindow overwrites window.onbeforeunload
+Bug,Minor,org.apache.wicket.util.resource.Patht#find fails on Windows
+Bug,Major,Rendered Url on root context with cookies disabled might result in double slash //
+Bug,Major,CryptoMapper ignores original queryString parameters
+Improvement,Major,Websocket broadcast support does not work with OSGi
+Bug,Major,Header can not be set from IRequestCycleListener#onEndRequest()
+Bug,Major,Mounted page is not throwing ExpireException with setting setRecreateMountedPagesAfterExpiry(false)
+Improvement,Minor,Palette does not handle disabled choices correctly
+Improvement,Minor,DownloadLink uses wrong encoding for spaces/non-ASCII characters
+Bug,Major,Rendered URL is resulting with double slash when using AuthenticatedWebApplication
+Improvement,Major,Wicket-atmosphere filters should be functions on AtmosphereResource
+Improvement,Major,Allow passing parameters to atmosphere JS
+Bug,Minor,compareTo methods of Actions in BufferedWebResponse violate Comparable contract
+Bug,Minor,AjaxFormChoiceComponentUpdatingBehavior cannot be triggered with BaseWicketTester#executeAjaxEvent()
+Bug,Minor,Rename Component#renderHead(HtmlHeaderContainer)
+Improvement,Major,Move the logic for creating the proper PackageResource from PackageResourceReference to ResourceReferenceRegistry
+Bug,Minor,client side memory leak on  date picker
+Improvement,Trivial,extra recursion on Wicket.DOM.get
+Bug,Major,wicket-ajax-jquery.js fails with 'member not found' on IE for delayed ajax requests
+Bug,Major,AbstractNumberConverter issue when used with NumberFormat#getCurrencyInstance
+Bug,Major,WicketTester should send copies of its cookies
+Bug,Major,Wicket Enclosure fails with more than one component
+Improvement,Major,BaseWicketTester#clickLink() doesn not serialize form to request for SubmitLink but does for AjaxSubmitLink
+Bug,Major,InlineEnclosureHandler always uses 'wicket' namespace
+Improvement,Minor,Set the component as a context to the ajax listeners
+Improvement,Minor,Add equals() and hashcode() implementation to INamedParameters.NamedPair
+Bug,Major,Session.exists() returns false when ThreadContext#session is not set to current session
+Improvement,Minor,AutoComplete should not request suggestions if input is no longer active element
+Bug,Major,Possible bug in org.apache.wicket.util.lang.Packages when building path with repeating names
+Bug,Minor,AutoComplete still triggers redundant events to registered change listener
+Improvement,Major,Improve UrlRenderer to be able to render urls without scheme and/or host
+Improvement,Major,Allow PackageResource to decide itself whether it could be accepted or not
+Bug,Major,UrlRenderer#removeCommonPrefixes() fails when contextPath+filterPrefix has more segments than the argument
+Bug,Major,form#onSubmit() is called on just replaced nested forms
+Improvement,Minor,Allow WebApplication-specific Spring configuration
+Bug,Major,InlineEnclosure are piling up on each render
+Bug,Major,FormTester throws an exception when a Palette component is added to a Form associated with a compound property model
+Improvement,Minor,The Bootstrap class does not provide a handle for the CSSResourceReferences.
+Improvement,Minor,Extract the short names of the ajax attributes as a constants
+Bug,Major,AjaxSelfUpdatingTimerBehavior in hidden component in ModalWindow causes Ajax Response Error
+Improvement,Major,Set a different TimeZone for the RequestLogger
+Bug,Major,Wicket ignores allowDefault:false attribute in multipart ajax requests
+Bug,Major,Component.continueToOriginalDestination() can redirect to ./.
+Improvement,Major,Improve ResourceReference#getDependencies() API
+Bug,Major,SecurePackageResourceGuard is blocking access to web fonts
+Bug,Major,Evaluation of returned data (which includes alot of javascript) very slow after ajax call in IE10.
+Bug,Major,wicket-atmosphere EventBus constructor throws NullPointerException under invalid state
+Bug,Critical,InterceptData never gets cleared from session after continueToOriginalDestination is called and another page is requested afterwards
+Bug,Major,Exception while rendering absolute URL with UrlResourceReference
+Improvement,Minor,Create an interface for the roles replacing the current Roles class
+Bug,Major,PageRequestHandlerTracker doesn't track resolves of handlers caused by Exception
+Improvement,Trivial,Log additional info when FormComponent fails in updateCollectionModel
+Bug,Major,URL query parameter values containing equals sign get cut off
+Improvement,Minor,The url gets longer when using StatelessForm with GET method
+Bug,Major,PageStoreManager.SessionEntry keeps outdated sessionId when container changes sessionId
+Improvement,Minor,Make ThrottlingSettings mutable
+Improvement,Minor,Move Form hidden field rendering to dedicated method
+Bug,Minor,Incorrect signature of types which extend Comparable
+Improvement,Minor,Change AjaxRequestAttributes#eventPropagation to BUBBLE
+Bug,Major,Page redirects can fail when using url encoding
+Bug,Major,Base url is incorrect for error dispatched pages
+Improvement,Minor,Provide default messages for upload exceptions
+Improvement,Major,Use documented jQuery APIs for triggering the special event 'inputchange'
+Bug,Major,AjaxEditableLabel not working well in form
+Bug,Major,Direct iframe removal not supported by Firefox: tab title stays as 'Connecting'
+Bug,Major,AjaxEditableLabel doesn't provide a way to configure Ajax attributes for its Ajax behaviors
+Bug,Major,ModalWindow is not visible in Safari when opened from a link at the bottom of a large page
+Bug,Major,CDI integration fails in Glassfish 4.0 with WELD-000070
+Bug,Major,use jquery 'focusin'/'focusout' for ajax focus tracking
+Bug,Minor,Wicket generates invalid HTML by expanding col tags
+Bug,Major,JS: High stack size in Function Executor causes 'too much recursion'
+Bug,Minor,Broken Link in Tomcat because of Page Mount
+Bug,Minor,Allow configuring the resource used by ResourceStreamRequestHandler
+Bug,Major,Url can't parse urls with username and password
+Bug,Major,FilenameWithVersionResourceCachingStrategy breaks silently when the versionPrefix is contained in the original filename
+Bug,Minor,ComponentRenderer.renderComponent fails to render two components with different component IDs
+Bug,Minor,XmlAjaxResponse restores wrong response
+Improvement,Minor,Do not set the location.hash when clicking on a link
+Bug,Major,Wicket Tree rendering broken in 7.x
+Bug,Minor,Tabindex overwritten in modal window for IE - Works in FF  Chrome
+Bug,Major,o.a.w.a.AtmosphereBehavior onBroadcast should log DEBUG  not INFO
+Bug,Major,Too deep recursion in AbstractHierarchyIterator
+Improvement,Major,o.a.w.extensions.markup.html.form.DateTextField should be applicable to HTML5 date input types
+Bug,Minor,MarkupCache ignores enforceReload flag
+Improvement,Minor,OnEventHeaderItem should remove 'on' prefix for the event name
+Improvement,Minor,Create a module for Native WebSocket based on JSR 356
+Improvement,Major,Static id counter AbstractToolbar prevents stable component paths for testing
+Improvement,Minor,AbstractResource should check for error code first before for modifications
+Improvement,Minor,Export resources' version cache attribute as request cycle metadata
+Bug,Major,AuthenticatedWebSession#authenticate should be protected  not public
+Bug,Major,No page id appended to some stateful pages using repeaters
+Bug,Major,if wicket is an external lib  BundleStringResourceLoader doesn't work
+Bug,Major,PriorityHeaderItem+OnDomReadyHeaderItem has no priority in Ajax response
+Bug,Major,Wicket doesn't encrypt links and Ajax URLs for mounted pages when CryptoMapper is used
+Improvement,Trivial,wicket-bean-validation french translation
+Improvement,Minor,Make Palette a FormComponentPanel
+Bug,Minor,org.apache.wicket.util.string.StringValue#equals broken
+Bug,Major,ResourceAggregator looses information about priority/filtering/... when using a bundle
+Bug,Minor,SourcesPage fails on resources with non-ASCII characters
+Improvement,Minor,Log the exception if the application cannot start properly
+Improvement,Minor,Allow form components to trim the input themselves
+Bug,Minor,wicket-bean-validation PropertyValidator_fr.properties.xml : org.xml.sax.SAXParseException
+Improvement,Minor,Allow DebugBar contributors to be removed
+Improvement,Minor,Allow continued processing with WicketTester after exception is thrown
+Bug,Minor,Behaviors#internalAdd(Behavior) erroneously gets id for stateless behaviors
+Improvement,Minor,Improve 'mvn jetty:run' to behave as Start.java
+Improvement,Major,Do not initialize pages which were not rendered
+Bug,Major,BOM in UTF markup file breaks encoding detection
+Bug,Major,this.replaceWith is broken when called from onInitialize
+Bug,Major,PropertyValidator ignoring groups with the @NotNull annotation only
+Bug,Major,ComponentRenderer.renderComponent() adds a page to DataStore
+Bug,Major,Page.isPageStateless() returning true in regular run but false in WicketTester
+Bug,Major,WicketTester doesn't preserve the request cookies when #executeListener() is used
+Improvement,Minor,Implement BigIntegerConverter
+Improvement,Minor,Allow restarting AbstractAjaxTimerBehavior without updating its hosting component
+Improvement,Major,Make CaptchaImageResource easier to extend and reuse
+Improvement,Minor,Use method chaining where it makes sense
+Improvement,Minor,Remove 'final' from org.apache.wicket.markup.html.form.EnumChoiceRenderer#getDisplayValue
+Bug,Major,PackageResource#internalGetResourceStream() should return ProcessingResourceStream only when the resource is existing
+Bug,Minor,WebPageRenderer should honor RedirectPolicy.ALWAYS_REDIRECT more consistently
+Bug,Major,AuthenticatedWebApplication#onUnauthorizedPage() should work with Component  not Page
+Bug,Major,WebApplication ignores a SecurityException when reading the configuration type
+Improvement,Minor,Disable jar indexing
+Bug,Major,Page is not touched during initialization
+Bug,Minor,DefaultPropertyResolver should resolve the Property according to the getter first
+Improvement,Major,Memory model improvements for Session fields
+Improvement,Major,Allow using child selector for JS event bindings
+Bug,Minor,IE11 returns false for Wicket.Browser.isIE()
+Bug,Major,Failing HTTPS redirect to RequireHttps annotated pages with ONE_PASS_RENDER strategy
+Bug,Major,Ajax indicator not working when display is set to none in css
+Bug,Major,Inefficient DefaultPageStore.SerializedPagesCache
+Improvement,Trivial,Allow models of subtypes of Select type parameter in SelectOption constructor
+Improvement,Major,Add WebSocketBehavior/Resource#onPush() callback method
+Bug,Major,NPE calling PackageResource.getResourceStream() if there is no RequestCycle defined
+Improvement,Major,Intern strings generated by Wicket that have bigger chance to be duplicated
+Improvement,Minor,continueToOriginalDestination() fails after redirectToInterceptPage() on AjaxRequest
+Bug,Major,AbstractAutoCompleteBehavior.WrappedHeaderItem should depend on wicket-ajax.js
+Bug,Minor,Don't cache the result of AuthenticatedWebApplication#getWebSessionClass()
+Bug,Major,Autolinking does not always work in inheritted markup
+Bug,Minor,Upgrade wicket-atmosphere to the latest version of atmosphere
+Improvement,Trivial,AjaxButton #onSubmit() #onError() intricacies
+Bug,Major,Atmosphere: updates infinitly with long polling transport
+Improvement,Minor,SelectOptions with #setRecreateChoices(true) loses selection on form errors
+Improvement,Trivial,Add AjaxChannel.DEFAULT constant = '0' and type 'Queue'
+Bug,Major,CLONE - ModalWindow is not visible in Safari when opened from a link at the bottom of a large page
+Improvement,Major,Remove second  for CDI related stuff in wicket-examples' web.xml
+Bug,Major,Do not throw when WebSocket is not supported
+Bug,Major,ConcatBundleResource#reportError() doesn't print the resource attributes
+Bug,Major,Allow submitting with POST method for PhantomJS
+Bug,Major,Fix the encoding of the Chinese translations for Wizard component
+Improvement,Minor,CheckingOutputObjectStream should filter duplicates by identity  not by equality
+Bug,Major,WebPageRenderer should bind a Session if redirect is required and the session is temporary.
+Improvement,Minor,Allow subclasses of ComponentStringResourceLoader to stop at specific components
+Bug,Major,missing generic cast causes compile error on OS X / jdk 8
+Bug,Minor,Problem with setting of IComponentInheritedModel and FLAG_INHERITABLE_MODEL
+Bug,Major,PropertyResolver does not scan for NotNull in annotation tree
+Bug,Major,wicket-autocomplete may fail after preceeding Ajax request
+Improvement,Minor,Add a setting to MultiFileUploadField to not close the file uploads' streams
+Improvement,Minor,Rename log4j.properties in the quickstart when creating a project for WildFly
+Improvement,Minor,Form#findSubmittingComponent() should not throw exceptions if the submitter is disabled/invisible
+Bug,Major,RenderStrategy REDIRECT_TO_RENDER lets fail test with BaseWicketTester#startComponentInPage
+Bug,Minor,Nested Redirects and REDIRECT_TO_BUFFER
+Improvement,Major,Add WicketTester assertion methods for component's markup style  variation and locale
+Improvement,Minor,Use Log4j 2.x for the archetype
+Bug,Major,ResourceUtils.getLocaleFromFilename cannot handle filenames with classifiers
+Improvement,Minor,StringValidator should set 'minlength' attribute to input and textarea
+Bug,Major,OnChangeAjaxBehavior should listen for both 'inputchange' and 'change' events for TextField and TextArea
+Bug,Minor,SecuritySettings.setEnforceMounts() does not work when the mounted mapper is not in the root compound mapper
+Bug,Major,MockHttpServletRequest.buildRequest() should work for parameters with multiple values with multipart content type
+Bug,Major,wicket-autocomplete prevents 'change'-listener when leaving input via mouse click
+Improvement,Major,Upgrade Atmosphere to 2.2.2
+Bug,Major,Component queuing breaks with html tags that don't require close tag.
+Improvement,Minor,Avoid using input names that conflict with JavaScript DOM API method and attribute names
+Bug,Major,Dequeue auto component can't resolve components if they are nested in child markup
+Bug,Major,ContextNotActiveException thrown when using both CDI & Native WebSocket
+Bug,Blocker,Atmosphere Eventbus throws Concurrent Modification Exception
+Improvement,Minor,Log a warning when WebSocketResponse#sendError() is used
+Improvement,Minor,Add a factory method for WebSocketRequestHandler
+Bug,Major,Wicket Ajax Click handling gets requeued in OnDomReady so fire out of order
+Bug,Major,NullPointerException in IntHashMap
+Improvement,Major,It is impossible to determine the form submitting component's inputName when AjaxFormSubmitBehavior is used
+Bug,Major,Support  src attribute by Link (TextTemplateLink)

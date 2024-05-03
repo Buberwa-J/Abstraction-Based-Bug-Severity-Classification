@@ -1,0 +1,1001 @@
+type,priority,summary
+Bug,Major,FileConfigureTest can't pass in Windows box
+Improvement,Major,Throw Useful Exception on No TypeConverter Available
+Improvement,Minor,Most recent snapshot requires ActiveMQ
+Bug,Major,JMSXGroupID is not copied across ActiveMQ endpoints
+Improvement,Major,enable polling via the http component
+Improvement,Major,XPath namespaces configuration not possible through xml
+Bug,Trivial,URL link broken in org.apache.camel.Processor API doc
+Bug,Blocker,org.apache.camel.processor.UnitOfWorkWithAsyncFlowTest failure
+Improvement,Minor,New converter : Node -> Source
+Bug,Major,exception clause doesn't proceed with pipeline
+Bug,Major,the 1.2.0 release didnt' seem to include the javadocs or doc directory (or manual)!
+Bug,Major,Headers lost after XSLT processing
+Bug,Major,Fix performance counters
+Improvement,Major,Upgrade geronimo-specs version to 1.1
+Improvement,Major,Add getter method for routeCollection property in RouteBuilder class
+Improvement,Major,cxf camel transport should support to register itself to the cxf bus automatically
+Bug,Major,[Spring integration] TheadType is missing in org/apache/camel/model/jaxb.index
+Bug,Major,[Spring integration] Bad urls in META-INF/spring.schemas
+Improvement,Trivial,DeadLetterChannel - logging improvements when exchange handled by dead letter
+Bug,Major,NullPointerException in CXF routes when there is an endpoint between router and service CXF endpoints
+Improvement,Major,support to set the aggregation stragey of multicastProcessor
+Improvement,Major,MulticastRecipientList - recipient list that uses multicast processor
+Improvement,Trivial,Remove tangle between impl and impl.converter
+Bug,Major,Multithreaded HTTP invocations doesn't work
+Bug,Major,DefaultParameterMappingStrategy doesn't load its defaults
+Bug,Trivial,spring-2.5.1.jar is twice in the camel distro
+Bug,Critical,bad content length header value in http response
+Improvement,Major,Mail component is missing some configuration possibilities
+Bug,Major,Mina TCP does not support InOut pattern
+Improvement,Trivial,Synchronous mode should handle exceptions being thrown from MINA
+Improvement,Major,camel-mina: allowing the lazy creation of a connection
+Bug,Major,camel-cxf component can't deal with the exception message in MESSAGE dataFormat
+Bug,Minor,SftpConsumer is not connecting and retrieving remote files
+Improvement,Minor,Mina Producer should have configurable timeout
+Bug,Major,HttpBinding.writeResponse doesn't set the response status code (i.e. it's always 200)
+Improvement,Minor,camel-mina improvements
+Bug,Major,Support for a full customized soap-fault incl. fault-code and detail
+Improvement,Major,Parallel processing route
+Improvement,Minor,Improve logging for camel-mina
+Improvement,Major,MinaProducer waits for MINA worker thread to timeout when stopping JVM from standalone client
+Bug,Trivial,Javadoc warnings
+Bug,Major,Exception handling of the ErrorHandlerSupport class
+Improvement,Minor,Improve FTP component wiki documentation
+Improvement,Major,splitter() should have the same parallel processing functionality that multicast() has
+Improvement,Minor,Improve File component wiki
+Improvement,Minor,Upgraded to OpenJPA 1.0.2
+Bug,Critical,Invalid jar in binary distribution
+Bug,Minor,Camel should raise an exception if parsing of xslt file fails
+Bug,Major,file endpoint with noop=true does not detect old files moved into a directory
+Bug,Major,camel-core does not compile on HP-UX
+Improvement,Major,make it easier to create Endpoint instances nicely via Spring XML
+Bug,Major,JMX Connector is not closed by InstrumentationAgentImpl.doStop()
+Improvement,Minor,Document - File component when its using file or directory names
+Bug,Minor,Javadoc - improve summaries etc
+Bug,Major,IntrumentationProcessor does properly record processing time
+Bug,Major,camel-cxf component not propagating context data
+Improvement,Major,XsltBuilder synchronizes on process method making performance bad on XSLTs
+Improvement,Major,The spi package should not depend on the processor package
+Bug,Major,NPE from came:run with below route codes
+Bug,Minor,File component - noop does not lock the file during processing
+Bug,Major,camel-spring is dependent on spring-aop
+Bug,Major,Multicast default excecutor do not create the enough thread for parallel processing
+Bug,Trivial,CamelTemplate should clear endpoint cache when stopping
+Improvement,Trivial,JMX Instrumentation - PerformanceCounter - total processed
+Bug,Minor,[patch] Make sure streams get closed
+Bug,Major,Missing compile step in example readmes
+Improvement,Trivial,[patch] postpone creating browsing strategy until and only if its needed
+Improvement,Major,Change the JMX default connetor's URL to avoid the confilict with the ActiveMQ or ServiceMix JMX default connector
+Improvement,Major,Headers should be modifiable using velocity templates
+Bug,Major,ResequencerType.createProcessor could throw NPE as stream config does not get initialized.
+Improvement,Major,File component - file rename pattern to support patterns such as date time etc.
+Improvement,Major,JMX Instrumentation - PerformanceCounter - last processed timestamp when failed
+Bug,Major,DeadLetterChannel default redelivery policy eclipsed expected transactional behaviour in a transacted route
+Bug,Major,ResolverUtil can't resolve converter annotations in WebSphere 6.1
+Bug,Major,jms aggregation does not work
+Bug,Major,camel-cxf example build.xml is out of date
+Bug,Major,Bean method lost when sending a message from one JMS queue to another
+Improvement,Major,Component documentation - needs overhaul  check for missing options  add more samples java/spring  etc
+Improvement,Major,create a TransactionErrorHandler so you can easily  use a transaction & rollback on a route - with redeliveryDelay to just fail the route if it can't be processed
+Improvement,Minor,Transactional Client - Setting Spring Policy is a bit cumbersome in the XML
+Improvement,Major,Upgrade Geronimo specs to 1.1.1 when available
+Bug,Major,CXF - Feedback from Eduard on problems with CXF over JMS
+Bug,Major,process method of should check ExchnagePAttern before setting out
+Bug,Major,ProducerTemplate doenst honor exchange pattern when it extracts the result
+Bug,Major,transform() doesnt propogate headers
+Bug,Minor,JMX Instrumentation - Nodeid can be null
+Improvement,Major,CXF - Easier use for end-user to retreive POJO data
+Bug,Critical,FileProducer - consumes file instead of producing!
+Improvement,Major,Change default DeadLetterChannel strategy in Camel
+Improvement,Minor,Log component should use ExchangeFormatter for formatting log output
+Improvement,Major,CXF - wrapper/unwrapper - camel-cxf should be smarter
+Bug,Major,Exception on using WS-Addressing with Apache Camel as Transport
+Bug,Major,Propagated CXF header's value should not include quotes
+Improvement,Minor,JMX Instrumentation - check for already registered before registering
+Bug,Major,When getContext().addInterceptorStrategy(new Tracer());  is added in a RouteBuilder class  then the timer component does not work
+Bug,Major,After the downloading process  the layout of the remote file system doesn't match the local's one
+Improvement,Major,Camel transport should set the content type property into the camel message header
+Bug,Major,CamelConduit's should check the TargetReference when create its instance
+Bug,Major,xpath expression with $header and the header doesnt exist on the in message results in NPE
+Bug,Major,AMQP Tests are disabled
+Bug,Major,CamelContext's setErrorHandler is not effect when the jmx agent is disabled
+Bug,Major,InstrumentationProcessor should catch Throwable
+Bug,Major,Pipeline with thread() processor also redelivers following the default policy independently from the preset  errorhadling
+Bug,Major,MinaConsumerTest failure
+Bug,Major,HttpProducer premature out message creation
+Bug,Major,delayer pattern doesn't work in Spring DSL
+Improvement,Major,support to set the loadBalancerStrategy before the outputs
+Bug,Major,Should preserve the exchange type in the routing slip
+Improvement,Major,File component - write to temp file and rename to real name startegy
+Bug,Major,Trailing slash missing in SftpConsumer
+Improvement,Minor,Type Converter - if not possible to convert LOG a WARN
+Improvement,Major,mina should be exchange pattern agnostic
+Bug,Major,Current mina component can't tansfer the exchange fault message body
+Improvement,Major,splitter() should support batch for processing large files
+Improvement,Major,Access HttpRequest Params from exchange.in.header
+Bug,Minor,camel-mina - codec options should fail if not possible to find i registry
+Bug,Major,SftpEndpoint ignores custom ssh port
+Bug,Major,element should not require contextPath attribute
+Bug,Major,The should throw the exception if there is some thing wrong with  type attribute
+Bug,Major,JmsProducer - option requestTimeout isn't configured properly
+Bug,Major,camel-cxf component is not passing request context through correctly
+Bug,Critical,file component consumer.regexPattern does not work as expected (matching is applied not only to file  but also to directory)
+Bug,Major,Remove deps on persistence-api jar  non compliant with the spec
+Improvement,Minor,tracer - option to disable interceptors
+Improvement,Major,Manage non-singleton endpoints in the CamelContext
+Bug,Major,camel-spring/rest does not build on HP-UX
+Bug,Major,Inconsistency in recipient list documentation?
+Improvement,Major,JMS InOut operations should default to non transacted even if the JMS component or endpoint defaults to transacted; as typically RPCs over JMS are not transacted
+Improvement,Major,loggingErrorHandler should default to ERROR and LoggingErrorHandlerBuilder should operate as a builder
+Bug,Major,CamelContext.setRoutes() documentation is misleading
+Bug,Major,createConnector attribute for CamelJMXAgentType should default to 'true'
+Bug,Major,TypeConverter Exception is thrown in the latest build of camel
+Improvement,Minor,camel-mail - type converter to InputStream
+Improvement,Major,FileLanguage - to support constant expressions
+Bug,Major,BeanInfo - should consider overridden methods when selecting method from operations list
+Improvement,Minor,bean binding - annotation to get the exception from exchange
+Improvement,Major,Maven goal camel:dot should use overridden  when specified
+Bug,Major,Component spring 'event' is not auto registered by Camel. Add a Event file in the folder META-INF/services/org/apache/camel/compoment of camel-spring
+Improvement,Major,Http producer should be smarter to select correct GET or POST method
+Improvement,Major,Quartz support should allow stateful jobs
+Improvement,Major,camel http Uri from the message header
+Bug,Major,camel:dot - pipeline is drawn as a multicast
+Improvement,Major,Add ability to configure log level on exceptions from DLC retry mechanism
+Improvement,Major,Add support to tracer for logging out messages
+Improvement,Major,Passive mode
+Bug,Major,spring integration xsd change breaks component
+Bug,Critical,XQuery creates an empty out message that makes it impossible to chain more processors behind it
+Bug,Minor,PipelineConcurrentTest.java fails randomly
+Bug,Major,org.apache.camel.Message - hasAttachments is buggy
+Bug,Major,.unmarshal(new JaxbDataFormat('com.foo.bar')) returning JAXBElement
+Improvement,Critical,Remove specialized Exchange and make DefaultExchange final to pave the road for optimization by reducing exchange copies
+Bug,Major,Can't get the soap header when the camel-cxf endpoint working in the PAYLOAD data fromat
+Bug,Major,ThroughputLogger incorrectly reports duration 0
+Bug,Major,jetty endpoints ignore host specified in URI and expose an endpoint on all interfaces
+Bug,Major,camel-jetty - Exchange failures should not be returned as 200
+Bug,Major,Delayer not working as expected.
+Improvement,Major,Spring DSL - redeliveryPolicy element should have ref attribute
+Bug,Major,camel-http - does not remove httpClient.xxx URI options
+Bug,Major,ParallelProcessing and executor flags are ignored in Multicast processor
+Bug,Major,Camel should propagate exception cause in InOnly scenarios
+Bug,Major,CxfExchange does not copy unit of work and thus its null and thus NPE is thrown
+Bug,Major,camel-mina adds two versions of slf4j on the classpath
+Bug,Major,The Mina VM protocol is not recognising codec and other options
+Bug,Minor,camel-velocity - log4j is needed at runtime
+Improvement,Major,File component - exclusive read lock strategy using renaming
+Bug,Trivial,MockEndpoint - sleep for empty test doesnt work
+Bug,Major,Throttler appears to 'throttle' per thread instead of throttling across multiple threads
+Bug,Minor,@EndpointInject can not lookup bean if endpoint is defined directly as a consumer (from)
+Bug,Major,ConcurrentModificationException when stop the camel-osgi bundle
+Improvement,Major,camel-xmpp to work with google chat
+Improvement,Minor,camel-restlet security extension
+Improvement,Major,Improve JMS header name endocing/decoding strategy
+Bug,Critical,Pipeline could change the MEP unintended
+Improvement,Minor,Tracer - allow configuration of fixed size of leading breadcrum or let it be variable sized
+Improvement,Major,file consumer - support expression for setting the folder/file to consume
+Bug,Major,SFTP : Polling - Cannot list directory Error
+Improvement,Minor,camel-cxf: URI option for serviceClass does not support lookup in registry
+Bug,Minor,Starting Camel using Main from camel:run or Main.class - countdown latch is hanging
+Bug,Major,Can only interact with servicemix-http if logging is at DEBUG
+Bug,Minor,Jetty HTTP SelectChannelConnector is not closed when CamelContext is stopped
+Bug,Major,Apache camel example reportincident dependency removed from pom.xml
+Bug,Major,SQL component doesn't handle wrong number of parameters
+Bug,Major,camel-ftp : uri set on endpoint has stripped all parameters  that is wrong as they should be there as well
+Improvement,Major,Seda component should configure its executor
+Bug,Major,Two more NullPointerExceptions when context classloader is null
+Improvement,Major,The xpath expression evaluations should rest the cached stream
+Improvement,Major,Add regexReplaceAll to builder support
+Bug,Major,EndpointMessageListener should respect ExchangePattern
+Improvement,Major,@Header should have a value default so you do not have to set the name attribute
+Bug,Major,ExchangeHelper should respect ExchangePattern.InOptionalOut
+Bug,Critical,JaxbDataFormat is not thread-safe
+Improvement,Major,Camel-quartz - improve setting of cron expression to be more cron like
+Bug,Major,File component - better support for absolute path
+Bug,Critical,CamelContext - Add ClassResolver to be used when you need to load a class instead of ObjectHelper.loadClass to work in OSGi environments
+Bug,Major,Can not load the QueueBrowserStrategy in OSGI environment
+Bug,Major,JMSMessage vanishes attachments
+Bug,Critical,StreamCache causes to many type converters not possible
+Improvement,Major,Bean component - improve method selection logic for overloaded methods
+Bug,Major,unmarshaling of data always send the last occurence of the stream
+Bug,Major,Unable to resolve scripting languages in OSGi environment
+Improvement,Minor,IdempotentConsumer - should only add to repository after processing  so we know the processing was a success
+Bug,Major,A request route with a topic node incurs a 20 second wait and refers to the wrong MEP.
+Bug,Major,JMX instrumentation - will add DeadLetterChannel even if you have defined to use NoErrorHandler
+Improvement,Minor,Added a Spring configuration in the camel-example-reportincident
+Bug,Major,JMS - Sending a message with jmsTemplate102=true fails
+Bug,Major,Allow parementer append for jms bindings with no endpoint
+Bug,Major,JmsPollingConsumer - receive does not work
+Improvement,Major,Bean component should propagate headers
+Improvement,Major,javax.xml.transform.Source and StreamSource wrapped should be easier to route with JMS
+Bug,Minor,HTTP_URI and HTTP_PATH message headers not concatenated when sending messages to http endpoint
+Bug,Major,deploy the CamelContext with velocity endpoint into the Servicemix 4.0 will get the  NoClassDefFoundError
+Bug,Minor,Recursively scan multipart nodes of an email for attachments - not just top level nodes
+Improvement,Major,Allow sending multipart/alternative MIME messages with both a plain-text and text/html body  and allow sending images inline
+Improvement,Major,http component - allow failed responses to be returned on the exchange instead of HttpOperationsFailedException
+Improvement,Major,Upgrade camel-http to use httpclient 4.0
+Improvement,Major,Apply removeHeader also to the underying JMS message delegate
+Bug,Major,ErrorHandler to be wrapped at every node incl children
+Bug,Major,Converting from stream/reader to string changes line breaks other than '/n'
+Bug,Major,ClassCastException when using camel-cxf and camel-jms in the InOut same flow
+Bug,Major,SFTP GenericFileProducer.createFileName produces OS normalized file name  that doesn't work with SFTP
+Bug,Major,camel-cxf producer loses the content-type
+Improvement,Major,Clean up  the CamelTransportConstants.CONTENT_TYPE
+Bug,Major,Warning 'Disabling JMSReplyTo as this Exchange is not OUT capable' on false positives in JBossAS5
+Bug,Major,Race condition in IdempotentConsumer
+Improvement,Major,Clean up the CamelNamespaceHandler
+Improvement,Minor,CAMEL-HTTP should copy system proxy settings
+Improvement,Minor,Enrich DSL - Add fluent builder for using default aggregation strategy
+Bug,Major,JMS-Headers are ignored in Producer
+Bug,Major,Java DSL for multicast  split  aggregate does not use block explicit
+Improvement,Major,DefaultErrorHandler - add support for redelivery
+Bug,Major,Simple language support for AND / OR to concat multiple expressions fails if string constants are enclosed in single quotation marks
+Improvement,Major,Remove cycle between model and util
+Bug,Major,bean component should thrown NoTypeConverterException when bean parameter binding cannot convert to method signature type
+Improvement,Major,Better logging at startup if Camel uses camel-osgi or not
+Bug,Minor,camel-example-etl - bug in sample about type converter
+Bug,Major,camel-cxf defaultHeaderFilterStrategy doesn't filter the Camel releates headers
+Improvement,Major,ScheduledPollConsumer - Should not throw polled exception on stop
+Improvement,Minor,Validator component to use SaxSource internally
+Bug,Major,SpringCamelContext will get into endless loop of calling start method if the route service calling the ApplicationContext refresh method in it's initial method
+Bug,Major,Failover load balancer - should prepare exchange before failover
+Bug,Major,Unable to read post params from request
+Bug,Major,Camel builds should not use platform specific encoding
+Bug,Blocker,License for One-JAR classes not included in camel-example-spring one-jar artifact. Also apache legal files missing
+Improvement,Blocker,Upgrade maven build to use apache 6 pom and related features.
+Improvement,Minor,camel-file - consumer  starting directory should validate that its configured properly eg not containing dynamic expressions etc
+Improvement,Major,camel-jms - allow a header like JMSDestination to override the destination to send to
+Bug,Minor,camel-irc parsing of channel name and parameters is incorrect
+Bug,Major,CustomerServicesWsAddressingTest hangs sometimes
+Bug,Critical,camel-jms - wrong defaults causes message listener to use new thread when receiving a message
+Improvement,Major,EventDrivenConsumer - Wait starting them until all other processors / routes have been started
+Improvement,Minor,FTP component - add option to specify retry login attempts
+Improvement,Major,file component - markerFile read lock - do not use nio FileLock
+Improvement,Major,Cleanup unnecessary copy related methods in Exchange
+Bug,Major,jaxb prettyPrint does not work
+Bug,Major,camel-ftp - Recover from lost connection issue
+Bug,Minor,camel-web can't process the endpoint with '://' schema  like /endpoints/mock://results
+Bug,Major,CachedOutputStream not cleaning up tmp files when using file based caching
+Bug,Major,Route JMX attributes not being updated
+Improvement,Minor,Provide a flag to avoid mapping a JMS message to it's actual type
+Bug,Major,camel-cxf bundle doesn't specify any Import-Package version
+Bug,Major,NPE thrown when DEBUG logging on
+Bug,Major,JmsKeyFormatStrategy not used consistently and JmsMessage.getHeader() not returning correct value
+Improvement,Minor,camel-mail - Add option to ignore unsupported charset and fallback to platform default instead
+Improvement,Minor,camel-jms - DefaultJmsKeyFormatStrategy should replace . with _DOT_ to avoid conflicting with end user using _
+Bug,Major,template   consumerTemplate  service  proxy can't be set with right camel context if there are more than one camel context in the spring application context
+Bug,Minor,Bean component - invokes onMessage from javax.jms.MessageListener even though a specific method name have been provided
+Improvement,Minor,camel-irc consumer only listens to messages on a channel and ignores direct messages
+Improvement,Minor,XMPP producer and consumer don't share the same connection and Chat objects
+Improvement,Minor,camel-file - Consume and pollEnrich another file should work transparent
+Bug,Major,Xmpp consumer stops consuming after some time
+Bug,Major,Unit test failures on Windows in 2.0.0 release
+Bug,Major,HTTP component throwing IllegalArgumentException in M3 release while bridging between jetty and http
+Improvement,Minor,XmppBinding will add non-serializeable header values to the outgoing xmpp message
+Bug,Major,Unit test failure in Windows for StreamCache. Temp file is not deleted
+Improvement,Minor,Revamped IRC component event adapter logging
+Bug,Major,ServiceSupport - incorrect state after restart
+Improvement,Trivial,Add server name to logging event adapter
+Improvement,Major,camel-jms consumer endpoint should allow properties such as maxConcurrentConsumers and concurrentConsumers to be managed via JMX
+Improvement,Trivial,Exchange - getIn and getOut with expected type parameter
+Improvement,Minor,camel-irc should handle onReply callbacks
+Bug,Major,Graceful shutdown problem
+Improvement,Major,Restarting JmsConsumer should pickup configuration changes
+Improvement,Critical,Better OSGi metadata to allow deploying multiple camel versions in the same OSGi framework
+Improvement,Minor,Spring DSL - errorHandlerRef should only be support on camel context or route
+Bug,Major,camel-jpa exports the org.apache.camel.processor.interceptor which leads to a split package
+Bug,Major,NPE when the bundle is camel-osgi bundle is inactive
+Improvement,Minor,DataSet - Add initial delay with a default of 1 sec
+Bug,Minor,XmppMessages don't get converted to strings
+Bug,Major,Improper configuration of MINA connector and acceptor instances; Better producer
+Bug,Major,Camel Bean component should not remember the last called method name if the bean's method name is not explicitly specified.
+Improvement,Minor,DeadLetterChannel - Should pre check the endpointUri is valid and report failure on startup
+Bug,Major,Redundant interceptions when using interceptSendToEndpoint
+Bug,Major,Dynamic Recipient List - Comma is always delimiter even if custom specified
+Bug,Minor,camel-mail - extracting mails with headers using multi values inserts duplicates
+Improvement,Minor,camel-jpa - JpaProducer should mandate body instead of creating a new empty instance
+Bug,Minor,http polling consumer does not support timeout
+Bug,Major,velocity endpoint should not remember the last used template uri
+Improvement,Minor,CamelContext should support autoStartup
+Bug,Major,Support Issue: Routing a TextMessage from a  to a JMS queue
+Improvement,Minor,@Bean - Add method to the annotation so you can configure the method name
+Bug,Minor,camel-jms - Sending Object message should fail if payload cannot be converted to serializable
+Bug,Major,The converter's MandatoryConvert method doesn't throw the exception when the value is null
+Bug,Major,Some methods of SftpOperations create streams that are never closed
+Bug,Major,Type converter - Should respect Future ExecutionException as not failed to convert but some other error
+Bug,Major,RSS Component - parameter filtering not working
+Improvement,Major,Workaround for UnsupportedEncodingException
+Bug,Major,FTP Component issue with tempPrefix or tempFileName
+Bug,Minor,ActivityMonitorEngine uses ?1 parameters in JPAQL  which don't work with (at least) the hibernate JPA provider.
+Bug,Minor,ftp uploads can fail: File operation failed:  Connection closed without indication.. Code: 421
+Bug,Minor,Logger logs INFO level messages at DEBUG level
+Improvement,Major,UnitOfWorkProcessor - Should wrap more EIPs such as Aggregator  Splitter  RecipientList on their child routes
+Improvement,Major,Remove dependency on spring core in PatternBasedPackageScanFilter
+Improvement,Minor,TryProcessor - Do not use local copy Exchange in doCatch
+Bug,Major,camel-cxf - Empty body causes http error 500 even for GET when using cxfbean
+Bug,Major,JcrProducer node creation throws javax.jcr.PathNotFoundException when using exchange ID as node name
+Improvement,Minor,Improvment in example archtypes
+Improvement,Major,RestletProducer should support native async request/response semantics
+Improvement,Major,camel-cxf - CxfProducer should check parameters more strictly to ensure we have the number of parameters required
+Bug,Trivial,RedeliveryPolicy - Setting delay > maxDelay should should also set max value
+Improvement,Major,When the 'from' endpoint is improperly set  it can be very hard to work out why/where
+Bug,Major,CaseInsensitiveMap should be serializable
+Improvement,Minor,camel-jdbc - Allow properties to be set on Statement such as fetchSize  maxRows etc
+Bug,Major,camel-bean - Classes enhanced by CGLIB should skip cglib methods
+Bug,Minor,Mock component - expectedBodiesReceived(List) does not work as expected
+Bug,Major,Exception during mail connection requires folder to be reset
+Improvement,Major,file producer - NIO transferTo 2gb bug in jdk
+Bug,Major,Improper ordering of MINA filters
+Improvement,Major,Ridiculously long release time due to the javadoc plugin
+Bug,Major,Routing slip does not stop when Exchange is failed
+Bug,Major,camel-example-etl throw error when running it.
+Bug,Minor,doCatch() - Without any exception given should report that as a problem
+Improvement,Trivial,seda component - Support no timeout for task to complete using timeout 0 or negative
+Bug,Major,RejectedExecutionException after restarting camel context
+Improvement,Minor,ExceptionHandler - Let it be able to log additional information such as a custom message or current exchange
+Bug,Major,GroupedExchange in Aggregator is not working correctly
+Improvement,Major,StrictHostKeyChecking Url Option
+Improvement,Minor,UnitOfWork - Must be done in finally to ensure even when java.lang.Error is thrown fore reliable shutdown
+Bug,Minor,camel-bindy dataformat KeyValue DSL can't work
+Bug,Minor,camel-cache - Missing some classes in .jar
+Bug,Minor,JDBC component doesn't preserve headers
+Bug,Minor,The NP check of the remote service is wrong in CamelServiceExporter
+Improvement,Minor,The  in Spring XML should support using serviceRef to lookup a reference for an endpoint
+Improvement,Trivial,package will log WARN that you should use packageScan instead. We should keep both options so remove the WARN
+Improvement,Trivial,MailConsumer should log exception in processRollback
+Improvement,Minor,EventNotifier - Make it easy to ignore unwanted event categories
+Improvement,Minor,camel-jdbc - Add option to select between JDBC 4 or 3 column label / name semantics
+Improvement,Minor,Keep the lastModified timestamp when writing a file
+Bug,Major,Remove sample caches from Camel Cache component
+Improvement,Minor,Bean Expression for Non Registry beans can't reference an instance
+Improvement,Major,Let ExpressionClause be reusable by other builders which are not route based
+Improvement,Major,camel-bean - CGLIB proxied classed having trouble using annotated bean bindings
+Improvement,Major,Remove some dependencies
+Improvement,Minor,DefaultTypeConverterRegistry - Let it load upfront
+Bug,Major,file component - Using fileName option should better detect constant vs dynamic name
+Improvement,Major,DefaultCamelContext starts route services out of order
+Improvement,Trivial,Mock component - expected header and property should output the name that fails
+Bug,Major,BeanProcessor - Should differentiate between void and method returning null values
+Bug,Major,cxfbean should  propagate CONTENT_TYPE for other camel component to use
+Bug,Major,HttpHeaderFilterStrategy dosn't filters out 'Cache-Control'  'Connection'  'Pragma'  'Trailer'  'Transfer-Encoding'  'Upgrade'  'Via' and 'Warning' in method applyFilterToCamelHeaders
+Bug,Minor,WARNING log of JmsTemporaryTopicEndpoint   JmsTemporaryQueueEndpoint don't have the ManagedResource annotation
+Bug,Minor,HttpHeaderFilterStrategy should filter the HTTP 'Date' header when applyFilterToCamelHeaders is called
+Improvement,Minor,seda endpoint - Let it be easily to configure size option to use an unbounded queue
+Bug,Minor,Camel Velocity: change the case of all fields properties Header
+Bug,Minor,Camel Freemarker: change the case of all fields properties Header
+Improvement,Minor,NotifyBuilder - add reset method
+Bug,Minor,DefaultCamelContext throws NPE in start() for route with no destination
+Improvement,Minor,PollingConsumerPollStrategy - Should support boolean on begin to support skipping polling
+Bug,Major,karaf features.xml  should use servicemix commons-pool bundle
+Improvement,Trivial,SedaConsumer - Add check to limit the concurrentConsumer to < 1000 to prevent mistypes
+Bug,Major,should use servicemix jaxws 2.1 spec bundle but not the geronimo one
+Bug,Major,ConsumerTemplate don't support the jms uri with selector
+Improvement,Major,Batch Resequencer issues with JMSPriority
+Bug,Major,async route not working with Mina
+Bug,Major,IndexOutOfBoundsException occur in UnsafeUriCharactersEncoder.class
+Bug,Major,camel-http component should set Transfer-Encoding as chunked header for response message when checkChunked is true
+Improvement,Minor,Allow recipientList to be used inside a CBR using Java DSL
+Bug,Major,CXFRS Routing in 2.2.0 does not behave like in 2.0.0
+Improvement,Major,Graceful shutdown - Add option to shutdown routes in reverse order as they were started
+Improvement,Major,support get operation for cache
+Improvement,Minor,Make use of testing mocks of the the GAE SDK
+Bug,Minor,Invocation of hasNext() on org.apache.camel.util.ObjectHelper.createIterator(...).new Iterator() {...} return different results
+Bug,Minor,Aggregator - Completion by batch consumer should trigger completion for the batch group if multiple correlation keys was used
+Bug,Major,IOException: Bad file descriptor and FileNotFoundException
+Bug,Minor,Inconsistency between IntrospectionSupport.getProperties() and IntrospectionSupport.getProperty()
+Improvement,Minor,Aggregator - Add option to specify if completionInterval to have interval based completion
+Bug,Major,DefaultPackageScanClassResolver can't read entries in an eclipse rcp app because it can't handle bundleresource - protocol
+Improvement,Minor,XPath - Add type converters from the pesky XPath types to String  InputStream etc.
+Improvement,Major,Smpp component schedule delivery time should default to null
+Bug,Major,HttpEntityConverter should not create a InputStreamEntity by using the GZIPHelper.toGZIPInputStream()
+Improvement,Major,camel-spring - Spring 3.0.x - Add depends-on in the namespace handler to make it easy for end users to use Spring and Camel without considering ordering of their beans
+Bug,Major,cxfbean component should ignore the wsdlLocation in the POJO
+Improvement,Major,RoutingSlip - Let it be expression based
+Bug,Major,File name lost when it starts with the same characters as the relative directory on the endpoint
+Bug,Major,Incomplete cleanup of jmx mbeans after context stop
+Improvement,Major,Camel-bindy should be able to process fix length records
+Improvement,Major,SendProcessor - When a route is started it should be able to warmup the Producer
+Bug,Major,HttpProducer should not sending the Http headers with low case
+Bug,Minor,AggregationStrategy returning null causes NPE
+Bug,Major,camel-cxf feature doesn't include all cxf needs bundles
+Bug,Major,VM endpoints with same name do not communicate if args don't match
+Bug,Major,MailBinding can't handle the subject header with NO_ASCII code rightly.
+Improvement,Minor,OnCompletion - Let it be executed last so the internal on completions can be executed beforehand
+Bug,Minor,Bindy - No @Section causes a null key being generated which causes a NumberFormatException
+Bug,Major,Escaped characters in http4 URLs do not work
+Improvement,Minor,ManagementAgent should expose getter/setters for the JMX settings so you can set it easily from Java
+Bug,Critical,Aggregation raises NullPointerException if last file in batch is not to be aggregated.
+Improvement,Major,Graceful shutdown - Add option to shutdown manually added/started routes
+Bug,Major,It is impossible to put # sign in SQL statement in camel-sql
+Bug,Major,camel-castor relies on specific  out of date version of Castor
+Bug,Minor,camel-ftp - SFTP in fileExists should handle exception being thrown with id code stating no such file
+Bug,Major,Deadlock in org.apache.camel.util.DefaultTimeoutMap
+Improvement,Major,Support for Binary Files in HttpProducer
+Improvement,Major,CsvDataFromat delimiter should also be configurable in the XML/Spring DSL
+Improvement,Minor,Thread Name Syntax - Do not output endpoint parameters to be less verbose
+Bug,Critical,No consumers available on 'direct://xyz' endpoint
+Bug,Major,convertBodyTo should handle null bodies
+Improvement,Minor,Redelivery policy's retryUntil option should be renamed as retryWhile
+Improvement,Major,URIs for viewing a route as a language clashes with any other possible sub resource for routes (such as status)
+Improvement,Major,remove ugly warnings running tests since upgrading to jetty 7
+Improvement,Major,update camel-http and camel-cxf features to use Commons Codec 1.4
+Bug,Major,Oracle AQ does not support the JMSReplyTo property and therefore throws a 'JMS-102: Feature not supported' exception when the JMS provider tries to get it.
+Improvement,Major,more eager validation of routes
+Improvement,Major,Use  forkMode=once for the surefire plugin to significantly speed up tests
+Improvement,Minor,Injecting Properties into the PropertiesComponent with Spring
+Bug,Major,Broken failure reporting via DefaultProucerTemplate.asyncCallback and Synchronization.onFailure
+Bug,Major,StreamProducer does not close stream in camel-stream
+Bug,Major,org.apache.camel.component.test package is imported in camel-spring component - generates error on OSGI platform
+Bug,Major,java.util.ConcurrentModificationException in Method org.apache.camel.util.CaseInsensitiveMap.putAll()
+Improvement,Minor,Upgrade to JCR 2.x
+Improvement,Minor,Upgrade to HawtDB 1.2
+Improvement,Minor,When polling consumers is shutdown  do less verbose logging for rollback strategies
+Improvement,Major,JmsProducer should support non blocking routing engine
+Bug,Major,onException not working correctly when using routeContext
+Bug,Major,java.net.SocketException: Too many open files with Apache Camel(Netty TCP) 2.4.0.
+Bug,Minor,FtpComponent: If login fails and disconnect=true another connection is opened.
+Bug,Major,camel-jpa doesn't use EntityManager.merge(entity) in the right way
+Improvement,Minor,DefaultHttpBinding's populateRequestParameters should be more flexible when checking the content type on POST
+Bug,Major,IllegalStateException in CamelContinuationServlet under heavy load
+Improvement,Minor,Add removeEndpoints to CamelContext
+Improvement,Major,Enable the deletion of routes via REST in camel-web
+Improvement,Major,Adding routes straight from XML should have Camel prepare the RouteDefintion as its done like in camel-spring
+Improvement,Minor,Velocity - Let it be able to load resources from both classpath and file system out of the box
+Improvement,Major,provide an optional interface Endpoints can provide to generate a simple String ID which can be used within the class loader to make JMX / REST APIs simpler to avoid having to encode large URIs
+Bug,Major,Flatpack component : unable to set the delimiter parameter in spring config file
+Bug,Major,JettyHttpComponent.doStop() shuts down all servers in the VM  not just those associated with the component
+Improvement,Minor,Archetype for creating component should have better sample component
+Bug,Major,RouteBuilderRef should work out of the box with Spring 3 and dependency injection
+Bug,Minor,Out of Heap memory issues with Camel-File processing large files
+Improvement,Major,Simple language - Allow unlimited usage of and or operators in expression
+Bug,Major,Cache Component needs to check for null values during GET operations
+Bug,Major,netty timeout exception
+Bug,Major,BeanConveter didn't try to covert the bean invocation argument rightly
+Bug,Major,QuartzEndpoint does not set the job name properly
+Bug,Major,@QueryParam doesn't work for CxfBeans
+Bug,Minor,hawtdb - Should work in OSGi
+Bug,Minor,Splitter EIP - The sub exchanges should not contains on completions from original Exchange
+Improvement,Major,Performance/scalability issue for converter lookup
+Bug,Minor,polling of feeds in FeedEntryPollingConsumer is broken.
+Bug,Minor,Using $ in endpoint uri causes thread name parser to fail
+Improvement,Major,Support user-defined shutdown timeout for CamelTestSupport
+Bug,Major,cxfbean creates another instance of the class instead of directly using the referenced bean
+Improvement,Minor,Use ActiveMQUuidGenerator as the default uuid generator as its faster than the JDK UUID generator
+Improvement,Minor,Context-sensitive setting of default UuidGenerator
+Bug,Minor,Route autoStartup configurable through Property
+Bug,Major,OsgiDefaultCamelContext.getTypeConverterRegistry() returns null
+Bug,Major,camel-ftp: fileExist=Fail not honored when producer works in FTP root path
+Improvement,Minor,Aggregator EIP - Add option to ignore timeout completed
+Improvement,Minor,Add alternative start token for simple language to avoid clash with Spring PropertyPlaceholder
+Bug,Minor,camel-ftp - Setting password and username using UserInfo on uri does not work
+Bug,Major,Confusing IllegalArgumentException when address attribute isn't specified on CXF endpoint.
+Bug,Major,Concurrent consumers on seda endpoint can cause content routing to mismatch
+Bug,Major,request/reply over JMS using temporary queues - if connection lost the temporary queue is not re-created which causes the producer to not work anymore
+Bug,Major,The CxfConsumer's getContinuation method might throw NPE
+Improvement,Minor,Add Exchange creation time to the exchange as property
+Bug,Minor,Threads - Should allow using 0 in core pool size
+Improvement,Minor,Route definitions should use boxed types and lazy evaluate defaults in the getter
+Bug,Minor,GenericFileProducer.writeFile method creates instance of un-used InputStream
+Bug,Major,JMX MBeans not registered for initiators
+Bug,Minor,XmppEndPoint - setting login to false when creating an account results in no action
+Improvement,Minor,RetryWhile is missing on the errorHandler DSL
+Improvement,Minor,Let LazyLoadingTypeConverter load the converters from camel-core on startup
+Improvement,Minor,support the Ordered Interceptor Strategy configured in spring
+Improvement,Minor,CaseInsensitiveMap concurrency issue
+Bug,Minor,Multicast with pipeline may cause wrong aggregated exchange
+Improvement,Minor,Let custom Processor be managed in JMX when implementing ManagementAware
+Improvement,Major,Multiple Endpoints with the Same Port in Restlet Component
+Improvement,Minor,Add exception.stacktrace to Simple language
+Improvement,Major,Stepwise change of directory unfit for production (ftp/ftps/sftp)
+Bug,Major,cxfEndpoint of camel-cxf doesn't support  the shcemaLocation element
+Bug,Major,NPE occurs without @Entity annotation
+Improvement,Minor,Quartz component has minor issues with old versions of Quartz
+Bug,Major,CxfRsInvoker produces NullpointerException when no ContinuationProvider is set in the InMessage
+Bug,Minor,camel-irc component silently fails on nick collision
+Bug,Minor,Hard coded locale in Bindy DatePatternFormat
+Improvement,Major,Add option on FTP component so you can set which path separator char to use (eg windows vs unix)
+Bug,Minor,spring-integration - Should have better configuration validation
+Bug,Minor,PackageHelper - issue with version numbers which contains non decimal
+Improvement,Minor,Tidying up strategy for managing resources in JMX
+Improvement,Major,Use ServiceMix guice bundle
+Bug,Minor,InterceptSendToEndpoint should check for if stop DSL has been used
+Improvement,Minor,DefaultTimeoutMap should force scheduler in contructor
+Bug,Critical,CamelContext is started twice when using camel-blueprint
+Bug,Major,InterceptSendToEndpoint has issues with interception http endpoints which has multiple parameters
+Improvement,Major,DataFormat - Support for CamelContextAware injection and start/stop callbacks with Service
+Bug,Minor,Bindy should support clipping fields if they exceed maximum length allowed when using fixed length
+Improvement,Major,Camel-XMPP Consumer doesn't pass XMPP headers
+Improvement,Trivial,NotifyBuilder - Should throw exception if it hasn't been created and matches is invoked
+Improvement,Minor,Some of JpaTraceEventMessage's attributes require @Lob annotation
+Bug,Major,BindyCsvDataFormat broken for pipe delimited files
+Bug,Major,ConcurrentModificationException in DefaultCamelContext.removeRouteDefinitions()
+Improvement,Major,Additional TypeConverters
+Bug,Major,scala - xpath not working together with choice/when
+Improvement,Major,classpath problem with camel:dot and provided dependencies
+Bug,Major,Aggregation fails to call onComplete for exchanges if the aggregation is after a bean or process.
+Improvement,Minor,PollingConsumerPollStrategy - Add information to commit how many messages was polled
+Bug,Minor,Jt400DataQueueConsumer incorrectly implements timeout semantics (jt400 component)
+Improvement,Minor,camel-jms - Improve logic waiting for ReplyTo destination to be computed when doing request/reply
+Bug,Major,Aggregator - The completionFromBatchConsumer option dont aggregate the last incoming exchange
+Bug,Major,Detect uncaught exceptions in UoWProcessor to ensure UoW is done even for those uncaught exceptions
+Improvement,Major,BindyFixedLengthDataFormat does a trim on Fixed Length record
+Improvement,Minor,When Camel loads properties Camel should remove spaces (trim) from the end of the line.
+Improvement,Major,Update archetypes to use new descriptor format
+Improvement,Trivial,camel-snmp - Should mask password in the endpoint class
+Improvement,Major,In some places we use ObjectHelper.loadClass() instead of ClassResolver.resolveClass()
+Bug,Major,Concurrent writes to the same file has race condition
+Improvement,Minor,JMS spec and JPA spec JARs should not be compile scoped by provided
+Bug,Major,FTP rename fails
+Improvement,Major,ServiceHelper - Avoid started/stopping service if already started/stopped
+Improvement,Minor,Include test directories in the archetypes
+Bug,Major,camel-josql doesnot export org.apache.camel.language.sql.*
+Bug,Major,Inconsistent filename value when move attribute is used with File component
+Improvement,Major,camel-smpp should unbind from SMSC before disconnecting
+Improvement,Major,Force disable Quartz UpdateChecker
+Bug,Major,Mistake in camel-eventAdmin feature
+Improvement,Minor,Upgrade maven-bundle-plugin to version 1.3.4
+Improvement,Minor,camel-core-xml - Add getter/sett for endpoints
+Improvement,Major,Fix the Sonar Blocker: Performance - Maps and sets of URLs can be performance hogs
+Bug,Critical,SMSC initiated unbind spawns exponential amounts of reconnect threads
+Improvement,Minor,BinaryPredicate - Dont store state to ensure thread safety
+Bug,Major,Make Content-Type HTTP Header Optional
+Improvement,Major,Make it easier to derive from the Camel model
+Improvement,Major,Java DSL - Allow load balancer to be used inside CBR
+Bug,Minor,Endpoints may be shutdown twice as they are tracked in two lists in CamelContext
+Improvement,Major,Tidy up AST model to proper support output or not
+Bug,Minor,interceptFrom and from(Endpoint) don't work together
+Bug,Major,OnException - The order they are defined in the RouteBuilder / XML should be preserved when you have multiple of the same exception type
+Improvement,Minor,camel-jms: testConnectionOnStartup does not test connection for producers
+Bug,Major,Sending to http endpoint may double encoding parameters
+Improvement,Minor,Camel properties component - Add support for using jvm system/env in location
+Improvement,Minor,ThreadPoolProfile - Use string types so its much easier to use property placeholders
+Bug,Major,JAXB marshaling broken in 2.6.0
+Improvement,Trivial,IgnoreInvalidEndpoint should log invalid endpoints at DEBUG level
+Improvement,Minor,Add comments on the CamelContextTestSupport class to tell user to start the camel context manually when the test doesn't use the RouteBuilder
+Improvement,Minor,Let log  log eip and mock producer be async processor
+Bug,Major,sftp producer runs in exception fileName does not contain any path information
+Improvement,Major,Add an example which use CXF bean binding and the OSGI HTTP Service (e.g. PAX Web with jetty)
+Improvement,Major,After switching to slf4j  we can get rid of the 'isTraceEnabled'  'isDebugEnabled' and 'isInfoEnabled' statements
+Bug,Major,Mail component issue with starttls option
+Bug,Major,HttpProducer drops authentification parameters.
+Improvement,Major,option to force sending original JMS message
+Bug,Major,HTTP Producer seems to send an empty body request on redelivery when the original request fails due to a connection timeout
+Bug,Major,org.apache.camel.component.file.strategy.MarkerFileExclusiveReadLockStrategy is not thread-safe
+Improvement,Major,Try to copy file when rename fails
+Improvement,Major,Polish the aws component
+Bug,Major,Web Console: NPE when browsing routes with no description
+Bug,Minor,maven eclipse goal failure
+Improvement,Minor,The camel-cometd component does not support a custom SecurityPolicy or Extension as described on http://cometd.org/documentation/howtos/authentication
+Bug,Major,BeanInfo not reset when new bean looked up
+Improvement,Minor,Allow cometd component to send message headers with the message
+Bug,Major,camel-jms default cache level should be CACHE_NONE when transaction is enabled
+Bug,Major,SmppProducer sends incorrect data_coding parameter
+Bug,Major,OSGi - No possibility to enable ehcache clustering as: ehcache.xml is ignored and there is no possibility to set cacheManagerFactory described camel-cache docs
+Improvement,Minor,camel-cache - Should use Camel style constant keys
+Bug,Minor,camel-web - Cannot browse endpoints if messages was consumed from jms queue
+Bug,Minor,camel-xmpp - Should stop and clean session  so hot-deploy works
+Improvement,Minor,Avoiding to process the bean which value is null in CamelBeanPostProcessor
+Improvement,Trivial,camel-cache exception message: CamelCacheOperation not specified in the message header [CamelCacheKey]
+Improvement,Major,Prevent 'FolderNotOpen' exception when closing out an email exchange
+Bug,Major,Consumer URI parameters ignored after Route Restart
+Bug,Major,CxfPayloadConverter may start failing to convert a CxfPayload to a Node
+Bug,Major,JdbcAggregationRepository count (*) is not working with MySQL 5.0
+Bug,Minor,AnnotationTypeConverterLoader fails for folders containing spaces
+Improvement,Minor,Sending a message to log endpoint should not convert payload to StreamCache
+Bug,Minor,Route cannot be started within web-console  if autoStartup='false' is set in camel.xml
+Improvement,Minor,Script arguments
+Improvement,Major,camel-soap - Add support for multiple parameters
+Bug,Major,Dumping route to XML created by Java DSL using an expression may not output the actual used expression
+Improvement,Major,Add send body operations to managed CamelContext so you can pass in headers as well
+Bug,Major,Spring-WS producer doesn't propagate headers
+Improvement,Major,Updated Hazelcast to version 1.9.3
+Improvement,Major,Java DSL - New means to explicitly end try/catch blocks
+Bug,Major,Camel FTP component fails to process multiple files at once from a specified folder
+Improvement,Major,cxf:rsServer requires class instead of interface in the serviceClass attribute
+Improvement,Minor,Replace the NoCacheStorage Class
+Bug,Minor,ConcurrentModificationException at DefaultCamelContext.getRouteDefinition()
+Bug,Critical,Issue using errorBuilderRef with the xml dsl
+Improvement,Minor,Loop EIP - Add copy option to let it start next loop with a copy of the original exchange
+Bug,Major,ChoiceProcessor : unable to find the mBeans processor
+Bug,Major,javax.script dependency in camel-core
+Bug,Major,continued(true) doesn't work when is invoked for the second time in the Camel flow
+Bug,Major,Test failures in camel-hdfs on windows as Streams are not closed correctly
+Improvement,Major,Create camel-quartz2 component to support Quartz 2.1.x
+Bug,Major,FileIdempotentRepository fileStore does not get loaded on bootrapping  therefore files are processed again
+Improvement,Minor,XML DSL having attributes that is a Class type should be a String type instead and use ClassResolver to lookup the class
+Improvement,Minor,In doTry .. doCatch .. doFinally the FAILURE_ENDPOINT details should be available as well in case an exception was thrown
+Bug,Major,Error using multiple error handlers and onException (java.lang.IllegalStateException: SendProcessor has not been started)
+Improvement,Major,Refactorings in camel-cxf
+Improvement,Major,SpringWebserviceConsumer should check if there is an Exception connected to the exchange and throw that one if it exists so that the default Errorhandling in spring-ws can take place
+Improvement,Major,camel-sql - JDBC aggregation repository - Should use ClassResolver from Camel to load classes
+Improvement,Minor,JMX API to create/delete endpoint
+Improvement,Minor,Improve pom.xml for camel-jibx - use maven-jibx-plugin
+Bug,Minor,ThrottlingInflightRoutePolicy can deadlock
+Improvement,Minor,MockEndpoint.expectedHeaderReceived checks only one header
+Bug,Major,LoanBroker example have some issues when it is deployed into osgi container like ServiceMix
+Bug,Minor,Label of marshal and unmarshal processors do not appear in trace output
+Improvement,Minor,Add getRouteId() to TraceEventMessage
+Bug,Minor,Groovy language - classNotFoundException in OSGi environment
+Bug,Major,Nullpointer in camel-mail when body is null
+Bug,Minor,Using adviceWith 2 times or more in Java DSL with a context scoped onException causing the 1st advised route to not work as expected
+Improvement,Trivial,A name should be specified in the karaf features-file
+Improvement,Major,Add Lazy Connection to XMPP
+Improvement,Major,Added wrap method for template  consumer and context in org.apache.camel.test.junit4.CamelContextSupport
+Improvement,Major,avoid runtime package scanning to discover TypeConverters
+Improvement,Minor,When performing lookup in registry and having expected type as parameter  then report better failure if ClassCastException
+Bug,Major,Archetypes fail to build in offline mode
+Bug,Minor,TraceInterceptor does not work correctly for AsyncProcessing
+Bug,Minor,camel-ftp - Using tempFileName option should use the separator option to allow control of path separators in the generated file name
+Bug,Major,Missing setter or constructor-argument for elementNameStrategyRef in SoapJaxbDataFormat
+Improvement,Minor,Expose setDeliveryMode property in org.apache.camel.component.jms.JmsComponent
+Bug,Major,Properties component - Cached locations may add duplicates
+Bug,Major,The routeContext stack of DefaultUnitOfWork should be thread safe
+Improvement,Minor,Camel-AWS: Add support for adding CacheControl and ContentDisposition metadata support when uploading file
+Bug,Major,Connection to sftp server occasionally don't want to come back
+Improvement,Major,camel-jdbc should provide a option not set the autoCommit flag
+Bug,Minor,MDCUnitOfWork behaviour incorrect with nested routes
+Improvement,Minor,Camel archetypes and examples should enable JMX for ActiveMQ
+Bug,Minor,dump as xml fails if message body is already xml
+Bug,Major,camel-aws won't build offline
+Bug,Major,@Bean method name is ignored
+Bug,Major,Camel CXF Endpoint creates incomplete WSDL
+Improvement,Major,Add errorHandler option for DMLC to camel-jms
+Bug,Minor,xslt component - Cannot load xslt file from file system
+Bug,Minor,Camel Bindy Parser One to Many KvP Unmarshall Issue
+Bug,Trivial,Example feature: wrong spring version
+Bug,Major,Wrong exception uri when an HTTP error code is returned
+Improvement,Minor,Validator component - Should be able to validate from a File payload
+Improvement,Minor,Add String->TimeZone converter so that time zone can be specified for camel-quartz
+Improvement,Major,Impossible to use placeholders in endpointName and serviceName attributes of cxf:cxfEndpoint
+Bug,Minor,Ftp consumer using done file should cater for if stepwise has been enabled  and thus the done file path is to be calculated differently
+Improvement,Minor,Using transacted in Java DSL without Spring XML setting up TX manager should report better error when not able to find a TX manager in the registry
+Improvement,Minor,faster way of testing for file existence
+Improvement,Major,Move org.apache.camel.Main to org.apache.camel.main.Main
+Improvement,Major,Refactoring of management code to remove cycles and clearly separate between API and impl
+Improvement,Minor,Camel test - Debugger should be explicit enabled if end user want to leverage it
+Bug,Major,Bug in parsing of JPA uri
+Bug,Minor,Freemarker - Loading template from file system fails
+Bug,Minor,Camel-netty option 'encoder' and 'decoder' does not work
+Bug,Major,It's hardly possible to use all expression of the Simple language to create file names in the file component
+Improvement,Major,The debugger doesn't work in the CamelSpringTestSupport with route defined in XML
+Improvement,Major,add support to set the cipher used for SFTP
+Bug,Major,Exeptions cannot be propagated to the parent route when using LogEIP
+Improvement,Major,Fix OSGi-exports of camel-soap
+Improvement,Minor,The URI of the ServletEndpoint exposed to the JMX is not accurate
+Improvement,Major,CamelLogger should not be a Processor and a log class at the same time and it should not have ServiceSupport
+Improvement,Major,camel-hazelcast should allow the user to provide an existing instance to the component
+Bug,Minor,Error in camel-restlet feature definition
+Improvement,Minor,camel-csv - Make it consistent what unmarshal returns as object  so its the same for 1 or more rows
+Bug,Major,Wrong slash in FTP component for doneFile
+Bug,Minor,camel-bindy - Marshaling using CSV will insert wrong char separator if using an escaped separator char such as a pipe
+Bug,Major,NullPointerException when unmarshalling using serialization data format
+Improvement,Major,Resolve cycle between language.simple and language.simple.ast
+Bug,Major,Unable to use cxf:binding configuration for the endpoint
+Bug,Major,file: consumer does not create directory
+Bug,Major,Because local PrintService objects on Windows have a name which is not their UNC path  the PrinterProducer can never find them.
+Bug,Major,Exceptions are not propagated to the parent route when endpoint cannot be resolved in the RoutingSlip EIP
+Improvement,Major,Be able to check classtype through simple language
+Improvement,Major,Add a Tracer that uses JMX Notifications and provides full details of Camel Messages
+Bug,Major,Recipient List cannot vary destination by changing property in an expression
+Improvement,Minor,The SFTP component: the keyboard-interactive auth method support
+Improvement,Minor,Spring-WS should populate Camel Header with the SOAP Header
+Bug,Major,Unable to convert jms textmessage to bytemessage
+Bug,Major,Can't find splitter bean in registry using multiple camel contexts with 'vm' endpoint
+Improvement,Major,NotifyBuilder wereSentTo condition fires too eagerly
+Improvement,Major,Support nested directories with multiple segment files in the HDFS endpoint consumer
+Bug,Minor,NettyProducer creating new connection on every message
+Bug,Major,Need to specify the sl4j-api version in the camel maven archetypes
+Bug,Major,camel-file component does not close a file when it's used with camel-xslt
+Bug,Major,SLF4JLog does not work with JdbcDriver for Quickfix/J
+Bug,Major,Add option on XSLT to allow StAX
+Bug,Minor,XQuery component does not work with StAXSource out of the box
+Bug,Major,XPath will lock File input in case of an exception during xpath evaluation
+Improvement,Major,Add default for transactionName in camel-jms
+Improvement,Major,Improve URISupport.sanitizeUri and apply it in additional places
+Improvement,Major,Add support for PGP data format in Java and XML DSLs
+Bug,Minor,Stop or shutdown a route with a custom timeout value  will still log using the default timeout in the logs
+Improvement,Minor,Do not print javax.jms.Message in toString in camel-jms
+Bug,Major,Simple expression does not find method toString()
+Bug,Major,NPE from DefaultCxfBinding when  is null
+Bug,Major,NPE when using SEDA route and attaching an extra consumer
+Bug,Major,Bindy does not support quoted value with separator char in CSV datasource
+Bug,Minor,Bindy - CSV format - Should be able to marshal with quotes
+Improvement,Major,Add option to override XSLT stylesheet used via header
+Improvement,Minor,Text improvements to camel-example-cxf-proxy.
+Bug,Minor,When a route is removed from camel  LifecycleStrategy is called twice
+Bug,Minor,Scala DSL does not support defining route-scoped error handlers
+Improvement,Major,file endpoint to raise a warning msgs if unable to auto-create the starting directory
+Improvement,Major,Change cometd SslSocketConnetor to use SslSelectChannelConnector
+Bug,Minor,Tokenize pair - evaluated as predicate should close input stream
+Improvement,Minor,Unable to set logName on DefaultErrorHandler as well as executorService on LoggingErrorHandler
+Improvement,Minor,Avoid explicit cast while using the CamelContext.getEndpoint() or ApplicationContext.getBean() API and better rely on the overloaded counterpart of them taking a class type as the second argument (implicit cast)
+Bug,Minor,Extra request parameters sent by the camel-http4 component
+Bug,Minor,camel-quartz - Using underscore in group name does not work
+Improvement,Minor,Make Ant path matching in file / FTP component easier to use
+Bug,Major,camel-aws can allow SNAPSHOT transitive dependencies
+Improvement,Major,Improve Camel aws-sdb component
+Bug,Major,After restarting route a camel-quartz component fires right away (and it shouldn't)
+Improvement,Major,camel-jms - Include details about correlation id in exchange timeout exception if a reply message did not come back
+Improvement,Major,Add replyTo option to camel mail component
+Improvement,Major,interceptSendToEndpoint with predicate and skip
+Bug,Major,camel-eventadmin do not work
+Improvement,Minor,Log EIP - Check if it should log first before evaluating exchange
+Improvement,Trivial,Tech edits of JavaDoc and other code comments -- lets -> (let's  allow  {})
+Improvement,Major,Ability to specify the cache level on JMS reply to queue
+Bug,Major,Remove ProducerCache from CamelContext service list when shutting down a route
+Improvement,Major,camel-mina - Make it easier to use a custom thread pool for the consumer
+Bug,Major,BAM - database constraint violation when restaring application
+Bug,Major,xpath expression with $header with saxon may throw exception if header did not exist
+Improvement,Minor,add feature for camel-context component
+Bug,Major,Timed out Exchanges should be removed from seda queues
+Bug,Minor,CamelContext autoStartup=false and starting context programmatically doesnt work
+Bug,Major,Parameter binding not working with BeanExpression
+Improvement,Minor,SedaConsumer - Should not poll if CamelContext is starting
+Bug,Major,camel-blueprint - Using namespaces with xpath does not work as the namesapces is not parsed and injected into the camel model
+Improvement,Minor,Testing headers in multiple messages
+Bug,Major,ManagedBrowsableEndpoint are broken
+Bug,Major,exchange.getIn().getBody(.class) throws an exception for Jaxb model objects
+Bug,Critical,Camel 2.9.0 incapable of working with % in endpoint URIs
+Improvement,Minor,antInclude support for case insensitive patterns
+Bug,Major,Cannot use xquery predicate in filter after an xpath splitter.
+Bug,Major,Problem Removing Endpoints
+Bug,Major,Spring security example does not work
+Bug,Minor,ManagedPerformanceCounterMBean should extend ManagedCounterMBean
+Bug,Major,BindyDataFormat should not use the default encoding
+Improvement,Minor,Add session information from cometd to camel message headers
+Improvement,Minor,UnsupportedOperationException thrown if @Consume method is not public
+Bug,Major,DigitalSignatureEndpoint not clearing headers after verify
+Bug,Major,Error handler not called when recipient list has non existing endpoint
+Bug,Major,Camel simple language wrong working with real number
+Bug,Minor,simple without embedded text results in an NPE
+Improvement,Major,Support unmarshall of CSV files that does not contain all fields described in the annotated POJO.
+Bug,Major,Streaming splitter ignores exception handling
+Bug,Major,CxfProducer should release the CXF when the Producer is stopped.
+Bug,Major,Camel route with bean element sends on startup invalid message to target route that is represented by a proxy who exposes route
+Bug,Minor,Memory leak in SedaComponent if adding and removing a lot of seda endpoints with different queue names
+Bug,Minor,Memory leak in TimerListener if JMX enabled
+Improvement,Major,DefaultUnitOfWork should copy headers from the original message if it's a JmsMessage
+Improvement,Major,Offer a way to not set a transaction manager in camel-jms
+Bug,Major,Bug: Unique Endpoints Leaking in DefaultInflightRepository
+Bug,Minor,npe in camel 2.9.1 validator
+Bug,Minor,camel-jt400 - Parameter length when doing Program Call issue
+Improvement,Major,org.apache.camel.component.mybatis.MyBatisBatchConsumerTest.testBatchConsumer() fails unpredictable
+Bug,Minor,Incorrect feature definition for camel-fop
+Improvement,Minor,Timer component - Should use thread name pattern so the thread name is aligned with the Camel threads
+Improvement,Minor,Add option autogenColumns to csv data format in XML DSL
+Bug,Trivial,Timer endpoint getState does not work in JMX
+Improvement,Minor,Add the options configRef and strategyRef to csv data format in XML DSL
+Improvement,Minor,Set Restlet Server Options and Return HTTP Headers Set in Exchange
+Bug,Major,CxfBeanDestination should copy the in message header to the out message
+Bug,Major,RMI endpoint doesn't handle nested exception and raise CamelRuntimeException instead of RemoteException
+Bug,Minor,bean component - @Handler should take precedence in a bean that implements Predicate
+Bug,Minor,OnException - Handler or Continued predicate is invoked twice per exception
+Improvement,Major,onException policy within global context lost when error handler redefined within route context.
+Improvement,Major,Avoid parsing URI each time when getting uri from endpoint
+Improvement,Major,'IOException: No space left on device' exception swallowed by camel
+Bug,Minor,Backmerge CAMEL-5018 to the Bindy component for non-required fields
+Bug,Minor,JMX issues on WebSphere
+Improvement,Major,Bean component - Should preserver properties from exchange to allow to transfer state
+Bug,Major,spring.schema is not up to date
+Bug,Major,Strange warning appears: WARN  org.apache.camel.processor.DeadLetterChannel - Cannot determine current route from Exchange with id
+Bug,Major,SftpChangedExclusiveReadLockStrategy does not check the correct field to determine if a file is changing
+Improvement,Major,Implement connection pooling in jt400 component
+Bug,Major,initialDelay and idempotentRepository Endpoint URI parameters fail to be read from Camel context when Turkish language is set in host operating system.
+Bug,Minor,Potential dead-lock when shutting down Camel with NotifyBuilder doing notication
+Bug,Major,Loop causes NullPointerException on error
+Bug,Major,HazelcastComponent.doStop bombing out
+Bug,Major,camel-netty can't distinguish between Sharable and Unsharable codecs
+Bug,Critical,Camel 2.9.2 jetty component no longer works with Jetty 7
+Improvement,Major,jt400: program call should support binary format
+Bug,Major,LDAP Component lose headers
+Improvement,Minor,Relax simple language checking for function start/end tokens  to only validate start tokens has appropriate end token
+Bug,Major,Incorrect Content-Length returned for converted result objects with Unicode characters
+Improvement,Minor,Make it possible to change the remote file name without changing the local file name
+Improvement,Major,Add community and peer address of SNMP TRAP PDUs to camel-snmp header
+Bug,Major,Jetty client can corrupt streams if used in a bridge mode (proxy)
+Improvement,Minor,Dependencies with inconsitant paths in repository
+Bug,Major,camel-stream overwrites files instead of appending
+Bug,Major,camel-stream should not close stream after each write
+Bug,Major,EventNotifiers don't work under Blueprint
+Improvement,Trivial,Main is bound to DefaultCamelContext
+Improvement,Major,camel-ftp - Add option to check files without downloading
+Improvement,Major,camel-bindy - Do not use locale if not explicit configured
+Improvement,Major,Add a Camel Component to support MQTT
+Bug,Minor,camel-sql - Should support % sign in query
+Bug,Major,Camel features file doesn't validate
+Bug,Major,camel-jms - Exception thrown from destination resolver should trigger Camel exception handling
+Improvement,Minor,SOAPMessage to InputStream conversion needed for some CXF SOAPMessage Provider scenarios
+Bug,Minor,Shutting down one of the contexts breaks async redeliveries in others: RedeliveryErrorHandler has static reference to a thread pool
+Bug,Minor,Mail component does not work as expected (Email Deletion is partially broken et Disconnect does not work well)
+Improvement,Major,Improve performance of DefaultJmsKeyFormatStrategy
+Bug,Major,CXF Transport loses HTTP Matrix parameters
+Bug,Minor,Threads EIP hangs Junit4 tests using adviceWith
+Improvement,Minor,Better error message when trying to write a null body as file
+Bug,Major,MQTT Endpoint does not correctly return the MQTT-Payload
+Bug,Major,ObjectAlreadyExistsException when 'redeploying' routes that uses CronScheduledRoutePolicy
+Bug,Major,Simple does not handle empty values in predicates properly
+Improvement,Minor,camel-jms - Log at INFO level if shared replyTo queues are in use  as they are not as fast as temporary or exclusive queues
+Bug,Minor,Folder closed too early when working asynchronously
+Bug,Major,IOConverter.toInputStream opens a BufferReader which will never be closed
+Bug,Major,camel-jms consumer doesn't send back a reply in all cases
+Improvement,Major,Support to build the camel-soap offline
+Bug,Minor,camel-mybatis should do a proper transaction demarcation while reading/writing from/to database.
+Improvement,Major,Add option to restrict HTTP method in camel-jetty and camel-servlet
+Bug,Minor,file endpoints on windows without volume name in the path url not working in some cases
+Bug,Minor,camel-testng - The spring base test class should use @AfterMethod on teardown as its parent does
+Improvement,Minor,Add option to changed readLock to denote whether a zero file size is accepted or not
+Bug,Minor,'ThreadID is already used' exception under heavy load
+Bug,Minor,Maven archetype - Generates wrong plugin for surefire plugin
+Improvement,Minor,Improve how the AWS-SQS component create a new queue with additional attributes
+Bug,Major,Multiple restlet routes of the same restlet URI but different VERBs does not work in Apache Camel 2.10.0   both routes work in Apache Camel 2.9.1.
+Bug,Minor,Possible issue in camel-apns - Reported on user forum
+Bug,Major,Mina2 Consumer doesn't reliably work with SSL
+Bug,Minor,File consumer - NPE if configured to consume from root directory
+Improvement,Major,Support key password for private key access in XMLSecurity
+Bug,Major,In ScheduledRoutePolicy a suspended route cannot be started
+Bug,Minor,camel-beanio using beanio 2.0 should be using the 2012/03 beanio namespace
+Improvement,Major,Make Spring Optional Bundle Import for CXF Transport
+Bug,Major,camel-sftp's stepwise behavior to walk up and down relatively to avoid potential traversal issues
+Bug,Minor,Logger Level is always at default level('ERROR') when error handler is LoggingErrorHandler
+Improvement,Minor,camel-jackson - Make it easier to support List as output out of the box
+Bug,Major,camel-hl7 bundle should specify the mina version
+Improvement,Trivial,An exception when constructing JT400 endpoints should not leak the password
+Bug,Minor,JmsToJmsTransactedSecurityTest in camel-jms fails every now and then
+Bug,Minor,EventHelper.notifyRouteStarted skips all remaining notifiers if one if the notifiers ignores route events
+Bug,Major,ObjectHelper.resolveUriPath is broken  can not handle:  '../../' correctly
+Bug,Major,Enricher with async routing not handling exceptions thrown from AggregationStrategy
+Bug,Major,EIPs using custom aggregation strategy should fail if not possible to find in registry
+Bug,Major,Camel Endpoint ignores camelContextId property in Spring configuration
+Bug,Minor,Recipient list EIP - Should shutdown thread pool if parallel mode enabled
+Bug,Minor,camel-mqtt - Nullpointer Exception when disconnected from broker
+Bug,Major,Using recipient list in a doTry ... doCatch situation dont work properly
+Improvement,Major,Netty - Should use ordered thread pool
+Bug,Minor,camel-jms - Should also allow multiple consumers from multiple routes from the same queue
+Improvement,Minor,camel-netty - The ordered thread pool should be shared
+Bug,Minor,NotifyBuilder should be thread safe
+Bug,Major,Rest route returns response with http Status code 500 Internal Server Error when response has Last-Modified or Header-expires in header as string.
+Bug,Critical,BlueprintCamelContext should not get started in the init() method but later when the blueprint container is fully initialized
+Bug,Critical,Classloader mixup when consumers across bundles share the same camel-jetty port
+Improvement,Major,Spring-WS consumer and producer do not propagate some custome headers and attachements to a response message
+Bug,Major,HTTP 1.1 Host header not set correctly with camel-http4
+Bug,Major,Update SqsConsumer to extend Visibility Timeout correctly
+Bug,Major,Configuring jetty component with a different name dont work with jetty consumer
+Improvement,Major,Camel Splitter eat up exceptions recorded by the underlying Scanner
+Bug,Critical,Camel JMS producer can block a thread under specific circumstances
+Improvement,Minor,RoutePolicySupport should provide some easy to use utility methods to suspend/resume routes as we have it already to start/stop routes
+Bug,Minor,ActiveMQ target endpoint with transferExchange=true does not work together with source File endpoint with preMove option set
+Improvement,Major,limitaions on s3 component. no means to specify acl on created object. objects do not inherit acl from the bucket they belong to.
+Bug,Minor,regression : invalid SetQueueAttributesRequest created  works on 2.10.1
+Improvement,Minor,option to add bundle directives in the generated test bundles by camel-test-blueprint
+Improvement,Major,Adding blueprint based camel-cxf tests using camel-test-blueprint
+Improvement,Major,camel-mongodb - Add converters for files or inputstreams
+Bug,Major,Regression in validator component in 2.10.3
+Bug,Major,Pre-XSLT and Validator Type Conversions from byte[] may easily fail
+Bug,Minor,camel-quickfix: QuickfixjEndpoint should adhere the InOut exchange pattern if you would ask for this MEP
+Improvement,Minor,FTP endpoints should support charset property like File endpoint does
+Bug,Minor,File consumer - When using done file name then delete the file when batch is complete
+Bug,Minor,When call removeRouteDefinition the route doesn't removed from collection of route Definitions.
+Improvement,Major,Scala DSL: no tokenize('...') method
+Bug,Major,NPE when jaxb fallback converter is used with RequestEntityConverter
+Bug,Major,camel-netty - Producer should avoid blocking while waiting for connection
+Bug,Minor,camel-jms - JmsPollingConsumer use the constant fields from JmsTemplate for receiveNoWait etc
+Improvement,Major,SpringIntegrationConsumer should honor the 'inOut' instance variable by setting the MEP and sending back message headers
+Bug,Trivial,SJMS component's pom.xml missing taskmanager package in camel.osgi.private.pkg
+Bug,Major,Cache producer is not thread safe
+Improvement,Minor,Dead Letter Channel - Store failed route id on Exchange
+Bug,Major,ClassNotFoundException: weblogic.jndi.WLInitialContextFactory when starting the route via Karaf start-route(camel:route-start) command.
+Improvement,Major,OsgiServiceRegistry to lookup services with filter on name=blah
+Bug,Minor,Using annotations DSL in beans may cause async callback to be called twice
+Bug,Critical,CamelJob implementation rely on some inconsistent endpoints LRU cache - Camel endpoints may not be called on quartz fire after some days of uptime
+Bug,Major,RestletComponent component is not removing added route from routers list although route is removed from Context.
+Improvement,Minor,Add PGP signature and signature verification support to PGPDataFormat
+Bug,Minor,NoRedeliveryOnShutdown doesn't work for DeadLetterChannel
+Improvement,Major,camel-bindy fixed length record improvements
+Improvement,Major,Improve the BeanInfo performance
+Bug,Major,Camel Email Component Missing Attachments
+Improvement,Minor,Camel Spring registry does not look into parent contexts
+Bug,Minor,camel-rss and camel-atom - Not installable in Karaf
+Improvement,Minor,Check if body is a MimeMessage and send it directly without create a MimeMessage from body and headers
+Bug,Major,CamelBlueprintContext may be wrongly started and this may lead to a deadlock
+Bug,Major,SOAP over JMS does not work with camel-cxf endpoint
+Bug,Major,CXFEndpoint blueprint config having binding element may lead to NPE
+Improvement,Minor,Improvement to SqlProducer class
+Bug,Major,Race condition in AggregatorProcessor recovery sometimes causes duplicates
+Bug,Major,step in a  block runs when the  tag is closed in the wrong place
+Bug,Critical,camel-jms: InOut exchange can time out even if response was received
+Bug,Major,Simple language - bean function - issue when parameter value has comma
+Bug,Major,NPE when using the imap mail component with quartz or the timer and pollEnrich
+Bug,Major,Camel stream producer never close the stream of file
+Bug,Minor,SQL component will not look for parameters in header when no body in message
+Bug,Minor,Aggregate EIP - Completion from batch consumer should trigger first
+Bug,Major,camel-http - When bridging endpoints then there may be double parameter values if client sends uri parameters
+Improvement,Major,Camel 2.10.1 incapable of working with + in endpoint URIs
+Improvement,Minor,Camel-AWS should support any implementation of AmazonXXX (not only AmazonXXXClient)
+Bug,Minor,http4 component should default to charset based on content type
+Bug,Major,TransferExchage InOut ActiveMQ Exception
+Improvement,Major,json data format - Add support for configuring gson options
+Bug,Major,camel-bindy - Multiple models in the same package lead to unpredictable results
+Improvement,Minor,Http4 component does not support PATCH
+Bug,Major,camel:run in blueprint is broken
+Bug,Minor,camel-aws - Possible concurrent modification exception
+Improvement,Minor,Sql component - Add noop option to execute the query but dont change the message body afterwards
+Bug,Major,Scheduled thread pools is not removed from JMX when shutting down
+Bug,Minor,Simple ognl expression - Possible NPE when using String replaceFirst and replacing with an empty string
+Bug,Trivial,org.apache.camel.support.ServiceSupport: InputStream not being explicitly closed
+Bug,Major,camel-cxfrs blueprint configure could not be installed if there are some subelement settings
+Improvement,Minor,camel-stream - Shutdown thread pool on consumer should happen faster
+Bug,Minor,StringQuoteHelper - Should ignore whitespace between quoted parameters
+Improvement,Minor,Bean - Improve choose method logic for no parameter methods
+Bug,Major,camel-example-reportincident failed
+Bug,Major,camel-example-cxf-tomcat failed
+Bug,Major,Restarting routes using sql aggregation repository may lead to Class loading issues
+Improvement,Minor,Make SqsConsumer support async processors
+Improvement,Minor,Camel archetype component - Use bundle packaging so component is ready to install in OSGi
+Bug,Major,AdviceWith doesn't work with doTry
+Bug,Major,Mina UDP default codec should keep the data as byte[]
+Bug,Major,debugBefore() and debugAfter() not called if unit test extends CamelBlueprintTestSupport
+Bug,Minor,Property placeholder optimization broke placeholders in Spring camelContext configuration
+Bug,Major,Camel-validator not able to resolve schema when using useSharedSchema=false
+Improvement,Minor,Moving logic out of getTypeConverter
+Improvement,Minor,Control Bus - Add suspend and resume actions
+Improvement,Minor,camel-netty - Loading key store and trust stores should support classpath as well
+Bug,Minor,DefaultShutdownStrategy shutdown timeout of 0 will never timeout and go in negative time
+Improvement,Major,link to camel registry in camel-stax is missing
+Improvement,Trivial,Validations exception should include line/column
+Improvement,Major,camel-sjms - Consumers should always use dedicated Sessions
+Bug,Major,vm component - Stopping a route when using multipleConsumers should not stop MP if there is other routes using it
+Bug,Major,Headers are not set correctly in some situation
+Bug,Critical,New restlet endpoints don't work if route is created after restlet server is started.
+Bug,Major,Route with suspended SedaConsumer can't be stopped correctly
+Improvement,Trivial,cxf endpoint's should log the parsing exception when failing to extract the root element name
+Bug,Minor,File consumer - Race condition for markerFile read lock strategy
+Bug,Major,baseResource of Jetty ServletContextHandler does not work when project deployed as a bundle
+Bug,Major,endChoice() has no effect in nested choice definition
+Bug,Major,camel-quartz - Stateful job - Redeploying bundle/war and having changed endpoint uri issue
+Bug,Major,connectionTimeout property is ignored by JavaMail
+Bug,Major,NULL values are not supported in named parameters
+Improvement,Minor,Can't access to length of Array (java) from simple language
+Bug,Minor,org.apache.camel.main.Main#doStop() throws java.lang.IndexOutOfBoundsException
+Bug,Minor,SFTP: NPE if no private key file is supplied
+Bug,Minor,Routing slip EIP - Does not send ExchangeSentEvent notifications
+Improvement,Minor,FtpConsumer fills up log file with 'Cannot connect/login' WARN level messages
+Bug,Minor,camel-netty - unable to consume on UDP multicast addresses
+Bug,Minor,Wrong InputStream reference is used in method storeFile of class ScpOperations
+Bug,Major,camel-cxf should shutdown the bus when the endpoint is stopped.
+Bug,Minor,JMX - browsable endpoints such as seda has some attributes listed as unavaiable
+Improvement,Major,SFTP endpoint fails if the server disconnected the socket
+Bug,Minor,Predicates from java dsl are not dumped to xml correctly
+Bug,Trivial,camel-cmis component: test packages have the wrong name
+Bug,Major,camel-cxf ClassCastException when use cxf FailoverFeature
+Improvement,Minor,Add ability to connect to SQS queue of different owner
+Improvement,Minor,Support attaching to SQS queues where the user doesn't have permission to list the queues (manually build URL)
+Improvement,Major,Add requestBufferSize and requestHeaderSize options for jetty
+Improvement,Minor,SimpleLanguage.simple should detect if its a predicate and use that instead
+Bug,Minor,SJMS component throws class cast error when used with IBM Webshpere MQ
+Improvement,Major,FTP consumer - Add option to not use LIST command
+Improvement,Major,Add allowNull option to @Converter to allow type converters to return null as valid response for special use-cases
+Improvement,Major,Throttler does not honor time slots after period expires
+Improvement,Major,Simple language - Have singleton language for better performance
+Bug,Major,camel-dozer - Does not work well in OSGi Blueprint
+Bug,Major,Using simple language OGNL expressions doesn't work for Bean Binding when a field is null
+Bug,Major,Memory leak SoapOutInterceptor.writeSoapEnvelopeStart with security headers
+Bug,Major,seda - queue size compare should use equals
+Bug,Minor,mbeansRegistered in DefaultManagementAgent isn't ThreadSafe
+Improvement,Major,camel-test-blueprint - Allow to register custom services in OSGi registry before Camel starts
+Bug,Major,camel-blueprint - Using  and referrring to SSLContextParameters with property placeholders can lead to CircularDependencyException
+Improvement,Minor,DefaultStreamCachingStrategy - Check for enabled in shouldSpoolCache method
+Bug,Major,camel-yammer - Endpoint yammer:current throwns JsonMappingException exception
+Bug,Major,Installation of camel-stomp feature fails
+Improvement,Minor,binding component - Should start/stop its child services
+Improvement,Major,Add cache option to beanRef and  in the DSL
+Bug,Minor,Camel-Redis: Serializer passed through URI is used only on consumer
+Bug,Major,XML Signature Component: Stream not closed in XmlSignerHelper.getXslTransform(String path)
+Improvement,Minor,camel-jt400 - no longer able to configure a pollStrategy on Jt400DataQueueEndpoint
+Improvement,Major,mustache component - Should use app class loader to load templates
+Bug,Minor,Bean binding to covariant methods throws AmbiguousMethodCallException
+Improvement,Minor,UnitUtilsTest cant manage a locale different from US
+Bug,Minor,scp task does not respect StrictHostKeyChecking option
+Bug,Minor,Null Pointer exception when removing SjmsComponent
+Bug,Major,HttpConnectionManagerParams doesn't take effect when it is set to HttpComponent
+Improvement,Major,InterceptFrom - Add support for using property placeholders
+Bug,Major,rabbitmq component sends basic ack after channel closed when endpoint is set to autoAck
