@@ -44,7 +44,7 @@ Ray (optional for parallel computing)
 Buberwa Jesse
 
 # License
-This project is licensed under the MIT License. See the LICENSE file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 # Future Work
 Larger Dataset: Acquire a larger and more diverse dataset to improve the model's performance and generalization capabilities.
