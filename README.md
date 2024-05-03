@@ -59,7 +59,7 @@ Authors: Masao Ohira, Yutaro Kashiwa, Yosuke Yamatani, Hayato Yoshiyuki, Yoshiya
 Year: 2015
 
 # Dataset
-The source of the datasets used in this project are mentioned in the paper, but the source is no longer accessible. Therefore, it's advisable to utilize the datasets provided within this project, as they are identical to the ones referenced in the paper.
+The source of the datasets used in this project is mentioned in the paper, but the source is no longer accessible. Therefore, it's advisable to utilize the datasets provided within this project, as they are identical to the ones referenced in the paper.
 
 # Additional Notes
 Contributions are welcome! If you have any suggestions, feel free to reach out at joramjesse21900@outlook.com
