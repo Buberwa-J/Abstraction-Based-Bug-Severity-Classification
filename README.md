@@ -1,6 +1,6 @@
 # Overview
 
-The Bug Severity Predictor is a machine learning project aimed at predicting the severity of software bugs based on various features extracted from bug reports. The main approach employed in this project is abstraction( during data cleaning), focusing on generalizable patterns rather than specific domain knowledge.
+The Bug Severity Predictor is a machine learning project aimed at predicting the severity of software bugs based on various features extracted from bug reports. The main approach employed in this project is abstraction(during data cleaning), focusing on generalizable patterns rather than specific domain knowledge.
 
 # Intentions
 
@@ -8,7 +8,7 @@ The primary intention behind this model is to demonstrate the effectiveness of a
 
 # Limitations
 
-It's essential to note that the current results may not be entirely satisfactory due to the limitations of the dataset. The size of the dataset used for training and evaluation is relatively small, which has impacted the model's performance and generalization capabilities. Therefore, while the model provides valuable insights, its predictions should be interpreted with caution.
+The size of the dataset used for training and evaluation is very small and limited. This has impacted the model's performance and generalization capabilities. Therefore, while the model provides valuable insights, its predictions should be interpreted with this in mind.
 
 # File Structure
 source: Contains source files organized with prefixed numbers for ease of reproducing results.
@@ -64,4 +64,4 @@ The source of the datasets used in this project is mentioned in the paper, but t
 # Additional Notes
 Contributions are welcome! If you have any suggestions, feel free to reach out at joramjesse21900@outlook.com
 
-Some code in this project was AI generated to speed up development and optimization
+Some code in this project was AI generated to speed up development and optimization :)
