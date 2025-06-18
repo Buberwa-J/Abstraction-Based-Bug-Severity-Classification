@@ -128,4 +128,50 @@ This project builds on the work of the software analytics and NLP research commu
 
 ---
 
-*If you are a researcher, student, or practitioner interested in abstraction, transfer learning, or software analytics, I encourage you to use, critique, and extend this work. Your feedback and contributions are welcome!*
+## Example Code Segments
+
+Below are some representative code snippets from the pipeline to illustrate the core ideas and technical approach:
+
+### 1. Abstraction: Pattern-Based Replacement
+```python
+# Example: Abstracting class names and error types in bug summaries
+from Classes.AbstractDetail import AbstractDetail
+from Classes.Pattern import Pattern
+from Classes.AbstractionMapping import AbstractionMapping
+
+abstractor = AbstractDetail(pattern=Pattern(), abstraction_mapping=AbstractionMapping())
+abstractor.abstract_text(df, 'summary')  # df is your DataFrame
+```
+This replaces project-specific entities (like class names, file paths, error types) with general tokens (e.g., `CLASS`, `ERROR`).
+
+### 2. Feature Engineering: Word Frequency Calculation
+```python
+def calculate_word_frequencies(summary):
+    words = summary.lower().split()
+    return words.count('error') / len(words)  # Example: frequency of 'error'
+
+# Apply to DataFrame
+word_freq = df['summary'].apply(calculate_word_frequencies)
+```
+This demonstrates how the pipeline quantifies the presence of abstracted tokens in each bug report.
+
+### 3. Model Training: Random Forest Classifier
+```python
+from sklearn.ensemble import RandomForestClassifier
+from sklearn.model_selection import train_test_split
+
+X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+model = RandomForestClassifier()
+model.fit(X_train, y_train)
+accuracy = model.score(X_test, y_test)
+print(f"Test Accuracy: {accuracy:.2f}")
+```
+This is a simplified version of the modeling step, showing the use of a Random Forest for classification.
+
+---
+
+*For more details, see the corresponding scripts in the `source/` directory.*
+
+*If you are a researcher, student, or practitioner interested in abstraction, transfer learning, or software analytics, I encourage you to use, critique, and extend this work. Your feedback and contributions are welcome!
+I'm available at joramjesse29100@outlook.com*
+
