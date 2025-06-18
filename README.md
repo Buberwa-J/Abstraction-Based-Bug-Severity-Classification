@@ -158,6 +158,7 @@ The abstraction approach was inspired by the way experienced developers and tria
 ## Acknowledgements
 
 This project builds on the work of the software analytics and NLP research communities. Special thanks to the authors of the referenced dataset and to the maintainers of the open-source tools used throughout the pipeline.
+I'm available at joramjesse29100@outlook.com
 
 ---
 
