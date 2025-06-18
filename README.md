@@ -63,5 +63,3 @@ The source of the datasets used in this project is mentioned in the paper, but t
 
 # Additional Notes
 Contributions are welcome! If you have any suggestions, feel free to reach out at joramjesse21900@outlook.com
-
-Some code in this project was AI generated to speed up development and optimization :)
